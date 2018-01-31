@@ -1,1 +1,71 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Assignment 3">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Assignment 2</title>
+</head>
+  
+ <style>
+   header{ 
+     padding:12px;
+     color: white;
+     background-color: #329CD8;
+     font-family:verdana; 
+     clear: both;
+   }
+   
+   nav{
+     width:auto;
+     margin:auto;
+     padding:10px;
+     text-align:center;
+     font-family:verdana;
+     background-color:#A5D7F3;
+ 
+     
+   }
+   
+   nav li{
+     list-style-type: none;
+     display: inline;
+     padding: 40px;
+     
+   }
+   
+ 
+   
+  </style>
+  
+  <header>
+    
+    <h1>ASSIGNMENT 3</h1>
+  </header>
+  <hr>
+  
+  <nav>
+    <li><a href="#" onclick="changeMap('basemapLandcover')">BASEMAP</a></li>
+    <li><a href="#" onclick="changeMap('impairedLakes.png')">IMPAIRED LAKES</a></li>
+    <li><a href="#" onclick="changeMap('canoeRoutes.png')">CANOE ROUTES</a></li>
+    <li><a href="#" onclick="changeMap('troutStreams.png')">TROUT STREAMS</a></li>
+    <li><a href="#" onclick="changeMap('scenicByways_border.png')">SCENIC BYWAYS</a></li>
+  </nav>
+  <hr>
+  
+  
+  <body>
+ 
+  <br><br>
+    <img id="myMap" src="images/basemapLandcover.png" alt="basemapLandcover" width="600" height="400">
+    
+</body>
+  
+  <script>
+  function changeMap(x){
+  document.getElementById("myMap").src="images/"+x+".png";
+  }
+  </script>
+  
+  
+</html>
