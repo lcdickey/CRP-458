@@ -6,7 +6,76 @@
   <meta charset="utf-8">
   <title>Assignment 4</title>
     <link rel="stylesheet" href="layout.css" />
-
+	
+</head>
+  
+ <style>
+   header{ 
+     padding:12px;
+     color: white;
+     background-color: #688b91;
+     font-family:verdana; 
+     clear: both;
+   }
+   
+   nav{
+     width:auto;
+     margin:auto;
+     padding:10px;
+     text-align:center;
+     font-family:verdana;
+     background-color:#cedadd;
+ 
+     
+   }
+   
+   nav li{
+     list-style-type: none;
+     display: inline;
+     padding: 40px;
+     
+   }
+   
+  </style>
+  
+  <header>
+    
+  <h1>ASSIGNMENT 4</h1>
+  </header>
+  <hr>
+  
+  <nav>
+    Superbowl Party!
+  </nav>
+  <hr>
+  
+  
+  <body style="font-family:verdana;">
+   
+	  <button onclick="showNums()">I forgot Roman Numeral values!</button>
+	  <p id="values"></p>
+     
+<p>
+  <label for="amount" style="font-family:verdana;">Enter the Superbowl Number:</label>
+  <input type="number" id="sbNum" style="border: 1; font-weight: bold; font-family:verdana;" onChange="sbDisplay()" value="-" size="4"/>
+</p>
+	  
+<div id="slider-range-max"></div>
+<br><br>
+<div id="sbName" style="font-family:verdana;">-</div>
+    
+<br><br>
+	</body>
+	<body onload="load()">
+<input type="button" onclick="factList(1)" value="See Fun Facts">
+<br><br>
+<p>Superbowl Number:<span id='number'>-</span><br>
+Date: <span id='date'>-</span><br>
+Winner: <span id='winner'>-</span><br>
+Score: <span id='score'>-</span><br>
+MVP: <span id='MVP'>-</span><br>
+<br>
+   
 <script id="jsbin-javascript">
 	
 //load values into array
@@ -106,77 +175,6 @@ function shownums()
 
 
 </script>
-	
-</head>
-  
- <style>
-   header{ 
-     padding:12px;
-     color: white;
-     background-color: #688b91;
-     font-family:verdana; 
-     clear: both;
-   }
-   
-   nav{
-     width:auto;
-     margin:auto;
-     padding:10px;
-     text-align:center;
-     font-family:verdana;
-     background-color:#cedadd;
- 
-     
-   }
-   
-   nav li{
-     list-style-type: none;
-     display: inline;
-     padding: 40px;
-     
-   }
-   
-  </style>
-  
-  <header>
-    
-  <h1>ASSIGNMENT 4</h1>
-  </header>
-  <hr>
-  
-  <nav>
-    Superbowl Party!
-  </nav>
-  <hr>
-  
-  
-  <body style="font-family:verdana;">
-   
-	  <button onclick="showNums()">I forgot Roman Numeral values!</button>
-	  <p id="values"></p>
-     
-<p>
-  <label for="amount" style="font-family:verdana;">Enter the Superbowl Number:</label>
-  <input type="number" id="sbNum" style="border: 1; font-weight: bold; font-family:verdana;" onChange="sbDisplay()" value="-" size="4"/>
-</p>
-	  
-<div id="slider-range-max"></div>
-<br><br>
-<div id="sbName" style="font-family:verdana;">-</div>
-    
-<br><br>
-	</body>
-	<body onload="load()">
-<input type="button" onclick="factList(1)" value="See Fun Facts">
-<br><br>
-<p>Superbowl Number:<span id='number'>-</span><br>
-Date: <span id='date'>-</span><br>
-Winner: <span id='winner'>-</span><br>
-Score: <span id='score'>-</span><br>
-MVP: <span id='MVP'>-</span><br>
-<br>
-   
-
 
 </body>
 </html>
