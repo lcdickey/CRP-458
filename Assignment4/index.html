@@ -12,7 +12,7 @@
 //load values into array
  var sbList = ["Green Bay Packers", "Green Bay Packers", "New York Jets", "Kansas City Chiefs", "Baltimore Colts", "Dallas Cowboys", "Miami Dolphins", "Miami Dolphins", "Pittsburgh Steelers", "Pittsburgh Steelers", "Oakland Raiders", "Dallas Cowboys", "Pittsburgh Steelers", "Pittsburgh Steelers", "Oakland Raiders", "San Francisco 49ers", "Washington Redskins", "Los Angeles Raiders", "San Francisco 49ers", "Chicago Bears", "New York Giants", "Washington Redskins", "San Francisco 49ers", "San Francisco 49ers", "New York Giants", "Washington Redskins", "Dallas Cowboys", "Dallas Cowboys", "San Francisco 49ers", "Dallas Cowboys", "Green Bay Packers", "Denver Broncos", "Denver Broncos", "St. Louis Rams", "Baltimore Ravens", "New England Patriots", "Tampa Bay Buccaneers", "New England Patriots", "New England Patriots", "Pittsburgh Steelers", "Indianapolis Colts", "New York Giants", "Pittsburgh Steelers", "New Orleans Saints", "Green Bay Packers", "New York Giants", "Baltimore Ravens", "Seattle Seahawks", "New England Patriots", "Denver Broncos", "New England Patriots", "Philadelphia Eagles"];
   
-  console.log(sbList.length); //will print 99
+  console.log(sbList.length); //will print 52
   
   function sbDisplay() {
 	  x = document.getElementById("sbNum").value;
@@ -26,7 +26,7 @@ var facts = [
 	number: " LI",
 	date: " February 5, 2017",
 	score: " 34-28",
-	winner: " New England Patriots"
+	winner: " New England Patriots",
   MVP: "Tom Brady",
 	},
 	{
@@ -89,17 +89,21 @@ function load() {
 }
 
 
-		
-var num = ["I = 1", "V = 5", "X = 10", "L = 50"];
-var y = 0;
-var text = "";
-while (num[y]) {
-    text += num[y] + "<br>";
-    y++;
-}
-		
-document.getElementById("demo").innerHTML = text;
+function shownums()
+	{
+	var rnums, textN, rsize, y
+	rnums = ["I = 1", "V = 5", "X = 10", "L = 50"];
+		rsize= rnums.length;
+		textN="<ul>";
+		for(y=0;y<rsize;y++)
+		{
+			textN+= "<li>" + rnums[y] + "</li>"
+		}
+		textN+="</ul>";
+		document.getElementbyId("values").innerHTML = textN;
+	}
 	
+
 
 </script>
 	
@@ -146,15 +150,14 @@ document.getElementById("demo").innerHTML = text;
   <hr>
   
   
-  <body onload="load()" style="font-family:verdana;">
+  <body style="font-family:verdana;">
    
- <i> Roman Numeral Values:<br>
-     (in case you forgot)
-     <p id="demo"></p></i>    
+	  <button onclick="showNums()">I forgot Roman Numeral values!</button>
+	  <p id="values"></p>
      
 <p>
   <label for="amount" style="font-family:verdana;">Enter the Superbowl Number:</label>
-  <input type="text" id="sbNum" style="border: 1; font-weight: bold; font-family:verdana;" onChange="sbDisplay()" value="-" size="4"/>
+  <input type="number" id="sbNum" style="border: 1; font-weight: bold; font-family:verdana;" onChange="sbDisplay()" value="-" size="4"/>
 </p>
 	  
 <div id="slider-range-max"></div>
