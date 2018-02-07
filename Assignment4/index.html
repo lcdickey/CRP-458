@@ -75,7 +75,24 @@ MVP: <span id='mosval'>-</span><br>
 <br>
 	</body>
 	<body>
-		  <button onclick="showNums()">Roman numeral help!</button>
+		<script id="jsbin-javascript">
+			
+		function shownums()
+		{
+		var rnums, textN, rsize, i
+		rnums = ["I = 1", "V = 5", "X = 10", "L = 50"];
+		rsize= rnums.length;
+		textN="<ul>";
+		for(i=0; i<rsize; i++)
+		{
+			textN += "<li>" + rnums[i] + "</li>";
+		}
+		textN +="</ul>";
+		document.getElementbyId("values").innerHTML = textN;
+		}
+		</script>
+	
+	<button onclick="showNums()">Roman numeral help!</button>
 	  <p id="values"></p>
 		
 		
@@ -161,20 +178,6 @@ function load() {
 }
 
 
-function shownums()
-	{
-	var rnums, textN, rsize, y
-	rnums = ["I = 1", "V = 5", "X = 10", "L = 50"];
-		rsize= rnums.length;
-		textN="<ul>";
-		for(y=0;y<rsize;y++)
-		{
-			textN+= "<li>" + rnums[y] + "</li>"
-		}
-		textN+="</ul>";
-		document.getElementbyId("values").innerHTML = textN;
-	}
-	
 
 
 </script>
