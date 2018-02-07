@@ -1,89 +1,14 @@
 <!DOCTYPE html>
-<!--
-Created using JS Bin
-http://jsbin.com
 
-Copyright (c) 2018 by lcdickey (http://jsbin.com/zesewux/6/edit)
-
-Released under the MIT license: http://jsbin.mit-license.org
--->
-<meta name="robots" content="noindex">
 <html>
 <head>
 <meta name="description" content="Assignment 4">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Assignment 3</title>
+  <title>Assignment 4</title>
     <link rel="stylesheet" href="layout.css" />
-</head>
-  
- <style>
-   header{ 
-     padding:12px;
-     color: white;
-     background-color: #688b91;
-     font-family:verdana; 
-     clear: both;
-   }
-   
-   nav{
-     width:auto;
-     margin:auto;
-     padding:10px;
-     text-align:center;
-     font-family:verdana;
-     background-color:#cedadd;
- 
-     
-   }
-   
-   nav li{
-     list-style-type: none;
-     display: inline;
-     padding: 40px;
-     
-   }
-   
- 
-   
-  </style>
-  
-  <header>
-    
-    <h1>ASSIGNMENT 4</h1>
-  </header>
-  <hr>
-  
-  <nav>
-    Superbowl Winners!
-  </nav>
-  <hr>
-  
-  
-  <body style="font-family:verdana;">
-   
-    
-     
-<p>
-  <label for="amount" style="font-family:verdana;">Enter the Superbowl Number:</label>
-  <input type="text" id="sbNum" style="border: 1; font-weight: bold; font-family:verdana;" onChange="sbDisplay()" value="-" size="4"/>
-</p>
-<div id="slider-range-max"></div>
-<br><br>
-<div id="sbName" style="font-family:verdana;">-</div>
-    
- <br><br>
-<input type="button" onclick="factList(1)" value="See Fun Facts">
-<br><br>
-<b>Superbowl Number:</b> <span id='number'>-</span><br>
-Date: <span id='date'>-</span><br>
-Winner: <span id='winner'>-</span><br>
-Score: <span id='score'>-</span><br>
-MVP: <span id='MVP'>-</span><br>
-<br>
-   
 
-<script id="jsbin-javascript">
+	<script id="jsbin-javascript">
+	
 //load values into array
   var sbList = ["Green Bay Packers", "Green Bay Packers", "New York Jets", "Kansas City Chiefs", "Baltimore Colts", "Dallas Cowboys", "Miami Dolphins", "Miami Dolphins", "Pittsburgh Steelers", "Pittsburgh Steelers", "Oakland Raiders", "Dallas Cowboys", "Pittsburgh Steelers", "Pittsburgh Steelers", "Oakland Raiders", "San Francisco 49ers", "Washington Redskins", "Los Angeles Raiders", "San Francisco 49ers", "Chicago Bears", "New York Giants", "Washington Redskins", "San Francisco 49ers", "San Francisco 49ers", "New York Giants", "Washington Redskins", "Dallas Cowboys", "Dallas Cowboys", "San Francisco 49ers", "Dallas Cowboys", "Green Bay Packers", "Denver Broncos", "Denver Broncos", "St. Louis Rams", "Baltimore Ravens", "New England Patriots", "Tampa Bay Buccaneers", "New England Patriots", "New England Patriots", "Pittsburgh Steelers", "Indianapolis Colts", "New York Giants", "Pittsburgh Steelers", "New Orleans Saints", "Green Bay Packers", "New York Giants", "Baltimore Ravens", "Seattle Seahawks", "New England Patriots", "Denver Broncos", "New England Patriots", "Philadelphia Eagles"]
   
@@ -96,19 +21,6 @@ MVP: <span id='MVP'>-</span><br>
 	  document.getElementById("sbName").innerHTML = sbList[x-1];
   } 
 
-
-//var num = ["I = 1", "V = 5", "X = 10", "L = 50"];
-//var i = 0;
-//var text = "";
-//while (num[i]) {
-    //text += num[i] + "<br>";
-    //i++;
-//}
-//document.getElementById("demo").innerHTML = text;
-
-//my array of superbowl facts
-//i want to dispaly these similar to how you displayed the fruits example
-//this is not working
 var facts = [
 	{
 	number: " LI",
@@ -177,6 +89,89 @@ function load() {
 }
 
 
+		
+var num = ["I = 1", "V = 5", "X = 10", "L = 50"];
+var y = 0;
+var text = "";
+while (num[y]) {
+    text += num[y] + "<br>";
+    y++;
+}
+		
+document.getElementById("demo").innerHTML = text;
+	
+
 </script>
+	
+</head>
+  
+ <style>
+   header{ 
+     padding:12px;
+     color: white;
+     background-color: #688b91;
+     font-family:verdana; 
+     clear: both;
+   }
+   
+   nav{
+     width:auto;
+     margin:auto;
+     padding:10px;
+     text-align:center;
+     font-family:verdana;
+     background-color:#cedadd;
+ 
+     
+   }
+   
+   nav li{
+     list-style-type: none;
+     display: inline;
+     padding: 40px;
+     
+   }
+   
+  </style>
+  
+  <header>
+    
+  <h1>ASSIGNMENT 4</h1>
+  </header>
+  <hr>
+  
+  <nav>
+    Superbowl Winners!
+  </nav>
+  <hr>
+  
+  
+  <body onload="load()" style="font-family:verdana;">
+   
+ <i> Roman Numeral Values:<br>
+     (in case you forgot)
+     <p id="demo"></p></i>    
+     
+<p>
+  <label for="amount" style="font-family:verdana;">Enter the Superbowl Number:</label>
+  <input type="text" id="sbNum" style="border: 1; font-weight: bold; font-family:verdana;" onChange="sbDisplay()" value="-" size="4"/>
+</p>
+	  
+<div id="slider-range-max"></div>
+<br><br>
+<div id="sbName" style="font-family:verdana;">-</div>
+    
+<br><br>
+<input type="button" onclick="factList(1)" value="See Fun Facts">
+<br><br>
+<b>Superbowl Number:</b> <span id='number'>-</span><br>
+Date: <span id='date'>-</span><br>
+Winner: <span id='winner'>-</span><br>
+Score: <span id='score'>-</span><br>
+MVP: <span id='MVP'>-</span><br>
+<br>
+   
+
+
 </body>
 </html>
