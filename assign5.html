@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2018 by lcdickey (http://jsbin.com/gugabuk/2/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="Assignment 5">
+<meta name="viewport" content="width=device-width">
+  <title>Assignment 5</title>
+</head>
+  
+    <script>
+      
+     function displayFunction() {
+    if (document.getElementById('animal1').checked) {
+        animal_value = document.getElementById('animal1').value;
+    } else if (document.getElementById('animal2').checked) {
+        animal_value = document.getElementById('animal2').value;
+    }
+     
+      
+    document.getElementById("display").innerHTML = animal_value;
+     }
+      
+    function myFunction1(){
+      var text;
+      var state = 
+      document.getElementById("myInput1").value;
+      
+        switch(state) {
+          case "No":
+            text = "Are you even a human?";
+            break;
+          case "Yes":
+            text = "Congrats. You're not a robot!";
+            break;
+          default:
+            text = "There's no gray area here. Please enter a real answer.";
+        }
+      document.getElementById("textbox1").innerHTML = text;
+    
+  
+  
+    }
+      
+//window.alert();
+
+  
+  
+  
+  
+  </script>
+  <style>
+    
+    .button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+   header{ 
+     padding:12px;
+     color: white;
+     background-color: #4093FC;
+     font-family:verdana; 
+     clear: both;
+   }
+   
+   nav{
+     width:auto;
+     margin:auto;
+     padding:10px;
+     text-align:center;
+     font-family:verdana;
+     background-color:#cedadd;
+ 
+     
+   }
+   
+   nav li{
+     list-style-type: none;
+     display: inline;
+     padding: 40px;
+     
+   }
+  
+  </style>
+  <header><h1>Assignment 5</h1></header>
+  
+  
+  <body style="font-family:verdana;"><br>
+    
+    <strong>Are you a dog person or a cat person?</strong><br>
+<input type="radio" id="animal1" name="pet" value="Dog">Dog<br>
+<input type="radio" id="animal2" name="pet" value="Cat">Cat<br><br>
+ 
+<em><strong>Click to update display</strong></em><br>
+
+<button type="button" class="button" onclick="displayFunction()">DISPLAY</button><br><br>
+    <div id="display"></div>
+<hr>
+    Do you drink coffee? (Yes or No)<br>
+    <input id="myInput1" type="text">
+  <button class="button" onclick="myFunction1()">ENTER</button>
+  
+<p id="textbox1"></p>
+<input id="rno" type="checkbox" name="robot" value="No">I am a human.<br>
+<input id="ryes" type="checkbox" name="robot" value="Yes">I am a robot. 
+    
+ <hr>
+    
+ <h3>Iowa Legislative District Lookup Map</h3>
+  
+  <iframe width="666.67" height="533.33" frameborder="2" scrolling="no" marginheight="0" marginwidth="0" title="Iowa Legislative District Lookup" src="https://www.arcgis.com/apps/Embed/index.html?webmap=90d2826eaeee446f974eaf5e8c32865a&amp;extent=-101.6603,38.3682,-85.4334,45.4222&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe>
+  
+</body>
+</html>
