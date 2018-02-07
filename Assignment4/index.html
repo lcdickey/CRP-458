@@ -27,35 +27,35 @@ var facts = [
 	date: " February 5, 2017",
 	score: " 34-28",
 	winner: " New England Patriots",
-  MVP: "Tom Brady",
+  mosval: "Tom Brady",
 	},
 	{
 	number: " XLVII",
 	date: " February 3, 2013",
 	score: " 34-31" ,
 	winner: " Baltimore Ravens",
-  MVP: " Joe Flacco",
+  mosval: " Joe Flacco",
 	},
   {
 	number: " XXX",
 	date: " January 28, 1996",
 	score: " 27-17" ,
 	winner: " Dallas Cowboys",
-  MVP: " Larry Brown",
+  mosval: " Larry Brown",
 	},
   {
 	number: "XVI",
 	date: "January 24, 1982",
 	score: "26-21" ,
 	winner: "San Francisco 49ers",
-  MVP: "Joe Montana",
+  mosval: "Joe Montana",
 	},
   {
 	number: "II",
 	date: "January 14, 1968",
 	score: "33-14" ,
 	winner: "Green Bay Packers",
-  MVP: "Bart Star",
+  mosval: "Bart Star",
 	},
 ];
 
@@ -75,7 +75,7 @@ function factList() {
 	document.getElementById("date").innerHTML = facts[i].date;
   document.getElementById("winner").innerHTML = facts[i].winner;
 	document.getElementById("score").innerHTML = facts[i].score;
-	document.getElementById("MVP").innerHTML = facts[i].MVP;
+	document.getElementById("mosval").innerHTML = facts[i].mosval;
  
 }
 
@@ -85,7 +85,7 @@ function load() {
 	document.getElementById("date").innerHTML = facts[0].date;
   document.getElementById("winner").innerHTML = facts[0].winner;
 	document.getElementById("score").innerHTML = facts[0].score;
-	document.getElementById("MVP").innerHTML = facts[0].MVP;
+	document.getElementById("mosval").innerHTML = facts[0].mosval;
 }
 
 
@@ -165,9 +165,11 @@ function shownums()
 <div id="sbName" style="font-family:verdana;">-</div>
     
 <br><br>
+	</body>
+	<body onload="load()">
 <input type="button" onclick="factList(1)" value="See Fun Facts">
 <br><br>
-<b>Superbowl Number:</b> <span id='number'>-</span><br>
+<p>Superbowl Number:<span id='number'>-</span><br>
 Date: <span id='date'>-</span><br>
 Winner: <span id='winner'>-</span><br>
 Score: <span id='score'>-</span><br>
