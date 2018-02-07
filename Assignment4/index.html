@@ -73,27 +73,12 @@ Winner: <span id='winner'>-</span><br>
 Score: <span id='score'>-</span><br>
 MVP: <span id='mosval'>-</span><br>
 <br>
-	</body>
-	<body>
-		<script id="jsbin-javascript">
-			
-		function shownums()
-		{
-		var rnums, textN, rsize, i
-		rnums = ["I = 1", "V = 5", "X = 10", "L = 50"];
-		rsize= rnums.length;
-		textN="<ul>";
-		for(i=0; i<rsize; i++)
-		{
-			textN += "<li>" + rnums[i] + "</li>";
-		}
-		textN +="</ul>";
-		document.getElementbyId("values").innerHTML = textN;
-		}
-		</script>
 	
-	<button onclick="showNums()">Roman numeral help!</button>
-	  <p id="values"></p>
+ <button onclick="showNums()">I forgot Roman Numerals :( </button>
+        <p id="nums"></p>	
+</body>
+	<body>
+
 		
 		
 <script id="jsbin-javascript">
@@ -178,7 +163,20 @@ function load() {
 }
 
 
-
+function showNums()
+        {
+            var Rnums, textN, RLen, i;
+            
+            Rnums=["I equals 1", "V equals 5", "X equals 10", "L equals 50"]
+            RLen=Rnums.length;
+            textN="<ul>";
+            for(i=0;i<RLen;i++)
+                {
+                    textN+= "<li>" + Rnums[i] + "</li>"
+                }
+            textN+= "</ul>";
+            document.getElementById("nums").innerHTML = textN;
+        }
 
 </script>
 
