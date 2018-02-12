@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="Assignment 6">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>jQuery Playground</title>
+  
+	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+	
+<style id="jsbin-css">
+.green {
+	color: green;
+}
+.yellow {
+	color: yellow;
+}
+.pink {
+	color: pink;
+}
+  .red {
+	color: red;
+}
+  .blue {
+	color: blue;
+}
+  
+
+    
+    .button {
+    background-color: #F5276F;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+   header{ 
+     padding:12px;
+     color: white;
+     background-color: #69BDBD;
+     font-family:verdana; 
+     clear: both;
+   }
+   
+
+  
+ </style>
+ <header><h1>Assignment 6</h1></header>
+  
+
+  
+</head>
+
+<body style="font-family:verdana;">
+<br>
+
+
+<strong><span id = 'example'>Hello!</span></strong><br>
+Pick your favorite color:<br><br>
+<span class = "green">green</span><br> 
+<span class = "yellow">yellow</span><br> 
+<span class = "pink">pink</span><br>
+<span class = "red">red</span><br>
+<span class = "blue">blue</span><br>
+
+<hr>
+
+  </body>  
+  
+  <body style="font-family:verdana;">
+
+	
+<script id="jsbin-javascript">
+$(document).ready(function(){
+   
+	
+	
+	$(".green").click(function(){
+        $("#example").css('color', 'green');
+    });
+	
+	$(".yellow").click(function(){
+        $("#example").css('color', 'yellow');
+    });
+	
+	$(".pink").click(function(){
+        $("#example").css('color', 'pink');
+    });
+	$(".red").click(function(){
+        $("#example").css('color', 'red');
+    });
+  $(".blue").click(function(){
+        $("#example").css('color', 'blue');
+    });
+	
+});
+
+    </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $(".test").hide();
+    });
+});
+</script>
+</head>
+<body>
+<strong>#yolo</strong>
+<h2 class="test">ALL OF YOUR WORRIES</h2>
+
+
+<p>who needs them?</p>
+
+<button class="button">make them go away!</button><hr>
+  <br>
+<span class = "clear">Clear the page!</span><br>
+</body>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".clear").click(function(){
+        $("*").hide();
+    });
+});
+</script>
+
+</html>
