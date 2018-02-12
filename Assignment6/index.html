@@ -122,13 +122,13 @@ $(document).ready(function(){
 
 <button class="button">make them go away!</button><hr>
   <br>
-<span class = "clear">Clear the page!</span><br>
+<p id="clear">Clear the page!</span><br>
 </body>
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-    $(".clear").click(function(){
+    $("#clear").click(function(){
         $("*").hide();
     });
 });
