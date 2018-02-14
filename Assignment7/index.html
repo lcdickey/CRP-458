@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="Assignment 7">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Assignment 7</title>
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+  <link href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  
+<style id="jsbin-css">
+
+#header {
+  background: none
+    ;
+  margin-left: 0px; 
+  margin-right: 0px;
+  text-align: left;
+}
+
+
+img {
+  position: absolute;
+  left: 200px;
+  top: 0px;
+  z-index: -1;
+  display: none;
+}
+
+#container {
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  width: 800px;
+  height: 400px;
+  border: double;
+  border-width: 3px;
+}
+
+#menu {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 190px;
+  height: 400px;
+  background-color: #C4E0DF;
+  padding-left: 2px;
+  font-size: medium;
+}
+
+#menu h4 {
+  margin-bottom: 8px;
+}
+
+#sortableLayersList {
+  list-style-type: none; 
+  padding: 0; 
+  margin-top: 0;
+}
+</style>
+</head>
+<body style="font-family:verdana">
+  <div id="header"><i><h3> Assignment 7</h3></i>
+    
+<div id="container">  
+  
+  <div id="menu">
+    <h4 style="text-align: left">Map Layers</h4>
+
+    <ul id="sortableLayersList">
+      <li><span class="ui-icon ui-icon-pin-w"></span><input type="checkbox" class="mapLayer" value="0"> Impaired Lakes</li>
+      <li><span class="ui-icon ui-icon-pin-w"></span><input type="checkbox" class="mapLayer" value="1"> Canoe Routes</li>
+      <li><span class="ui-icon ui-icon-pin-w"></span><input type="checkbox" class="mapLayer" value="2"> Trout Streams</li>
+      <li><span class="ui-icon ui-icon-pin-w"></span><input type="checkbox" class="mapLayer" value="3"> Scenic Byways</li>
+      <li><span class="ui-icon ui-icon-pin-w"></span><input type="checkbox" class="mapLayer" value="4"> Tribal Lands</li>
+      
+    </ul> <?-- end sortableLayersList -->
+
+   
+
+<fieldset>
+  <legend>Select a Basemap: </legend>
+  <input type="radio" name="basemap" value="0" checked>
+  <label for="basemap">landcover</label>
+<br>
+  <input type="radio" name="basemap" value="1">
+  <label for="basemap">topographic</label>
+  
+
+</fieldset>
+
+
+</div> <?-- end menu -->
+
+  <div id="maps">
+  <img id="basemap0" src="https://lcdickey.github.io/CRP-458/Assignment%203/images/basemapLandcover.png"> 
+  <img id="basemap1" src="https://lcdickey.github.io/CRP-458/Assignment%203/images/basemapTopo.png">
+
+<?-- sortable layers -->
+  <img id="map0" src="https://lcdickey.github.io/CRP-458/Assignment%203/images/impairedLakes.png">
+  <img id="map1" src="https://lcdickey.github.io/CRP-458/Assignment%203/images/canoeRoutes.png"> 
+  <img id="map2" src="https://lcdickey.github.io/CRP-458/Assignment%203/images/troutStreams.png">
+  <img id="map3" src="https://lcdickey.github.io/CRP-458/Assignment%203/images/scenicByways_border.png">
+  <img id="map4" src="https://lcdickey.github.io/CRP-458/Assignment%203/images/nativeAmericanLands.png">
+
+  </div> <?-- end maps -->
+</div> <?-- end container -->
+  
+<script id="jsbin-javascript">
+console.clear();
+//used Prof Seeger's example as a template
+
+$(function() {
+
+  totalSortableMaps = 5; //enter this manually vs an array of maps
+  var movedItem = '';
+  layerDisplayOrder = [];
+
+  //initially hide all maps and show the top basemap
+  for (i = 0; i < totalSortableMaps; i++) {
+    $("#map" + i).hide();
+    layerDisplayOrder.push("#map" + i); //create initial map order array
+    $("#map" + i).css("z-index", 1000 - i);
+    cssVal = $("#map" + i).css("z-index");
+    console.log("the z-index of #map" + i + " is " + cssVal);
+  }
+  $("#basemap0").show();
+  console.log(layerDisplayOrder);
+
+
+
+  //toggle basemap layers
+  $('input:radio[name=basemap]').click(function() {
+    baseVal = $('input:radio[name=basemap]:checked').val();
+    $("#basemap0, #basemap1").hide(); //combined selectors in one line
+    $("#basemap" + baseVal).show();
+  });
+
+  $(".mapLayer").change(function() {
+    x = $(this).val();
+    console.log("toggled map" + x);
+    $("#map" + x).toggle(); //this will automatically toggle .hide() and .show()
+  });
+});
+//added this portion
+src="//code.jquery.com/jquery-1.12.4.js"
+src="//code.jquery.com/ui/1.12.1/jquery-ui.js"
+$( "input[type='radio']" ).checkboxradio();
+
+$("#sortableLayersList").sortable({
+  start: function(event, ui) {
+    x = ui.item.index();
+    console.log("original position: " + x);
+    movedItem = layerDisplayOrder[x];
+    layerDisplayOrder.splice(x, 1); //remove from array 
+    $(ui.item).css({
+      'background-color': 'white',
+      'opacity': '0.5'
+    });
+  },
+  stop: function(event, ui) {
+    x = ui.item.index();
+    console.log("New position: " + x);
+    layerDisplayOrder.splice(x, 0, movedItem);
+
+
+
+    // reorder array
+    console.log(layerDisplayOrder);
+    $(ui.item).css({
+      'background-color': 'transparent',
+      'opacity': '1.0'
+    });
+    
+    //update layers z value
+    for (i = 0; i < totalSortableMaps; i++) {
+      
+      $(layerDisplayOrder[i]).css("z-index", 1000 - i);
+      //cssVal = $(layerDisplayOrder[i]).css("z-index");
+      //console.log("the z-index of #map" + i + " is- " + cssVal);
+    }
+
+  }
+
+});
+
+</script>
+</body>
+</html>
