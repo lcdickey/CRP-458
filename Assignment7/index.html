@@ -116,7 +116,7 @@ console.clear();
 
 $(function() {
 
-  totalSortableMaps = 5; //enter this manually vs an array of maps
+  totalSortableMaps = 5; //enter manually
   var movedItem = '';
   layerDisplayOrder = [];
 
@@ -133,7 +133,7 @@ $(function() {
 
 
 
-  //toggle basemap layers
+  //toggle basemaps
   $('input:radio[name=basemap]').click(function() {
     baseVal = $('input:radio[name=basemap]:checked').val();
     $("#basemap0, #basemap1").hide(); //combined selectors in one line
@@ -146,6 +146,7 @@ $(function() {
     $("#map" + x).toggle(); //this will automatically toggle .hide() and .show()
   });
 });
+
 //added this portion
 src="//code.jquery.com/jquery-1.12.4.js"
 src="//code.jquery.com/ui/1.12.1/jquery-ui.js"
@@ -169,14 +170,14 @@ $("#sortableLayersList").sortable({
 
 
 
-    // reorder array
+    // reorder 
     console.log(layerDisplayOrder);
     $(ui.item).css({
       'background-color': 'transparent',
       'opacity': '1.0'
     });
     
-    //update layers z value
+    //update z value
     for (i = 0; i < totalSortableMaps; i++) {
       
       $(layerDisplayOrder[i]).css("z-index", 1000 - i);
