@@ -1,0 +1,86 @@
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="Leaflet Exercise">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+	
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" /> <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+	
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+	
+<style id="jsbin-css">
+#map {
+     width: 500px;
+     height: 400px;
+     /* background-color: red; */
+}
+</style>
+</head>
+<body style="font-family:verdana;">
+  <h2>Leaflet Exercise</h3>
+  <div id='map'></div>
+	<br><ul>
+  <li>Pan to <a href="javascript:redwood()">Redwood National Forest</a><br></li>
+	
+  <li><a href="#" id='zoomOut'>Zoom out</a><br></li>
+<br><br>
+	<button id="desmoines">Visit Des Moines, Iowa</button>
+	
+	
+<script id="jsbin-javascript">
+var map = L.map('map').setView([37.6213, -122.3790], 9);
+
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+//this will add one marker
+
+   //.openPopup();
+
+
+
+
+
+//----------Adding multiple town markers----------
+
+//a array list of towns
+var towns = [
+	[37.7749, -122.4194, "San Francisco, CA"],
+	[38.5019, -122.9961, "Guerneville, CA"],
+	[38.4404, -122.7141, "Santa Rosa, CA"]
+];
+
+//loop through the array and add a marker for each
+for (var i = 0; i < towns.length; i++) {
+	marker = new L.marker([towns[i][0],towns[i][1]])
+	.bindPopup(towns[i][2])
+	.addTo(map);
+}
+
+
+//----------Links below the Map----------
+
+//Pan to Redwood
+function redwood() {
+	map.panTo(new L.LatLng(41.2132, -124.0046));
+}
+
+//set Zoom
+$("#zoomOut").click(function(){
+	map.setZoom(6);
+});
+
+
+//Des Moines, Iowa
+$("#desmoines").click(function(){
+	map.setView(new L.LatLng(41.6005, -93.6091), 12);
+});
+
+L.marker([41.585790, -93.654115]).addTo(map)
+   .bindPopup("My favorite coffee shop!");
+</script>
+</body>
+</html>
