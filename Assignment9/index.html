@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="Assignment 9">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Assignment 9</title>
+	
+  <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" /> <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+  
+	
+<style id="jsbin-css">
+#map {
+     width: 600px;
+     height: 600px;
+    
+}
+</style>
+</head>
+<body style="font-family:verdana;">
+  <h3>Assignment 9</h3>
+    <h2>Spring Break Map</h2>
+  <hr>
+<div id='map'></div>
+  <br>
+  <button id="redwood">Redwood National Park!</button><br><br>
+  go to <a href="javascript:SanFran()">San Francisco</a><br>
+  <br>
+  <a href="#" id='zoomOut'>zoom out</a>
+  <br>
+  
+
+  
+
+	
+	
+<script id="jsbin-javascript">
+var map = L.map('map').setView([38.511258, -122.992190], 6);
+
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+var myPoints=[
+ ["30", 41.2132, -124.0046, "a"],
+  ["30", 39.3313, -123.7769, "a"],
+  ["30", 38.3207, -123.0348, "a"],
+  ["30", 37.7694, -122.4862, "a"],
+  ["20", 38.45547, -122.4328, "b"],
+  ["20", 38.4890, -122.4481, "b"],
+  ["20", 38.264294, -122.436707, "b"],
+  ["10", 37.758541, -122.440121, "c"],
+  ["10", 37.808705, -122.44018, "c"],
+  ["10", 37.768271, -122.46857, "c"],
+  ];
+
+function getColor(d) {
+ return d == 'a' ? "#fde0dd":
+        d == 'b' ? "#fa9fb5":
+        d == 'c' ? "#c51b8a":
+ "#FFFFFF";
+}
+
+for (var i=0; i< myPoints.length;i++) {
+  marker = new L.circleMarker([myPoints[i][1], myPoints[i][2]],{
+    radius: myPoints[i][0]/2,
+    fillColor:getColor(myPoints[i][3]),
+    color: "#000",
+    weight: 0,
+    opacity: 1,
+    fillOpacity: 1
+  }).addTo(map)
+  .bindPopup("Category: "+myPoints[i][3]);
+  
+}
+
+
+
+var newIcon = L.icon({
+  iconUrl:'http://labs.google.com/ridefinder/images/mm_20_blue.png',
+  shadowUrl:'http://labs.google.com/ridefinder/images/mm_20_shadow.png',
+  //iconSize: [35,35],
+  //shadowSize: [40,35],
+  iconAnchor: [0,0],
+  shadowAnchor: [0,0],
+  popupAnchor: [0, 0],
+  });
+
+var newIcon2 = L.icon({
+  iconUrl:'http://labs.google.com/ridefinder/images/mm_20_purple.png',
+  shadowUrl:'http://labs.google.com/ridefinder/images/mm_20_shadow.png',
+  //iconSize: [35,35],
+  //shadowSize: [40,35],
+  iconAnchor: [-30,0],
+  shadowAnchor: [-30,0],
+  popupAnchor: [30, 0],
+  });
+
+var marker1 = L.marker([38.511258, -122.992190], {
+  icon: newIcon,
+  //draggable: true,
+}).addTo(map)
+   .bindPopup("Rental House");
+   //.openPopup();
+
+var marker2 = L.marker([38.577851, -123.33796], {
+  icon: newIcon2,  
+  title: 'Salt Point'
+}).addTo(map)
+    .bindPopup("Salt Point State Park (tidal pools!)", {autoPan: true,});
+
+var marker3 = L.marker([38.406514, -122.330253], {
+    //riseOnHover: true,
+}).addTo(map);
+
+marker3.bindPopup("Pine Ridge Vineyards Tasting Room", {
+      maxWidth: 95,
+      minWidth:15,
+      maxHeight: 30,
+      autoPan: true,
+      keepInView: true,
+      closeButton: true,
+      autoPanPadding: [5,5],
+      offset: [0,0],
+      });
+
+
+function SanFran() {
+  map.panTo(new L.LatLng(37.757136, -122.442064));
+}
+
+$("#zoomOut").click(function(){
+  map.setZoom(5);
+});
+
+$("#redwood").click(function(){
+  map.setView(new L.LatLng(41.207525, -124.006801), 10);
+});
+</script>
+</body>
+</html>
