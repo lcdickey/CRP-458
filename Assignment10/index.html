@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<meta name="robots" content="noindex">
+<html>
+<head>
+	<meta name="description" content="CRP 458 Assignment 10">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Assignment 10</title>
+	
+	<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+	
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" /> 
+	
+	<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+<style id="jsbin-css">
+#map {
+     width: 600px;
+     height: 800px;
+}
+</style>
+</head>
+  
+<body style="font-family:verdana;">
+  <h3>Assignment 10</h3>
+    <h2>Spring Break Map</h2>
+  <hr>
+<div id='map'></div>
+  <br>
+  <button id="redwood">Redwood National Park!</button><br><br>
+  go to <a href="javascript:SanFran()">San Francisco</a><br>
+  <br>
+  <a href="#" id='zoomOut'>zoom out</a>
+  <br><br>
+  
+<button id = "changecontent">What time is it?</button> <br>
+  
+
+	
+	
+<script id="jsbin-javascript">
+var map = L.map('map').setView([38.511258, -122.992190], 8.3);
+
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+var marker1 = L.marker([38.511258, -122.992190], {
+  draggable: true,
+}).addTo(map)
+   .bindPopup("Rental House");
+   //.openPopup();
+
+
+var marker2 = L.marker([38.577851, -123.33796], {
+  riseOnHover: true,}).addTo(map)
+   marker2.bindPopup($('<a href=\""+"https://i0.wp.com/www.bayarea.com/wp-content/uploads/2017/04/NaturalBridges_TidePool.jpg?w=1000&crop=0%2C0px%2C100%2C667px&ssl=1" +nr+"\""+" target=\"_blank\">Salt Point</a>').click(function() {
+    alert("This should open the photo in a new window");
+})[0]);
+   
+ 
+
+
+var marker3 = L.marker([38.406514, -122.330253], {
+    riseOnHover: true,
+}).addTo(map)
+    .bindPopup("Pine Ridge Vineyards Tasting Room");
+
+function onMapClick(e) {
+    var myMarker = L.marker(e.latlng, {
+        draggable: true,
+        //title: "",
+        //alt: "",
+        riseOnHover: true
+    }).addTo(map)
+        .bindPopup(e.latlng.toString()).openPopup();
+
+    // Update marker on changing it's position
+    myMarker.on("dragend", function (ev) {
+
+        var chagedPos = ev.target.getLatLng();
+        this.bindPopup(chagedPos.toString()).openPopup();
+	});	
+		
+}
+map.on('click', onMapClick);
+
+
+$("#changecontent").click(function() {
+	marker3._popup.setContent('<p>Wine Time!</p>');
+	marker3.openPopup();
+});
+
+marker3.on('popupclose', function() {
+	alert("!");
+});
+
+
+
+function SanFran() {
+  map.panTo(new L.LatLng(37.757136, -122.442064));
+}
+
+$("#zoomOut").click(function(){
+  map.setZoom(5);
+});
+
+$("#redwood").click(function(){
+  map.setView(new L.LatLng(41.207525, -124.006801), 10);
+});
+</script>
+</body>
+</html>
