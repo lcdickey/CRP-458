@@ -1,0 +1,1703 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "susm-by5q",
+      "name" : "Impaired_Lakes_2014",
+      "averageRating" : 0,
+      "createdAt" : 1485802331,
+      "displayType" : "geoRows",
+      "downloadCount" : 191,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1494301453,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 25352062,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1485802339,
+      "publicationGroup" : 14017251,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1485802338,
+      "rowsUpdatedBy" : "hqmd-ehvn",
+      "tableId" : 14017251,
+      "totalTimesRated" : 0,
+      "viewCount" : 0,
+      "viewLastModified" : 1494301353,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 287900086,
+        "name" : "OBJECTID",
+        "dataTypeName" : "number",
+        "fieldName" : "objectid",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 43154507,
+        "cachedContents" : {
+          "largest" : "224",
+          "null" : "0",
+          "top" : [ {
+            "item" : "154",
+            "count" : "1"
+          }, {
+            "item" : "79",
+            "count" : "1"
+          }, {
+            "item" : "119",
+            "count" : "1"
+          }, {
+            "item" : "21",
+            "count" : "1"
+          }, {
+            "item" : "173",
+            "count" : "1"
+          }, {
+            "item" : "82",
+            "count" : "1"
+          }, {
+            "item" : "8",
+            "count" : "1"
+          }, {
+            "item" : "5",
+            "count" : "1"
+          }, {
+            "item" : "212",
+            "count" : "1"
+          }, {
+            "item" : "172",
+            "count" : "1"
+          }, {
+            "item" : "165",
+            "count" : "1"
+          }, {
+            "item" : "181",
+            "count" : "1"
+          }, {
+            "item" : "184",
+            "count" : "1"
+          }, {
+            "item" : "149",
+            "count" : "1"
+          }, {
+            "item" : "188",
+            "count" : "1"
+          }, {
+            "item" : "98",
+            "count" : "1"
+          }, {
+            "item" : "166",
+            "count" : "1"
+          }, {
+            "item" : "169",
+            "count" : "1"
+          }, {
+            "item" : "214",
+            "count" : "1"
+          }, {
+            "item" : "88",
+            "count" : "1"
+          } ],
+          "not_null" : "223",
+          "smallest" : "1",
+          "cardinality" : "223"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900090,
+        "name" : "SegID_1_13",
+        "dataTypeName" : "number",
+        "fieldName" : "seg_id_1_13",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 43154511,
+        "cachedContents" : {
+          "largest" : "6311",
+          "null" : "0",
+          "top" : [ {
+            "item" : "0",
+            "count" : "27"
+          }, {
+            "item" : "1338",
+            "count" : "5"
+          }, {
+            "item" : "1714",
+            "count" : "4"
+          }, {
+            "item" : "1396",
+            "count" : "4"
+          }, {
+            "item" : "1180",
+            "count" : "4"
+          }, {
+            "item" : "677",
+            "count" : "3"
+          }, {
+            "item" : "1477",
+            "count" : "3"
+          }, {
+            "item" : "356",
+            "count" : "3"
+          }, {
+            "item" : "862",
+            "count" : "3"
+          }, {
+            "item" : "930",
+            "count" : "3"
+          }, {
+            "item" : "1462",
+            "count" : "3"
+          }, {
+            "item" : "629",
+            "count" : "3"
+          }, {
+            "item" : "1532",
+            "count" : "3"
+          }, {
+            "item" : "1702",
+            "count" : "2"
+          }, {
+            "item" : "694",
+            "count" : "2"
+          }, {
+            "item" : "758",
+            "count" : "2"
+          }, {
+            "item" : "1630",
+            "count" : "2"
+          }, {
+            "item" : "1143",
+            "count" : "2"
+          }, {
+            "item" : "1281",
+            "count" : "2"
+          }, {
+            "item" : "38",
+            "count" : "2"
+          } ],
+          "not_null" : "223",
+          "smallest" : "0",
+          "cardinality" : "129"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900094,
+        "name" : "OBJECTID_1",
+        "dataTypeName" : "number",
+        "fieldName" : "objectid_1",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 43154515,
+        "cachedContents" : {
+          "largest" : "223",
+          "null" : "0",
+          "top" : [ {
+            "item" : "154",
+            "count" : "1"
+          }, {
+            "item" : "79",
+            "count" : "1"
+          }, {
+            "item" : "119",
+            "count" : "1"
+          }, {
+            "item" : "21",
+            "count" : "1"
+          }, {
+            "item" : "173",
+            "count" : "1"
+          }, {
+            "item" : "82",
+            "count" : "1"
+          }, {
+            "item" : "8",
+            "count" : "1"
+          }, {
+            "item" : "5",
+            "count" : "1"
+          }, {
+            "item" : "34",
+            "count" : "1"
+          }, {
+            "item" : "212",
+            "count" : "1"
+          }, {
+            "item" : "172",
+            "count" : "1"
+          }, {
+            "item" : "165",
+            "count" : "1"
+          }, {
+            "item" : "181",
+            "count" : "1"
+          }, {
+            "item" : "184",
+            "count" : "1"
+          }, {
+            "item" : "149",
+            "count" : "1"
+          }, {
+            "item" : "188",
+            "count" : "1"
+          }, {
+            "item" : "98",
+            "count" : "1"
+          }, {
+            "item" : "166",
+            "count" : "1"
+          }, {
+            "item" : "169",
+            "count" : "1"
+          }, {
+            "item" : "88",
+            "count" : "1"
+          } ],
+          "not_null" : "223",
+          "smallest" : "1",
+          "cardinality" : "223"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900099,
+        "name" : "the_geom",
+        "dataTypeName" : "point",
+        "fieldName" : "the_geom",
+        "position" : 4,
+        "renderTypeName" : "point",
+        "tableColumnId" : 43154520,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : {
+              "coordinates" : [ -92.53961067469301, 41.29398973718823 ],
+              "type" : "Point"
+            },
+            "count" : "7"
+          }, {
+            "item" : {
+              "coordinates" : [ -93.39919832107148, 40.715665858161735 ],
+              "type" : "Point"
+            },
+            "count" : "5"
+          }, {
+            "item" : {
+              "coordinates" : [ -93.79272680522108, 42.437207599238945 ],
+              "type" : "Point"
+            },
+            "count" : "4"
+          }, {
+            "item" : {
+              "coordinates" : [ -94.43644466071073, 41.1975527026565 ],
+              "type" : "Point"
+            },
+            "count" : "4"
+          }, {
+            "item" : {
+              "coordinates" : [ -95.9204701975578, 41.30060597965059 ],
+              "type" : "Point"
+            },
+            "count" : "4"
+          }, {
+            "item" : {
+              "coordinates" : [ -94.92104553857469, 42.90605594086509 ],
+              "type" : "Point"
+            },
+            "count" : "4"
+          }, {
+            "item" : {
+              "coordinates" : [ -94.69018766676173, 40.71155434250384 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -91.56672814559666, 41.79698841458975 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -92.17457298893173, 41.63722374028765 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -92.45828516125788, 41.47700217805409 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -92.5457836278918, 43.374571032895325 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -94.54262732214441, 40.836561487272 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -95.21974002988736, 41.602974233798754 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -96.46901046371848, 43.38330117684045 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -94.71258927883913, 43.30487164982582 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -94.66972442434408, 43.35847701611507 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -95.59243258205794, 41.43607627352968 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -95.80147921001547, 42.44734785197222 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -96.32170999351452, 42.30913775875394 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -94.64762364134766, 42.46435522308497 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          } ],
+          "not_null" : "223",
+          "cardinality" : "143"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900103,
+        "name" : "SegID",
+        "dataTypeName" : "number",
+        "fieldName" : "seg_id",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 43154524,
+        "cachedContents" : {
+          "largest" : "6311",
+          "null" : "0",
+          "top" : [ {
+            "item" : "0",
+            "count" : "14"
+          }, {
+            "item" : "930",
+            "count" : "7"
+          }, {
+            "item" : "1338",
+            "count" : "5"
+          }, {
+            "item" : "1255",
+            "count" : "4"
+          }, {
+            "item" : "1396",
+            "count" : "4"
+          }, {
+            "item" : "1714",
+            "count" : "4"
+          }, {
+            "item" : "1180",
+            "count" : "4"
+          }, {
+            "item" : "677",
+            "count" : "3"
+          }, {
+            "item" : "1532",
+            "count" : "3"
+          }, {
+            "item" : "862",
+            "count" : "3"
+          }, {
+            "item" : "356",
+            "count" : "3"
+          }, {
+            "item" : "1462",
+            "count" : "3"
+          }, {
+            "item" : "1477",
+            "count" : "3"
+          }, {
+            "item" : "629",
+            "count" : "3"
+          }, {
+            "item" : "1476",
+            "count" : "3"
+          }, {
+            "item" : "1702",
+            "count" : "2"
+          }, {
+            "item" : "758",
+            "count" : "2"
+          }, {
+            "item" : "694",
+            "count" : "2"
+          }, {
+            "item" : "1630",
+            "count" : "2"
+          }, {
+            "item" : "38",
+            "count" : "2"
+          } ],
+          "not_null" : "223",
+          "smallest" : "0",
+          "cardinality" : "133"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900110,
+        "name" : "Waterbody",
+        "dataTypeName" : "text",
+        "fieldName" : "waterbody",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43154531,
+        "cachedContents" : {
+          "largest" : "Windmill Lake",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Lake Keomah",
+            "count" : "7"
+          }, {
+            "item" : "Rathbun Reservoir",
+            "count" : "6"
+          }, {
+            "item" : "Bob White Lake",
+            "count" : "5"
+          }, {
+            "item" : "Silver Lake",
+            "count" : "5"
+          }, {
+            "item" : "Orient Lake",
+            "count" : "4"
+          }, {
+            "item" : "Briggs Woods Lake",
+            "count" : "4"
+          }, {
+            "item" : "Pickerel Lake",
+            "count" : "4"
+          }, {
+            "item" : "Carter Lake",
+            "count" : "4"
+          }, {
+            "item" : "Iowa Lake",
+            "count" : "3"
+          }, {
+            "item" : "Lake Pahoja",
+            "count" : "3"
+          }, {
+            "item" : "Wilson Park Lake",
+            "count" : "3"
+          }, {
+            "item" : "Prairie Rose Lake",
+            "count" : "3"
+          }, {
+            "item" : "Lake Macbride",
+            "count" : "3"
+          }, {
+            "item" : "Lake Of Three Fires",
+            "count" : "3"
+          }, {
+            "item" : "Lake Hendricks",
+            "count" : "3"
+          }, {
+            "item" : "Hawthorn Lake",
+            "count" : "3"
+          }, {
+            "item" : "South Twin Lake",
+            "count" : "2"
+          }, {
+            "item" : "Lake Wapello",
+            "count" : "2"
+          }, {
+            "item" : "Thayer Lake",
+            "count" : "2"
+          }, {
+            "item" : "Roberts Creek Lake",
+            "count" : "2"
+          } ],
+          "not_null" : "223",
+          "smallest" : "Allen Green Refuge Marsh",
+          "cardinality" : "136"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900114,
+        "name" : "WBID",
+        "dataTypeName" : "text",
+        "fieldName" : "wbid",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43154535,
+        "cachedContents" : {
+          "largest" : "IA 06-WEM-00485-L_0",
+          "null" : "0",
+          "top" : [ {
+            "item" : "IA 03-SSK-00120-L_0",
+            "count" : "7"
+          }, {
+            "item" : "IA 05-CHA-00690-L_0",
+            "count" : "5"
+          }, {
+            "item" : "IA 06-WEM-00265-L_0",
+            "count" : "4"
+          }, {
+            "item" : "IA 05-NOD-00485-L_0",
+            "count" : "4"
+          }, {
+            "item" : "IA 04-RAC-01690-L_0",
+            "count" : "4"
+          }, {
+            "item" : "IA 04-UDM-01880-L_0",
+            "count" : "4"
+          }, {
+            "item" : "IA 01-WPS-00375-L_0",
+            "count" : "3"
+          }, {
+            "item" : "IA 02-IOW-01150-L_0",
+            "count" : "3"
+          }, {
+            "item" : "IA 05-NSH-01440-L_0",
+            "count" : "3"
+          }, {
+            "item" : "IA 05-PLA-00335-L_0",
+            "count" : "3"
+          }, {
+            "item" : "IA 06-BSR-00280-L_0",
+            "count" : "3"
+          }, {
+            "item" : "IA 05-PLA-00380-L_0",
+            "count" : "3"
+          }, {
+            "item" : "IA 02-IOW-00390-L_0",
+            "count" : "3"
+          }, {
+            "item" : "IA 03-NSK-00250-L_0",
+            "count" : "3"
+          }, {
+            "item" : "IA 06-LSR-02325-L_0",
+            "count" : "2"
+          }, {
+            "item" : "IA 06-WED-00270-L_0",
+            "count" : "2"
+          }, {
+            "item" : "IA 05-NSH-00580-L_0",
+            "count" : "2"
+          }, {
+            "item" : "IA 06-LSR-00250-L_0",
+            "count" : "2"
+          }, {
+            "item" : "IA 04-LDM-0030-L_0",
+            "count" : "2"
+          }, {
+            "item" : "IA 05-PLA-00430-L_0",
+            "count" : "2"
+          } ],
+          "not_null" : "223",
+          "smallest" : "IA 01-MAQ-0005-L_0",
+          "cardinality" : "143"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900115,
+        "name" : "List",
+        "dataTypeName" : "text",
+        "fieldName" : "list",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43154536,
+        "cachedContents" : {
+          "largest" : "305(b)",
+          "null" : "0",
+          "top" : [ {
+            "item" : "303(d)",
+            "count" : "144"
+          }, {
+            "item" : "305(b)",
+            "count" : "79"
+          } ],
+          "not_null" : "223",
+          "smallest" : "303(d)",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900116,
+        "name" : "IRCategory",
+        "dataTypeName" : "text",
+        "fieldName" : "ircategory",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43154537,
+        "cachedContents" : {
+          "largest" : "5b",
+          "null" : "0",
+          "top" : [ {
+            "item" : "5a",
+            "count" : "142"
+          }, {
+            "item" : "4a",
+            "count" : "70"
+          }, {
+            "item" : "4c",
+            "count" : "10"
+          }, {
+            "item" : "5b",
+            "count" : "1"
+          } ],
+          "not_null" : "223",
+          "smallest" : "4a",
+          "cardinality" : "4"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900117,
+        "name" : "Imp_Use",
+        "dataTypeName" : "text",
+        "fieldName" : "imp_use",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43154538,
+        "cachedContents" : {
+          "largest" : "Primary Contact",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Primary Contact",
+            "count" : "131"
+          }, {
+            "item" : "Aquatic Life",
+            "count" : "67"
+          }, {
+            "item" : "Fish Consumption",
+            "count" : "15"
+          }, {
+            "item" : "Aquatic Life; Primary Contact",
+            "count" : "6"
+          }, {
+            "item" : "General Use",
+            "count" : "3"
+          }, {
+            "item" : "Drinking Water",
+            "count" : "1"
+          } ],
+          "not_null" : "223",
+          "smallest" : "Aquatic Life",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900118,
+        "name" : "CauseStres",
+        "dataTypeName" : "text",
+        "fieldName" : "cause_stres",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43154539,
+        "cachedContents" : {
+          "largest" : "Turbidity; Phosphorus",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Algae",
+            "count" : "46"
+          }, {
+            "item" : "Turbidity",
+            "count" : "43"
+          }, {
+            "item" : "Indicator Bacteria",
+            "count" : "38"
+          }, {
+            "item" : "Algae; Turbidity",
+            "count" : "20"
+          }, {
+            "item" : "pH",
+            "count" : "15"
+          }, {
+            "item" : "Mercury in fish",
+            "count" : "13"
+          }, {
+            "item" : "Low DO/Organic Enrichment",
+            "count" : "7"
+          }, {
+            "item" : "Flow Alteration",
+            "count" : "7"
+          }, {
+            "item" : "Nutrients; Siltation",
+            "count" : "7"
+          }, {
+            "item" : "Siltation",
+            "count" : "6"
+          }, {
+            "item" : "PCBs in fish",
+            "count" : "2"
+          }, {
+            "item" : "Exotic species",
+            "count" : "2"
+          }, {
+            "item" : "Organic Enrichment",
+            "count" : "2"
+          }, {
+            "item" : "Algae; pH",
+            "count" : "2"
+          }, {
+            "item" : "Algae; Ammonia; Nutrients; Organic Enrichment; Low DO; pH; Siltation; Turbidity",
+            "count" : "2"
+          }, {
+            "item" : "Algae; Nutrients",
+            "count" : "1"
+          }, {
+            "item" : "Algae; Noxious aquatic plants",
+            "count" : "1"
+          }, {
+            "item" : "Nutrients",
+            "count" : "1"
+          }, {
+            "item" : "Biological: Chlorine",
+            "count" : "1"
+          }, {
+            "item" : "Turbidity; Phosphorus",
+            "count" : "1"
+          } ],
+          "not_null" : "223",
+          "smallest" : "Algae",
+          "cardinality" : "26"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900119,
+        "name" : "UseSupport",
+        "dataTypeName" : "text",
+        "fieldName" : "use_support",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43154540,
+        "cachedContents" : {
+          "largest" : "Partially Supporting",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Partially Supporting",
+            "count" : "116"
+          }, {
+            "item" : "Not Supporting",
+            "count" : "105"
+          }, {
+            "item" : "Fully Supporting",
+            "count" : "2"
+          } ],
+          "not_null" : "223",
+          "smallest" : "Fully Supporting",
+          "cardinality" : "3"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900120,
+        "name" : "Yr_Imp",
+        "dataTypeName" : "number",
+        "fieldName" : "yr_imp",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 43154541,
+        "cachedContents" : {
+          "largest" : "2014",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2004",
+            "count" : "78"
+          }, {
+            "item" : "2008",
+            "count" : "36"
+          }, {
+            "item" : "2006",
+            "count" : "30"
+          }, {
+            "item" : "2010",
+            "count" : "27"
+          }, {
+            "item" : "2014",
+            "count" : "24"
+          }, {
+            "item" : "2012",
+            "count" : "24"
+          }, {
+            "item" : "2002",
+            "count" : "4"
+          } ],
+          "not_null" : "223",
+          "smallest" : "2002",
+          "cardinality" : "7"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900121,
+        "name" : "Location",
+        "dataTypeName" : "text",
+        "fieldName" : "location",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43154542,
+        "cachedContents" : {
+          "largest" : "Wright County S28T93NR24W 3.5 mi W of Belmond.",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Mahaska County S13T75NR15W 4.5 mi E of Oskaloosa.",
+            "count" : "7"
+          }, {
+            "item" : "Wayne County S4T68NR22W 1 mi W of Allerton.",
+            "count" : "5"
+          }, {
+            "item" : "Buena Vista County S1T93NR35W 4 mi NE of Marathon.",
+            "count" : "4"
+          }, {
+            "item" : "Adair County S20T74NR31W approx 1 mi SW of Orient.",
+            "count" : "4"
+          }, {
+            "item" : "Hamilton County S17T88NR25W near Webster City.",
+            "count" : "4"
+          }, {
+            "item" : "Pottawattamie County S23T75NR44W at Carter Lake.",
+            "count" : "4"
+          }, {
+            "item" : "Johnson County S29T81NR6W 4 mi. W of Solon.",
+            "count" : "3"
+          }, {
+            "item" : "Shelby County S36T79NR38W 6 mi SE of Harlan.",
+            "count" : "3"
+          }, {
+            "item" : "Mahaska County S10T77NR14W 1 mi S of Barnes City.",
+            "count" : "3"
+          }, {
+            "item" : "Howard County S19T99NR14W 0.5 mi NE of Riceville.",
+            "count" : "3"
+          }, {
+            "item" : "Taylor County S12T68NR34W 2 mi NNE of Bedford.",
+            "count" : "3"
+          }, {
+            "item" : "Lyon County S23T99NR48W 5 mi SSW of Larchwood.",
+            "count" : "3"
+          }, {
+            "item" : "Iowa County S19T79NR11W 4 mi. NNW of Millersburg.",
+            "count" : "3"
+          }, {
+            "item" : "Taylor County S28T70NR32W 3 mi SSE of Lenox.",
+            "count" : "3"
+          }, {
+            "item" : "Hardin County S4T87NR19W 0.5 mi E of Eldora.",
+            "count" : "3"
+          }, {
+            "item" : "Delaware County S16T88NR4W SE edge of Delhi.",
+            "count" : "2"
+          }, {
+            "item" : "Clay County S36T96NR35W 6 mi SE of Dickens.",
+            "count" : "2"
+          }, {
+            "item" : "Wapello County S25T72NR14W at Ottumwa.",
+            "count" : "2"
+          }, {
+            "item" : "from main lake basin uplake to inflow of South Fork Chariton River in S36 T70N R20W Wayne Co.",
+            "count" : "2"
+          }, {
+            "item" : "Palo Alto County S30T96NR34W 2 mi S of Ruthven.",
+            "count" : "2"
+          } ],
+          "not_null" : "223",
+          "smallest" : "Adair County S17T76NR31W 1.5 mi SE of Bridgewater.",
+          "cardinality" : "141"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900122,
+        "name" : "Rationale",
+        "dataTypeName" : "text",
+        "fieldName" : "rationale",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43154543,
+        "cachedContents" : {
+          "largest" : "Violations to the state water quality criteria for indicator bacteria",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Aesthetically objectionable conditions",
+            "count" : "17"
+          }, {
+            "item" : "Aesthetically objectionable conditions (chlorophyll TSI > 65).",
+            "count" : "8"
+          }, {
+            "item" : "geometric mean > WQS",
+            "count" : "7"
+          }, {
+            "item" : "Aesthetically objectionable conditions (Secchi TSI > 65).",
+            "count" : "6"
+          }, {
+            "item" : "Significantly greater than 10% of the samples exceed the pH criterion.",
+            "count" : "5"
+          }, {
+            "item" : "Violations of the state's geometric mean criterion.",
+            "count" : "5"
+          }, {
+            "item" : "Algae levels (chlorophyll TSI > 65) adversely impact fish and plant communities.",
+            "count" : "4"
+          }, {
+            "item" : "Turbidity levels (Secchi TSI > 65) adversely impact fish and plant communities.",
+            "count" : "4"
+          }, {
+            "item" : "Significantly greater than 10% of the samples exceed the dissolved oxygen criteria.",
+            "count" : "3"
+          }, {
+            "item" : "Algae levels (chlorophyll TSI = 78) adversely impact fish and plant communities.",
+            "count" : "3"
+          }, {
+            "item" : "Significantly greater than 10% of the samples exceeded the single-sample maximum criterion in 2010.",
+            "count" : "3"
+          }, {
+            "item" : "aesthetically objectionable conditions (chlorophyll TSI = 67)",
+            "count" : "3"
+          }, {
+            "item" : "Impacts of hydrological modification of the Missouri River and resultant problems with water level fluctuation in the river's floodplain wetlands",
+            "count" : "3"
+          }, {
+            "item" : "aesthetically objectionable conditions (chlorophyll TSI = 69)",
+            "count" : "2"
+          }, {
+            "item" : "Geometric mean > WQS",
+            "count" : "2"
+          }, {
+            "item" : "Purple loosestrife infestation.",
+            "count" : "2"
+          }, {
+            "item" : "aesthetically objectionable conditions; Secchi trophic state index >70",
+            "count" : "2"
+          }, {
+            "item" : "aesthetically objectionable conditions (chlorophyll TSI = 66)",
+            "count" : "2"
+          }, {
+            "item" : "Aesthetically objectionable conditions (chlorophyll TSI = 67).",
+            "count" : "2"
+          }, {
+            "item" : "High levels of suspended solids leads to turbidity that inhibits growth of submersed aquatic vegetation.",
+            "count" : "2"
+          } ],
+          "not_null" : "223",
+          "smallest" : ">10% of samples violate WQ criteria; Aesthetically objectionable conditions; Secchi depth TSI>80.",
+          "cardinality" : "141"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900123,
+        "name" : "WBType",
+        "dataTypeName" : "text",
+        "fieldName" : "wbtype",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43154544,
+        "cachedContents" : {
+          "largest" : "Wetland",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Lake",
+            "count" : "174"
+          }, {
+            "item" : "Wetland",
+            "count" : "37"
+          }, {
+            "item" : "Reservoir",
+            "count" : "12"
+          } ],
+          "not_null" : "223",
+          "smallest" : "Lake",
+          "cardinality" : "3"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900124,
+        "name" : "NoImp4WB",
+        "dataTypeName" : "number",
+        "fieldName" : "no_imp_4_wb",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 43154545,
+        "cachedContents" : {
+          "largest" : "7",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1",
+            "count" : "87"
+          }, {
+            "item" : "2",
+            "count" : "84"
+          }, {
+            "item" : "3",
+            "count" : "24"
+          }, {
+            "item" : "4",
+            "count" : "16"
+          }, {
+            "item" : "7",
+            "count" : "7"
+          }, {
+            "item" : "5",
+            "count" : "5"
+          } ],
+          "not_null" : "223",
+          "smallest" : "1",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900125,
+        "name" : "Co_Number",
+        "dataTypeName" : "number",
+        "fieldName" : "co_number",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 43154546,
+        "cachedContents" : {
+          "largest" : "99",
+          "null" : "0",
+          "top" : [ {
+            "item" : "62",
+            "count" : "11"
+          }, {
+            "item" : "87",
+            "count" : "9"
+          }, {
+            "item" : "78",
+            "count" : "8"
+          }, {
+            "item" : "11",
+            "count" : "7"
+          }, {
+            "item" : "4",
+            "count" : "7"
+          }, {
+            "item" : "30",
+            "count" : "7"
+          }, {
+            "item" : "74",
+            "count" : "6"
+          }, {
+            "item" : "1",
+            "count" : "6"
+          }, {
+            "item" : "93",
+            "count" : "6"
+          }, {
+            "item" : "32",
+            "count" : "6"
+          }, {
+            "item" : "52",
+            "count" : "6"
+          }, {
+            "item" : "40",
+            "count" : "5"
+          }, {
+            "item" : "67",
+            "count" : "5"
+          }, {
+            "item" : "88",
+            "count" : "5"
+          }, {
+            "item" : "77",
+            "count" : "5"
+          }, {
+            "item" : "27",
+            "count" : "4"
+          }, {
+            "item" : "63",
+            "count" : "4"
+          }, {
+            "item" : "97",
+            "count" : "4"
+          }, {
+            "item" : "13",
+            "count" : "4"
+          }, {
+            "item" : "99",
+            "count" : "4"
+          } ],
+          "not_null" : "223",
+          "smallest" : "1",
+          "cardinality" : "74"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900126,
+        "name" : "County",
+        "dataTypeName" : "text",
+        "fieldName" : "county",
+        "position" : 19,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43154547,
+        "cachedContents" : {
+          "largest" : "Wright",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Mahaska",
+            "count" : "11"
+          }, {
+            "item" : "Taylor",
+            "count" : "9"
+          }, {
+            "item" : "Pottawattamie",
+            "count" : "8"
+          }, {
+            "item" : "Buena Vista",
+            "count" : "7"
+          }, {
+            "item" : "Appanoose",
+            "count" : "7"
+          }, {
+            "item" : "Dickinson",
+            "count" : "7"
+          }, {
+            "item" : "Johnson",
+            "count" : "6"
+          }, {
+            "item" : "Palo Alto",
+            "count" : "6"
+          }, {
+            "item" : "Adair",
+            "count" : "6"
+          }, {
+            "item" : "Emmet",
+            "count" : "6"
+          }, {
+            "item" : "Wayne",
+            "count" : "6"
+          }, {
+            "item" : "Union",
+            "count" : "5"
+          }, {
+            "item" : "Polk",
+            "count" : "5"
+          }, {
+            "item" : "Hamilton",
+            "count" : "5"
+          }, {
+            "item" : "Monona",
+            "count" : "5"
+          }, {
+            "item" : "Decatur",
+            "count" : "4"
+          }, {
+            "item" : "Warren",
+            "count" : "4"
+          }, {
+            "item" : "Hancock",
+            "count" : "4"
+          }, {
+            "item" : "Marion",
+            "count" : "4"
+          }, {
+            "item" : "Calhoun",
+            "count" : "4"
+          } ],
+          "not_null" : "223",
+          "smallest" : "Adair",
+          "cardinality" : "74"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900127,
+        "name" : "X_UTM",
+        "dataTypeName" : "number",
+        "fieldName" : "x_utm",
+        "position" : 20,
+        "renderTypeName" : "number",
+        "tableColumnId" : 43154548,
+        "cachedContents" : {
+          "largest" : "723760.3951",
+          "null" : "0",
+          "top" : [ {
+            "item" : "538546.9468",
+            "count" : "7"
+          }, {
+            "item" : "466282.9074",
+            "count" : "5"
+          }, {
+            "item" : "343178.209",
+            "count" : "4"
+          }, {
+            "item" : "434799.3813",
+            "count" : "4"
+          }, {
+            "item" : "379552.5347",
+            "count" : "4"
+          }, {
+            "item" : "255489.4671",
+            "count" : "4"
+          }, {
+            "item" : "619078.1147",
+            "count" : "3"
+          }, {
+            "item" : "536796.7664",
+            "count" : "3"
+          }, {
+            "item" : "219000.7068",
+            "count" : "3"
+          }, {
+            "item" : "357231.6134",
+            "count" : "3"
+          }, {
+            "item" : "568747.082",
+            "count" : "3"
+          }, {
+            "item" : "369940.4262",
+            "count" : "3"
+          }, {
+            "item" : "545229.097",
+            "count" : "3"
+          }, {
+            "item" : "315022.5612",
+            "count" : "3"
+          }, {
+            "item" : "468223.9698",
+            "count" : "2"
+          }, {
+            "item" : "480055.8888",
+            "count" : "2"
+          }, {
+            "item" : "434102.7638",
+            "count" : "2"
+          }, {
+            "item" : "343503.6953",
+            "count" : "2"
+          }, {
+            "item" : "269611.9409",
+            "count" : "2"
+          }, {
+            "item" : "366058.0642",
+            "count" : "2"
+          } ],
+          "not_null" : "223",
+          "smallest" : "219000.7068",
+          "cardinality" : "143"
+        },
+        "format" : { }
+      }, {
+        "id" : 287900128,
+        "name" : "Y_UTM",
+        "dataTypeName" : "number",
+        "fieldName" : "y_utm",
+        "position" : 21,
+        "renderTypeName" : "number",
+        "tableColumnId" : 43154549,
+        "cachedContents" : {
+          "largest" : "4818249.8283",
+          "null" : "0",
+          "top" : [ {
+            "item" : "4571495.7494",
+            "count" : "7"
+          }, {
+            "item" : "4507270.6754",
+            "count" : "5"
+          }, {
+            "item" : "4576242.8592",
+            "count" : "4"
+          }, {
+            "item" : "4698625.109",
+            "count" : "4"
+          }, {
+            "item" : "4752172.7263",
+            "count" : "4"
+          }, {
+            "item" : "4561682.2491",
+            "count" : "4"
+          }, {
+            "item" : "4609827.8977",
+            "count" : "3"
+          }, {
+            "item" : "4591852.644",
+            "count" : "3"
+          }, {
+            "item" : "4508111.3787",
+            "count" : "3"
+          }, {
+            "item" : "4809227.8741",
+            "count" : "3"
+          }, {
+            "item" : "4521759.1357",
+            "count" : "3"
+          }, {
+            "item" : "4608076.177",
+            "count" : "3"
+          }, {
+            "item" : "4628229.2583",
+            "count" : "3"
+          }, {
+            "item" : "4802511.8078",
+            "count" : "3"
+          }, {
+            "item" : "4663855.7659",
+            "count" : "2"
+          }, {
+            "item" : "4565635.2946",
+            "count" : "2"
+          }, {
+            "item" : "4551706.6752",
+            "count" : "2"
+          }, {
+            "item" : "4703249.6686",
+            "count" : "2"
+          }, {
+            "item" : "4775662.7338",
+            "count" : "2"
+          }, {
+            "item" : "4796095.2008",
+            "count" : "2"
+          } ],
+          "not_null" : "223",
+          "smallest" : "4494456.6883",
+          "cardinality" : "143"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "owner" : {
+        "id" : "wf9z-sj5u",
+        "displayName" : "Iowa Department of Natural Resources",
+        "profileImageUrlLarge" : "/api/users/wf9z-sj5u/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/wf9z-sj5u/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/wf9z-sj5u/profile_images/TINY",
+        "screenName" : "Iowa Department of Natural Resources",
+        "type" : "interactive",
+        "flags" : [ "organizationMember", "siteMember" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "wf9z-sj5u",
+        "displayName" : "Iowa Department of Natural Resources",
+        "profileImageUrlLarge" : "/api/users/wf9z-sj5u/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/wf9z-sj5u/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/wf9z-sj5u/profile_images/TINY",
+        "screenName" : "Iowa Department of Natural Resources",
+        "type" : "interactive",
+        "flags" : [ "organizationMember", "siteMember" ]
+      },
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ "row-ex4w_pnkz.zybh", "00000000-0000-0000-68BF-27EFACCC1CA8", 0, 1485802338, null, 1485802338, null, "{ }", "1", "620", "1", "POINT (-90.98952846783033 41.004395022622276)", "620", "Allen Green Refuge Marsh", "IA 02-ICM-00145-L_0", "305(b)", "4c", "Aquatic Life", "Flow Alteration", "Partially Supporting", "2004", "Des Moines County S29T72NR1W 8 mi. E of Mediapolis.", "Impairment due to a non-pollutant stressor", "Wetland", "1", "29", "Des Moines", "669077.3955", "4541191.692" ]
+, [ "row-3t9t~pydw.9bkf", "00000000-0000-0000-EF5D-897F259D000C", 0, 1485802338, null, 1485802338, null, "{ }", "2", "864", "2", "POINT (-92.732313750588 41.731726123112495)", "864", "Arbor Lake", "IA 03-NSK-00330-L_0", "305(b)", "4a", "Aquatic Life", "Nutrients; Siltation", "Partially Supporting", "2002", "Poweshiek County S20T80NR16W W edge of Grinnell", "Trophic state indices for total phosphorus, chlorophyll-a, and secchi depth of 80, 71, and 58", "Lake", "1", "79", "Poweshiek", "522262.0201", "4620025.3983" ]
+, [ "row-awc6.ssxw.p5am", "00000000-0000-0000-E979-6B88DDC93DB9", 0, 1485802338, null, 1485802338, null, "{ }", "3", "1702", "3", "POINT (-95.59243258205794 41.43607627352968)", "1702", "Arrowhead Pond", "IA 06-WED-00270-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Not Supporting", "2008", "Pottawattamie County S29T77NR41W 1.5 mi SE of Neola", "Aesthetically objectionable conditions (chlorophyll TSI = 67.", "Lake", "2", "78", "Pottawattamie", "283406.4544", "4590411.4611" ]
+, [ "row-ebj6-yrte.jq4u", "00000000-0000-0000-0578-22FF8A54456D", 0, 1485802338, null, 1485802338, null, "{ }", "4", "1702", "4", "POINT (-95.59243258205794 41.43607627352968)", "1702", "Arrowhead Pond", "IA 06-WED-00270-L_0", "305(b)", "4a", "Primary Contact", "Siltation", "Partially Supporting", "2006", "Pottawattamie County S29T77NR41W 1.5 mi SE of Neola", "Aesthetically objectionable conditions; Secchi Trophic state index =66, Chl-a TSI =62", "Lake", "2", "78", "Pottawattamie", "283406.4544", "4590411.4611" ]
+, [ "row-sr4w.876i-jxtn", "00000000-0000-0000-A5B5-7AF010E788AE", 0, 1485802338, null, 1485802338, null, "{ }", "5", "1790", "5", "POINT (-92.5366514091804 42.707417038331144)", "1790", "Avenue Of The Saints Lake", "IA 02-SHL-00105-L_0", "303(d)", "5a", "Aquatic Life", "Algae", "Partially Supporting", "2004", "Bremer Co. approximately 2 miles E of Shell Rock in S7 T91N R14W", "Algae levels (chlorophyll TSI > 65) adversely impact fish and plant communities.", "Lake", "2", "9", "Bremer", "537945.5141", "4728428.8564" ]
+, [ "row-rzmh-h2gr.uspi", "00000000-0000-0000-0609-D55716CDA5D3", 0, 1485802338, null, 1485802338, null, "{ }", "6", "1790", "6", "POINT (-92.5366514091804 42.707417038331144)", "1790", "Avenue Of The Saints Lake", "IA 02-SHL-00105-L_0", "303(d)", "5a", "Aquatic Life", "Turbidity", "Partially Supporting", "2004", "Bremer Co. approximately 2 miles E of Shell Rock in S7 T91N R14W", "Turbidity levels (Secchi TSI > 65) adversely impact fish and plant communities.", "Lake", "2", "9", "Bremer", "537945.5141", "4728428.8564" ]
+, [ "row-sd68~kysq_m4en", "00000000-0000-0000-1B26-979762B20BCA", 0, 1485802338, null, 1485802338, null, "{ }", "7", "1100", "7", "POINT (-93.91144346918577 41.47088003141152)", "1100", "Badger Creek Lake", "IA 04-LDM-03080-L_0", "305(b)", "4a", "Aquatic Life", "Nutrients; Siltation", "Partially Supporting", "2004", "Madison County S11T77NR27W 9 mi. E of Earlham.", "Trophic state indices for Secchi depth, chlorophyll a, and total phosphorus were 67, 69, and 75 respectively", "Lake", "1", "61", "Madison", "423893.935", "4591432.2514" ]
+, [ "row-z6ju.fmn9-cuxw", "00000000-0000-0000-E990-A5F73FF5249A", 0, 1485802338, null, 1485802338, null, "{ }", "8", "1730", "8", "POINT (-96.23537289097803 42.15143362504059)", "1730", "Badger Lake", "IA 06-WEM-00450-L_0", "305(b)", "4c", "Aquatic Life", "Flow Alteration", "Not Supporting", "2004", "Monona County S29T85NR46W 4 mi. WNW of Whiting.", "Impacts of hydrological modification of the Missouri River and resultant problems with water level fluctuation in the river's floodplain wetlands", "Wetland", "1", "67", "Monona", "232676.0137", "4671657.9417" ]
+, [ "row-fc9s_b952.d4vc", "00000000-0000-0000-BF0E-E89C98CFA63F", 0, 1485802338, null, 1485802338, null, "{ }", "9", "1085", "9", "POINT (-93.55259927579513 41.438300671826866)", "1085", "South Banner Lake", "IA 04-LDM-02725-L_0", "303(d)", "5a", "Fish Consumption", "Mercury in fish", "Partially Supporting", "2008", "Warren County S30T77NR23W 5 mi N of Indianola.", "Fish consumption advisory issued at this lake.", "Lake", "1", "91", "Warren", "453834.6948", "4587561.7901" ]
+, [ "row-h9cr-mcvs~xkjv", "00000000-0000-0000-117C-1E81DC82300D", 0, 1485802338, null, 1485802338, null, "{ }", "10", "1182", "10", "POINT (-94.21145306048031 41.53267519214091)", "1182", "Beaver Lake", "IA 04-RAC-01750-L_0", "305(b)", "4a", "Primary Contact", "Algae; pH", "Not Supporting", "2008", "Dallas County S20T78NR29W 1.5 mi. N of Dexter.", "Aesthetically objectionable conditions; (chlorophyll TSI = 69)", "Lake", "1", "25", "Dallas", "398938.687", "4598600.2691" ]
+, [ "row-5k63_6sa2.9ymj", "00000000-0000-0000-A159-A5B7A4EF28FF", 0, 1485802338, null, 1485802338, null, "{ }", "11", "818", "11", "POINT (-93.24378020245534 42.76990197758632)", "818", "Beeds Lake", "IA 02-WFC-0090-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Not Supporting", "2008", "Franklin County S20T92NR20W 2 mi W 1 mi N of Hampton", "aesthetically objectionable conditions (chlorophyll TSI = 67)", "Lake", "2", "35", "Franklin", "480055.8888", "4735292.1292" ]
+, [ "row-55tb-k8yu_j72x", "00000000-0000-0000-2AFA-5016DCFD700D", 0, 1485802338, null, 1485802338, null, "{ }", "12", "818", "12", "POINT (-93.24378020245534 42.76990197758632)", "818", "Beeds Lake", "IA 02-WFC-0090-L_0", "305(b)", "4a", "Primary Contact", "Indicator Bacteria", "Partially Supporting", "2004", "Franklin County S20T92NR20W 2 mi W 1 mi N of Hampton", "Geometric means > WQS", "Lake", "2", "35", "Franklin", "480055.8888", "4735292.1292" ]
+, [ "row-i7nd_wwgt-aknx", "00000000-0000-0000-BC8A-216B61C51BA1", 0, 1485802338, null, 1485802338, null, "{ }", "13", "1242", "13", "POINT (-93.74260321962198 41.814790578952774)", "1242", "Big Creek Lake", "IA 04-UDM-0140-L_0", "305(b)", "4a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2006", "Polk County S22T81NR25W near Polk City", "Geometric mean > WQS", "Lake", "1", "77", "Polk", "438321.1579", "4629479.4696" ]
+, [ "row-c9g4.ktmh_umwc", "00000000-0000-0000-58BE-4494AC0F5EB6", 0, 1485802338, null, 1485802338, null, "{ }", "14", "1655", "14", "POINT (-95.10144360040043 43.4496477670808)", "1655", "Big Spirit Lake", "IA 06-LSR-02850-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2008", "Dickinson County S33T100NR36W at Spirit Lake", "Violations of the state's geometric mean criterion.", "Lake", "1", "30", "Dickinson", "329966.9641", "4812894.2938" ]
+, [ "row-mvz8~zwhb-7y42", "00000000-0000-0000-E095-08B60F91B401", 0, 1485802338, null, 1485802338, null, "{ }", "15", "1135", "15", "POINT (-95.05436478760875 42.270896365773474)", "1135", "Black Hawk Wildlife Area", "IA 04-RAC-00477-L_0", "305(b)", "4c", "Aquatic Life", "Exotic species", "Partially Supporting", "2008", "Sac County S9T86NR36W 2 mi S of Lake View.", "Purple loosestrife infestation.", "Wetland", "1", "81", "Sac", "330582.3983", "4681897.6919" ]
+, [ "row-9qha_7usp.cz2z", "00000000-0000-0000-5190-09011CF8A074", 0, 1485802338, null, 1485802338, null, "{ }", "16", "1724", "16", "POINT (-96.1436408263138 41.88320876192512)", "1724", "Blencoe Lake", "IA 06-WEM-00420-L_0", "305(b)", "4c", "Aquatic Life", "Flow Alteration", "Not Supporting", "2004", "Monona County S31T82NR45W 5 mi. SW of Blencoe", "Impacts of hydrological modification of the Missouri River and resultant problems with water level fluctuation in the river's floodplain wetlands", "Wetland", "1", "67", "Monona", "239161.1968", "4641588.9581" ]
+, [ "row-39x8_tx4j-ki8q", "00000000-0000-0000-CAD8-5E68BF5EAAF9", 0, 1485802338, null, 1485802338, null, "{ }", "17", "1728", "17", "POINT (-96.15849844011922 42.04614833628827)", "1728", "Blue Lake (aka, Lewis And Clark Lake)", "IA 06-WEM-00445-L_0", "305(b)", "4a", "Primary Contact", "Algae; Turbidity", "Not Supporting", "2004", "Monona County S35T84NR46W 2 mi. W of Onawa.", "Aesthetically objectionable conditions; Chl-a TSI =65 Secchi = 73", "Lake", "1", "67", "Monona", "238595.9157", "4659728.0997" ]
+, [ "row-ydek-3vq7-nkqe", "00000000-0000-0000-6617-701CFAB10A61", 0, 1485802338, null, 1485802338, null, "{ }", "18", "1775", "18", "POINT (-94.87610450930086 43.16451515962178)", "1775", "Bluewing Marsh", "IA 06-LSR-02393-L_0", "303(d)", "5a", "Aquatic Life", "Algae", "Partially Supporting", "2012", "Palo Alto County S4T96NR34W 3 mi NNE of Ruthven.", "Algae levels (chlorophyll TSI > 65) adversely impact fish and plant communities.", "Wetland", "1", "74", "Palo Alto", "347488.6321", "4780792.6451" ]
+, [ "row-fuqp.a8ec-v9nh", "00000000-0000-0000-8F4B-FF5F236B2DB0", 0, 1485802338, null, 1485802338, null, "{ }", "19", "1338", "19", "POINT (-93.39919832107148 40.715665858161735)", "1338", "Bob White Lake", "IA 05-CHA-00690-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Not Supporting", "2008", "Wayne County S4T68NR22W 1 mi W of Allerton.", "aesthetically objectionable conditions (chlorophyll TSI = 69)", "Lake", "5", "93", "Wayne", "466282.9074", "4507270.6754" ]
+, [ "row-u2zp~u42a_tvee", "00000000-0000-0000-C7CF-1ED2983258D4", 0, 1485802338, null, 1485802338, null, "{ }", "20", "1338", "20", "POINT (-93.39919832107148 40.715665858161735)", "1338", "Bob White Lake", "IA 05-CHA-00690-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2004", "Wayne County S4T68NR22W 1 mi W of Allerton.", "geometric means > WQS", "Lake", "5", "93", "Wayne", "466282.9074", "4507270.6754" ]
+, [ "row-hg2h-ukaq.capc", "00000000-0000-0000-2A5B-0DCD46C8DF59", 0, 1485802338, null, 1485802338, null, "{ }", "21", "1338", "21", "POINT (-93.39919832107148 40.715665858161735)", "1338", "Bob White Lake", "IA 05-CHA-00690-L_0", "303(d)", "5a", "Aquatic Life", "Low DO/Organic Enrichment", "Partially Supporting", "2014", "Wayne County S4T68NR22W 1 mi W of Allerton.", "Significantly greater than 10% of the samples exceed the dissolved oxygen criteria.", "Lake", "5", "93", "Wayne", "466282.9074", "4507270.6754" ]
+, [ "row-nxfj~2vzw.5veh", "00000000-0000-0000-D291-C1C403444C7E", 0, 1485802338, null, 1485802338, null, "{ }", "22", "1338", "22", "POINT (-93.39919832107148 40.715665858161735)", "1338", "Bob White Lake", "IA 05-CHA-00690-L_0", "303(d)", "5a", "Primary Contact", "Turbidity", "Not Supporting", "2006", "Wayne County S4T68NR22W 1 mi W of Allerton.", "Aesthetically objectionable conditions (Secchi TSI = 80)", "Lake", "5", "93", "Wayne", "466282.9074", "4507270.6754" ]
+, [ "row-n7kk.r4vp_ceqh", "00000000-0000-0000-6066-D3A3CEC7D38A", 0, 1485802338, null, 1485802338, null, "{ }", "23", "1338", "23", "POINT (-93.39919832107148 40.715665858161735)", "1338", "Bob White Lake", "IA 05-CHA-00690-L_0", "305(b)", "4a", "Aquatic Life", "Siltation", "Partially Supporting", "2004", "Wayne County S4T68NR22W 1 mi W of Allerton.", "Trophic state indices for total phosphorus, chlorophyll-a, and secchi depth are 84, 55, and 80, respectively", "Lake", "5", "93", "Wayne", "466282.9074", "4507270.6754" ]
+, [ "row-sgmy_efpr.x85r", "00000000-0000-0000-101D-591F1BDB9FF5", 0, 1485802338, null, 1485802338, null, "{ }", "24", "1255", "24", "POINT (-93.79272680522108 42.437207599238945)", "1255", "Briggs Woods Lake", "IA 04-UDM-01880-L_0", "303(d)", "5a", "Primary Contact", "pH", "Partially Supporting", "2012", "Hamilton County S17T88NR25W near Webster City.", "Significantly more than 10% of samples exceed the Class A1 pH criteria.", "Lake", "4", "40", "Hamilton", "434799.3813", "4698625.109" ]
+, [ "row-rijr.i8vc-d876", "00000000-0000-0000-DF47-001DD583C83A", 0, 1485802338, null, 1485802338, null, "{ }", "25", "1255", "25", "POINT (-93.79272680522108 42.437207599238945)", "1255", "Briggs Woods Lake", "IA 04-UDM-01880-L_0", "303(d)", "5a", "Aquatic Life", "pH", "Partially Supporting", "2012", "Hamilton County S17T88NR25W near Webster City.", "Significantly more than 10% of samples exceed the Class B(LW) pH criteria.", "Lake", "4", "40", "Hamilton", "434799.3813", "4698625.109" ]
+, [ "row-8k4k.f8f5-243v", "00000000-0000-0000-58BA-9F7C5C68F1D4", 0, 1485802338, null, 1485802338, null, "{ }", "26", "1735", "26", "POINT (-96.32170999351452 42.30913775875394)", "1735", "Browns Lake", "IA 06-WEM-00485-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Partially Supporting", "2008", "Woodbury County S32T87NR47W 2 mi W of Salix.", "Violations of the state's geometric mean criterion.", "Lake", "2", "97", "Woodbury", "226224.7691", "4689445.5026" ]
+, [ "row-guws.8wbj-uu5e", "00000000-0000-0000-F3EA-DFD2A44A5B5E", 0, 1485802338, null, 1485802338, null, "{ }", "27", "1735", "27", "POINT (-96.32170999351452 42.30913775875394)", "1735", "Browns Lake", "IA 06-WEM-00485-L_0", "303(d)", "5a", "Primary Contact", "Turbidity", "Not Supporting", "2004", "Woodbury County S32T87NR47W 2 mi W of Salix.", "aesthetically objectionable conditions; Secchi trophic state index =72 Chl-a TSI =60", "Lake", "2", "97", "Woodbury", "226224.7691", "4689445.5026" ]
+, [ "row-2ugg~mcxj~bstc", "00000000-0000-0000-1656-66F198D9F84E", 0, 1485802338, null, 1485802338, null, "{ }", "28", "1276", "28", "POINT (-93.98774058061655 42.404134720950495)", "1276", "Brushy Creek Lake", "IA 04-UDM-0275-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Partially Supporting", "2012", "Webster Co. in S34 T88N R27W; 5 miles E. of Lehigh", "Significantly greater than 10% of the bacteria samples exceeded the single-sample maximum criterion.", "Lake", "1", "94", "Webster", "418716.9426", "4695120.926" ]
+, [ "row-emag-z5mm_gbcm", "00000000-0000-0000-1F90-61F0088B1EA5", 0, 1485802338, null, 1485802338, null, "{ }", "29", "1714", "29", "POINT (-95.9204701975578 41.30060597965059)", "1714", "Carter Lake", "IA 06-WEM-00265-L_0", "303(d)", "5a", "Aquatic Life", "Low DO/Organic Enrichment", "Partially Supporting", "2008", "Pottawattamie County S23T75NR44W at Carter Lake.", "Significantly greater than 10% of the dissolved oxygen samples exceed the criterion.", "Lake", "4", "78", "Pottawattamie", "255489.4671", "4576242.8592" ]
+, [ "row-p7pe_zhd4.vavy", "00000000-0000-0000-9299-900D9877B941", 0, 1485802338, null, 1485802338, null, "{ }", "30", "1714", "30", "POINT (-95.9204701975578 41.30060597965059)", "1714", "Carter Lake", "IA 06-WEM-00265-L_0", "303(d)", "5a", "Fish Consumption", "PCBs in fish", "Not Supporting", "2002", "Pottawattamie County S23T75NR44W at Carter Lake.", "Fish consumption advisory for PCBs", "Lake", "4", "78", "Pottawattamie", "255489.4671", "4576242.8592" ]
+, [ "row-8eed~g9ad.6d9e", "00000000-0000-0000-6757-3767ED0FAD82", 0, 1485802338, null, 1485802338, null, "{ }", "31", "1714", "31", "POINT (-95.9204701975578 41.30060597965059)", "1714", "Carter Lake", "IA 06-WEM-00265-L_0", "303(d)", "5a", "Primary Contact", "Turbidity", "Not Supporting", "2012", "Pottawattamie County S23T75NR44W at Carter Lake.", "Aesthetically objectionable conditions (Secchi TSI > 65).", "Lake", "4", "78", "Pottawattamie", "255489.4671", "4576242.8592" ]
+, [ "row-id6t~7e2w.v5ha", "00000000-0000-0000-673B-D9992E7B0C96", 0, 1485802338, null, 1485802338, null, "{ }", "32", "1714", "32", "POINT (-95.9204701975578 41.30060597965059)", "1714", "Carter Lake", "IA 06-WEM-00265-L_0", "305(b)", "4a", "Primary Contact", "Algae; Turbidity", "Not Supporting", "2004", "Pottawattamie County S23T75NR44W at Carter Lake.", "Aesthetically objectionable conditions; Secchi Trophic state index =78, Chl-a TSI =77", "Lake", "4", "78", "Pottawattamie", "255489.4671", "4576242.8592" ]
+, [ "row-6phx-iqy2.gr2h", "00000000-0000-0000-8CB5-3CC31D69A208", 0, 1485802338, null, 1485802338, null, "{ }", "33", "531", "33", "POINT (-92.31300628278568 42.265335916513344)", "531", "Casey Lake (aka Hickory Hills Lake)", "IA 02-CED-03060-L_0", "305(b)", "4a", "Primary Contact", "Algae; Turbidity", "Partially Supporting", "2006", "Tama County S13T86NR13W 6 mi N of Dysart.", "Using the median values from surveys from 2000 through 2004 (approximately 15 samples), Carlson's trophic state indices for total phosphorus, chlorophyll-a, and secchi depth are 75, 58, and 60, respectively.", "Lake", "1", "86", "Tama", "556658.3457", "4679465.3107" ]
+, [ "row-6sbk-hme3-29rr", "00000000-0000-0000-D873-051DC9E5F067", 0, 1485802338, null, 1485802338, null, "{ }", "36", "1318", "34", "POINT (-92.89764114417518 40.70626797831607)", "1318", "Centerville Reservoir Upper", "IA 05-CHA-00325-L_0", "303(d)", "5a", "Fish Consumption", "Mercury in fish", "Partially Supporting", "2010", "Appanoose County S11T68NR18W near Centerville.", "Fish consumption advisory (1 meal/week) issued in 2009.", "Lake", "1", "4", "Appanoose", "508646.6404", "4506155.8914" ]
+, [ "row-wjvy-s7qh-2qug", "00000000-0000-0000-8EA2-9E62D4AC983D", 0, 1485802338, null, 1485802338, null, "{ }", "37", "38", "35", "POINT (-91.13883499547966 42.11171199209343)", "38", "Central Park Lake", "IA 01-MAQ-01580-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Not Supporting", "2008", "Jones County S1T84NR3W 6 mi E of Anamosa.", "aesthetically objectionable conditions (chlorophyll TSI = 69)", "Lake", "2", "53", "Jones", "653870.1458", "4663855.7659" ]
+, [ "row-vjdm-yuyr~j2ah", "00000000-0000-0000-8D3D-E142E5FB4271", 0, 1485802338, null, 1485802338, null, "{ }", "38", "38", "36", "POINT (-91.13883499547966 42.11171199209343)", "38", "Central Park Lake", "IA 01-MAQ-01580-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2008", "Jones County S1T84NR3W 6 mi E of Anamosa.", "Violations of the state's geometric mean criterion.", "Lake", "2", "53", "Jones", "653870.1458", "4663855.7659" ]
+, [ "row-mgfs_hx8k_c2ec", "00000000-0000-0000-B018-5F808DE183C9", 0, 1485802338, null, 1485802338, null, "{ }", "39", "841", "37", "POINT (-93.39069376463563 43.13303845447317)", "841", "Clear Lake", "IA 02-WIN-00450-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2004", "Cerro Gordo County S13T96NR22W at Clear Lake.", "geometric means > WQS", "Lake", "2", "17", "Cerro Gordo", "468223.9698", "4775662.7338" ]
+, [ "row-dj28_4hyq_vjwq", "00000000-0000-0000-0F2E-FFE5B80605C3", 0, 1485802338, null, 1485802338, null, "{ }", "40", "841", "38", "POINT (-93.39069376463563 43.13303845447317)", "841", "Clear Lake", "IA 02-WIN-00450-L_0", "305(b)", "4a", "Primary Contact", "Algae; Turbidity", "Partially Supporting", "2004", "Cerro Gordo County S13T96NR22W at Clear Lake.", "Aesthetically objectionable conditions", "Lake", "2", "17", "Cerro Gordo", "468223.9698", "4775662.7338" ]
+, [ "row-tkxq_8i6y~s9hs", "00000000-0000-0000-6362-E0923F617FA0", 0, 1485802338, null, 1485802338, null, "{ }", "41", "630", "39", "POINT (-91.52961847395538 41.726887330566036)", "630", "Coralville Reservoir", "IA 02-IOW-0040-L_0", "303(d)", "5a", "Primary Contact", "Turbidity", "Partially Supporting", "2006", "Johnson County S22T80NR6W (dam) 3 mi N of Iowa City.", "Aesthetically objectionable conditions (Secchi TSI > 65).", "Reservoir", "1", "52", "Johnson", "622294.375", "4620498.1264" ]
+, [ "row-22td-m286~5ehn", "00000000-0000-0000-0286-54E3383F4D3F", 0, 1485802338, null, 1485802338, null, "{ }", "42", "781", "40", "POINT (-93.79118241499917 43.22880274090948)", "781", "Crystal Lake", "IA 02-IOW-04095-L_0", "305(b)", "4a", "General Use", "Organic Enrichment", "Partially Supporting", "2002", "Hancock County S15T97NR25W at Crystal Lake.", "Aesthetically objectionable conditions", "Lake", "1", "41", "Hancock", "435751.6945", "4786527.2948" ]
+, [ "row-3pev-2p3y-j29h", "00000000-0000-0000-72B9-04FA92666B91", 0, 1485802338, null, 1485802338, null, "{ }", "43", "1716", "41", "POINT (-96.02534225704714 41.54372365202706)", "1716", "Desoto Bend", "IA 06-WEM-00340-L_0", "303(d)", "5a", "Primary Contact", "Turbidity", "Partially Supporting", "2004", "Harrison County S21T78NR45W 5 mi. W of Missouri Valley.", "aesthetically objectionable conditions; Secchi trophic state index =66 Chl-a TSI =60", "Lake", "1", "43", "Harrison", "247652.1494", "4603538.9497" ]
+, [ "row-ppaw~un2p_stcr", "00000000-0000-0000-3341-958FC2EB2CF2", 0, 1485802338, null, 1485802338, null, "{ }", "44", "1249", "42", "POINT (-94.01946043335849 42.11728889685468)", "1249", "Don Williams Lake", "IA 04-UDM-01650-L_0", "305(b)", "4a", "Aquatic Life", "Organic Enrichment; Siltation", "Partially Supporting", "2006", "Boone County S5T84NR27W 5 mi. N of Ogden.", "Siltation/nutrient impacts.", "Lake", "1", "8", "Boone", "415725.4768", "4663301.6557" ]
+, [ "row-jp8e.hyit_ia53", "00000000-0000-0000-8BA6-BAF88F3FBCE0", 0, 1485802338, null, 1485802338, null, "{ }", "45", "1065", "43", "POINT (-93.74238239772168 41.033161607212776)", "1065", "East Lake (Osceola)", "IA 04-LDM-02190-L_0", "305(b)", "4a", "Primary Contact", "Algae; Turbidity", "Partially Supporting", "2004", "Clarke County S16T72NR25W 0.5 mi E of Osceola.", "Aesthetically objectionable conditions", "Lake", "1", "20", "Clarke", "437595.5622", "4542703.7467" ]
+, [ "row-xykr.q2z3-5e9b", "00000000-0000-0000-0480-01B6A0002A62", 0, 1485802338, null, 1485802338, null, "{ }", "46", "1024", "44", "POINT (-93.55465962701724 41.54370006903583)", "1024", "Easter Lake", "IA 04-LDM-00490-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2010", "Polk County S19T78R23W SE edge of Des Moines.", "Violations of the state's geometric mean criterion.", "Lake", "2", "77", "Polk", "453737.6167", "4599264.2931" ]
+, [ "row-dh6x~jayx.g6t7", "00000000-0000-0000-AE28-04561F6DFB96", 0, 1485802338, null, 1485802338, null, "{ }", "47", "1024", "45", "POINT (-93.55465962701724 41.54370006903583)", "1024", "Easter Lake", "IA 04-LDM-00490-L_0", "305(b)", "4a", "Primary Contact", "Nutrients; Siltation", "Partially Supporting", "2004", "Polk County S19T78R23W SE edge of Des Moines.", "Aesthetically objectionable conditions", "Lake", "2", "77", "Polk", "453737.6167", "4599264.2931" ]
+, [ "row-tpfw~rws4.ta39", "00000000-0000-0000-2A78-A23089759E8E", 0, 1485802338, null, 1485802338, null, "{ }", "48", "773", "46", "POINT (-93.56412934919335 42.94150278807898)", "773", "Eldred Sherwood Lake", "IA 02-IOW-03830-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Not Supporting", "2008", "Hancock County S21T94NR24W 3 mi. NE of Goodell.", "aesthetically objectionable conditions (chlorophyll TSI = 66)", "Lake", "2", "41", "Hancock", "453975.096", "4754473.1732" ]
+, [ "row-2jcq_q2rg-er8e", "00000000-0000-0000-91FA-1B06CFC9177D", 0, 1485802338, null, 1485802338, null, "{ }", "49", "773", "47", "POINT (-93.56412934919335 42.94150278807898)", "773", "Eldred Sherwood Lake", "IA 02-IOW-03830-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2008", "Hancock County S21T94NR24W 3 mi. NE of Goodell.", "Violations of the state's geometric mean criterion.", "Lake", "2", "41", "Hancock", "453975.096", "4754473.1732" ]
+, [ "row-zcsu~ex9g~2j8w", "00000000-0000-0000-25A4-4F8F4900B947", 0, 1485802338, null, 1485802338, null, "{ }", "50", "657", "48", "POINT (-93.68010549562092 42.76477732359122)", "657", "Elm Lake", "IA 02-IOW-00870-L_0", "303(d)", "5a", "Aquatic Life", "Algae", "Not Supporting", "2012", "Wright County S21T92NR24W 1 mi. S of Cornelia.", "Extremely high levels of chlorophyll-a and resultant turbidity suppress submersed aquatic vegetation.", "Wetland", "2", "99", "Wright", "444354.6284", "4734918.5038" ]
+, [ "row-2un9-3p44.ndts", "00000000-0000-0000-0B90-7AB9D30AB1B1", 0, 1485802338, null, 1485802338, null, "{ }", "51", "657", "49", "POINT (-93.68010549562092 42.76477732359122)", "657", "Elm Lake", "IA 02-IOW-00870-L_0", "303(d)", "5a", "Aquatic Life", "Turbidity", "Not Supporting", "2012", "Wright County S21T92NR24W 1 mi. S of Cornelia.", "High levels of suspended solids in water column lead to turbidity at suppresses growth of submersed aquatic vegetation.", "Wetland", "2", "99", "Wright", "444354.6284", "4734918.5038" ]
+, [ "row-eiva_b9s3-riuy", "00000000-0000-0000-7C8E-AD9A1E3F3A0E", 0, 1485802338, null, 1485802338, null, "{ }", "52", "910", "50", "POINT (-91.94884803056148 41.02513547708472)", "910", "Fairfield Municipal Reservoir2", "IA 03-SKU-00955-L_0", "305(b)", "4a", "Aquatic Life", "Siltation", "Partially Supporting", "2004", "Jefferson County SE 1/4S24T72NR10W near Fairfield.", "Resutls of the 1995 UHL survey of water supply reservoirs (Miller and Kennedy 1995)", "Lake", "1", "51", "Jefferson", "588370.5936", "4542079.4636" ]
+, [ "row-226m-6kt6.vcj4", "00000000-0000-0000-00FF-74CEA9B16C94", 0, 1485802338, null, 1485802338, null, "{ }", "53", "1300", "51", "POINT (-94.67052141681489 43.13227774403965)", "1300", "Five Island Lake", "IA 04-UDM-03850-L_0", "305(b)", "4a", "Primary Contact", "Algae; Turbidity", "Not Supporting", "2004", "Palo Alto County S18T96NR32W at Emmetsburg.", "Aesthetically objectionable conditions", "Lake", "1", "74", "Palo Alto", "364129.716", "4776858.5756" ]
+, [ "row-y5vc.ia54.auax", "00000000-0000-0000-A476-2BC3C15EC848", 0, 1485802338, null, 1485802338, null, "{ }", "54", "292", "52", "POINT (-91.77114237388426 42.898891757918484)", "292", "Frog Hollow (aka Volga Lake)", "IA 01-VOL-00130-L_0", "305(b)", "4a", "Primary Contact", "Algae; Turbidity", "Partially Supporting", "2006", "Fayette County S3T93NR8W 4 mi. NNE of Fayette.", "Using the median values from surveys from 2000 through 2004 (approximately 15 samples), Carlson's trophic state indices for total phosphorus, chlorophyll-a, and secchi depth are 67, 61, and 60, respectively.", "Lake", "1", "33", "Fayette", "600326.8134", "4750319.4183" ]
+, [ "row-3sdg-cif5_qr45", "00000000-0000-0000-EA2B-CA91A5F93AE3", 0, 1485802338, null, 1485802338, null, "{ }", "55", "896", "53", "POINT (-91.38630720139135 40.81865099321536)", "896", "Geode Lake", "IA 03-SKU-00650-L_0", "303(d)", "5a", "Fish Consumption", "Mercury in fish", "Partially Supporting", "2010", "Henry County S36T70NR5W 4 mi. SW of Danville.", "Fish consumption advisory issued for mercury", "Lake", "2", "44", "Henry", "636087.9831", "4519878.7912" ]
+, [ "row-nfiw.haua-87yv", "00000000-0000-0000-EF79-51B434A48321", 0, 1485802338, null, 1485802338, null, "{ }", "56", "896", "54", "POINT (-91.38630720139135 40.81865099321536)", "896", "Geode Lake", "IA 03-SKU-00650-L_0", "305(b)", "4a", "Primary Contact", "Indicator Bacteria; pH", "Partially Supporting", "2006", "Henry County S36T70NR5W 4 mi. SW of Danville.", ">10% of samples violate WQ criteria; Geometric mean > WQS", "Lake", "2", "44", "Henry", "636087.9831", "4519878.7912" ]
+, [ "row-d4gr~n96g_4cub", "00000000-0000-0000-568E-F7EE3AF777B7", 0, 1485802338, null, 1485802338, null, "{ }", "57", "1472", "55", "POINT (-94.3854175137328 41.10151135213093)", "1472", "Green Valley Lake", "IA 05-PLA-00295-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Partially Supporting", "2004", "Union County S26T73NR31W 2.5 mi NW of Creston.", "Aesthetically objectionable conditions (chlorophyll TSI = 67.", "Lake", "1", "88", "Union", "383661.6501", "4550950.6316" ]
+, [ "row-w54m_k4cx_bbzp", "00000000-0000-0000-25DC-1DA93430D012", 0, 1485802338, null, 1485802338, null, "{ }", "58", "704", "56", "POINT (-92.11354511712247 41.866156925344015)", "704", "Hannen Lake", "IA 02-IOW-01810-L_0", "305(b)", "4a", "Primary Contact", "Algae; pH", "Partially Supporting", "2008", "Benton County S34T82NR11W 4 mi SW of Blairstown.", "Violations of the state criterion for pH and aesthetically objectionable conditions caused by algal turbidity", "Lake", "1", "6", "Benton", "573568.0523", "4635295.7889" ]
+, [ "row-eaip_v23s_kchp", "00000000-0000-0000-A431-A86FBE18F90E", 0, 1485802338, null, 1485802338, null, "{ }", "59", "862", "57", "POINT (-92.45828516125788 41.47700217805409)", "862", "Hawthorn Lake", "IA 03-NSK-00250-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Partially Supporting", "2010", "Mahaska County S10T77NR14W 1 mi S of Barnes City.", "Aesthetically objectionable conditions (chlorophyll TSI > 65).", "Lake", "3", "62", "Mahaska", "545229.097", "4591852.644" ]
+, [ "row-jfka_ti5n-dpc4", "00000000-0000-0000-8E8A-887136E135B5", 0, 1485802338, null, 1485802338, null, "{ }", "60", "862", "58", "POINT (-92.45828516125788 41.47700217805409)", "862", "Hawthorn Lake", "IA 03-NSK-00250-L_0", "303(d)", "5a", "Primary Contact", "Turbidity", "Fully Supporting", "2008", "Mahaska County S10T77NR14W 1 mi S of Barnes City.", "aesthetically objectionable conditions (Secchi approaching 65).", "Lake", "3", "62", "Mahaska", "545229.097", "4591852.644" ]
+, [ "row-e2dg.zd9e_wvxj", "00000000-0000-0000-9BC1-A093B889119D", 0, 1485802338, null, 1485802338, null, "{ }", "61", "862", "59", "POINT (-92.45828516125788 41.47700217805409)", "862", "Hawthorn Lake", "IA 03-NSK-00250-L_0", "303(d)", "5a", "Aquatic Life", "Turbidity", "Partially Supporting", "2008", "Mahaska County S10T77NR14W 1 mi S of Barnes City.", "Information from IDNR Fisheries shows decline in water clarity and fish populations.", "Lake", "3", "62", "Mahaska", "545229.097", "4591852.644" ]
+, [ "row-4jqt.ezyc-hmfx", "00000000-0000-0000-4E53-76BD1D561353", 0, 1485802338, null, 1485802338, null, "{ }", "62", "950", "60", "POINT (-93.35535228933375 41.985831990830974)", "950", "Hickory Grove Lake", "IA 03-SSK-00530-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2008", "Story County S24T83NR22W 2.5 mi SW of Colo.", "Violations of the geometric mean bacteria criterion.", "Lake", "1", "85", "Story", "470564.0212", "4648264.2322" ]
+, [ "row-mjud.7f38~dimh", "00000000-0000-0000-6794-8789A1E53D62", 0, 1485802338, null, 1485802338, null, "{ }", "63", "1007", "61", "POINT (-91.7529425607826 40.6297708380964)", "1007", "Indian Lake", "IA 04-LDM-00150-L_0", "305(b)", "4a", "Primary Contact", "Algae; Noxious aquatic plants", "Partially Supporting", "2004", "Van Buren County S2T67NR8W 1 mi SW of Farmington.", "Aesthetically objectionable conditions", "Lake", "1", "89", "Van Buren", "605465.3833", "4498406.8729" ]
+, [ "row-aej4.62p6-ski9", "00000000-0000-0000-5B07-5A50DBF676B5", 0, 1485802338, null, 1485802338, null, "{ }", "64", "1303", "62", "POINT (-94.69490056549301 43.319191516741455)", "1303", "Ingham Lake", "IA 04-UDM-03985-L_0", "305(b)", "4a", "Primary Contact", "Algae; Turbidity", "Not Supporting", "2004", "Emmet County S12T98NR33W 6 mi E of Wallingford.", "Aesthetically objectionable conditions; secchi and chl-a TSI >70", "Lake", "1", "32", "Emmet", "362567.4933", "4797656.2577" ]
+, [ "row-8hfg-yupp.ysnk", "00000000-0000-0000-DC01-0BD7352BA5CE", 0, 1485802338, null, 1485802338, null, "{ }", "65", "677", "63", "POINT (-92.17457298893173 41.63722374028765)", "677", "Iowa Lake", "IA 02-IOW-01150-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Partially Supporting", "2010", "Iowa County S19T79NR11W 4 mi. NNW of Millersburg.", "aesthetically objectionable conditions (chlorophyll TSI = 67)", "Lake", "3", "48", "Iowa", "568747.082", "4609827.8977" ]
+, [ "row-darm-7yib.cdet", "00000000-0000-0000-6426-85949AD771D2", 0, 1485802338, null, 1485802338, null, "{ }", "66", "677", "64", "POINT (-92.17457298893173 41.63722374028765)", "677", "Iowa Lake", "IA 02-IOW-01150-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Partially Supporting", "2012", "Iowa County S19T79NR11W 4 mi. NNW of Millersburg.", "Significantly greater than 10% of the samples exceeded the single-sample maximum in 2009.", "Lake", "3", "48", "Iowa", "568747.082", "4609827.8977" ]
+, [ "row-e7m6.gxm3_j852", "00000000-0000-0000-1E8F-8F6A010B77CA", 0, 1485802338, null, 1485802338, null, "{ }", "67", "677", "65", "POINT (-92.17457298893173 41.63722374028765)", "677", "Iowa Lake", "IA 02-IOW-01150-L_0", "303(d)", "5a", "Fish Consumption", "Mercury in fish", "Partially Supporting", "2014", "Iowa County S19T79NR11W 4 mi. NNW of Millersburg.", "Composite fillet samples from largemouth bass exceeded the 1 meal per week trigger level for both 2011 and 2012; fish consumption advisory issued", "Lake", "3", "48", "Iowa", "568747.082", "4609827.8977" ]
+, [ "row-kpg4~t7w5.pefm", "00000000-0000-0000-B9BA-CFC228DB31D3", 0, 1485802338, null, 1485802338, null, "{ }", "68", "694", "66", "POINT (-91.73052621057256 41.72499216755262)", "694", "Kent Park Lake", "IA 02-IOW-01630-L_0", "303(d)", "4a", "Primary Contact", "Algae", "Partially Supporting", "2010", "Johnson County S24T80NR8W 2.5 mi. W of Tiffin.", "Aesthetically objectionable conditions (chlorophyll TSI > 65).", "Lake", "2", "52", "Johnson", "605587.265", "4620021.7373" ]
+, [ "row-uwud~rawu_i2nc", "00000000-0000-0000-9285-4D91E46C32AD", 0, 1485802338, null, 1485802338, null, "{ }", "69", "694", "67", "POINT (-91.73052621057256 41.72499216755262)", "694", "Kent Park Lake", "IA 02-IOW-01630-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Partially Supporting", "2014", "Johnson County S24T80NR8W 2.5 mi. W of Tiffin.", "Violations to the state water quality criteria for indicator bacteria", "Lake", "2", "52", "Johnson", "605587.265", "4620021.7373" ]
+, [ "row-8giy_i8kr-vkmv", "00000000-0000-0000-29DD-4BD21D9925B0", 0, 1485802338, null, 1485802338, null, "{ }", "70", "66", "68", "POINT (-91.14200405978387 41.26782705947545)", "66", "Klum Lake", "IA 01-NEM-00115-L_0", "305(b)", "4c", "Aquatic Life", "Flow Alteration", "Partially Supporting", "2004", "Louisa County S25T75NR2W 2 mi. ESE of Grandview.", "Impairment due to a non-pollutant stressor", "Wetland", "1", "58", "Louisa", "655629.6605", "4570153.7898" ]
+, [ "row-ky6g.rzvp-6v7f", "00000000-0000-0000-8A21-1F9F57C585E6", 0, 1485802338, null, 1485802338, null, "{ }", "71", "1008", "69", "POINT (-91.97098012188317 40.70889719783996)", "1008", "Lacey Keosauqua Lake", "IA 04-LDM-00160-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Partially Supporting", "2012", "Van Buren County S2T68NR10W 1 mi S of Keosauqua", "Significantly greater than 10% of the samples exceeded the single-sample maximum criterion in 2010.", "Lake", "1", "89", "Van Buren", "586922.4901", "4506951.8276" ]
+, [ "row-q2ae~edqy.dd6h", "00000000-0000-0000-4F68-853B60F48EAC", 0, 1485802338, null, 1485802338, null, "{ }", "72", "1080", "70", "POINT (-93.59333148811483 41.29022935302913)", "1080", "Lake Ahquabi", "IA 04-LDM-02615-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Partially Supporting", "2008", "Warren County S14T75NR24W 4 mi SSW of Indianola.", "aesthetically objectionable conditions (chlorophyll TSI = 66)", "Lake", "2", "91", "Warren", "450319.3258", "4571145.8342" ]
+, [ "row-8unj~ykvq~n4rh", "00000000-0000-0000-AC6F-CB0C439667A6", 0, 1485802338, null, 1485802338, null, "{ }", "73", "1080", "71", "POINT (-93.59333148811483 41.29022935302913)", "1080", "Lake Ahquabi", "IA 04-LDM-02615-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Partially Supporting", "2012", "Warren County S14T75NR24W 4 mi SSW of Indianola.", "Significantly greater than 10% of the samples exceeded the single-sample maximum criterion in 2010.", "Lake", "2", "91", "Warren", "450319.3258", "4571145.8342" ]
+, [ "row-i74s_chqe_drex", "00000000-0000-0000-F02E-124462BB21B6", 0, 1485802338, null, 1485802338, null, "{ }", "74", "1435", "72", "POINT (-94.7810103331885 41.42777079921947)", "1435", "Lake Anita", "IA 05-NSH-00580-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Not Supporting", "2010", "Cass County S32T77NR34W 1/2 mi S Anita.", "aesthetically objectionable conditions (chlorophyll TSI = 67)", "Lake", "2", "15", "Cass", "351183.8687", "4587776.1249" ]
+, [ "row-jp9e_ez8m_b7d8", "00000000-0000-0000-D2EC-967B5F04361E", 0, 1485802338, null, 1485802338, null, "{ }", "75", "1435", "73", "POINT (-94.7810103331885 41.42777079921947)", "1435", "Lake Anita", "IA 05-NSH-00580-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2010", "Cass County S32T77NR34W 1/2 mi S Anita.", "Geometric mean violations in 2010.  Significantly greater than 10% of the samples exceeded the single-sample maximum criterion in 2010.", "Lake", "2", "15", "Cass", "351183.8687", "4587776.1249" ]
+, [ "row-p4ra.zxmc.dwj3", "00000000-0000-0000-7AAA-42731590C2A3", 0, 1485802338, null, 1485802338, null, "{ }", "76", "1264", "74", "POINT (-93.6894933755272 42.786312322745125)", "1264", "Lake Cornelia", "IA 04-UDM-02290-L_0", "305(b)", "4a", "Primary Contact", "Algae; Turbidity", "Partially Supporting", "2004", "Wright County S16T92NR24W at Cornelia.", "Aesthetically objectionable conditions", "Lake", "1", "99", "Wright", "443606.0654", "4737316.0822" ]
+, [ "row-9xq3-i7cn_398x", "00000000-0000-0000-460C-1BCC3455E5D0", 0, 1485802338, null, 1485802338, null, "{ }", "77", "924", "75", "POINT (-91.8965748210713 41.19525382205325)", "924", "Lake Darling", "IA 03-SKU-01450-L_0", "305(b)", "4a", "Aquatic Life", "Nutrients; Siltation", "Partially Supporting", "2004", "Washington County S21T74NR9W 3 mi W of Brighton.", "Average levels of secchi depth, total-P, and TSS were worse than overall averages for the 86 SPO impoundments sampled in 1990 and 1992", "Lake", "1", "92", "Washington", "592526.1191", "4561019.3014" ]
+, [ "row-zyui-skev-i2qr", "00000000-0000-0000-001E-C3BF90C3E98E", 0, 1485802338, null, 1485802338, null, "{ }", "78", "356", "76", "POINT (-92.5457836278918 43.374571032895325)", "356", "Lake Hendricks", "IA 01-WPS-00375-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Partially Supporting", "2004", "Howard County S19T99NR14W 0.5 mi NE of Riceville.", "Aesthetically objectionable conditions (chlorophyll TSI > 65).", "Lake", "3", "45", "Howard", "536796.7664", "4802511.8078" ]
+, [ "row-te3a-zxfb-jthh", "00000000-0000-0000-D2D3-2A1BA3F42DC2", 0, 1485802338, null, 1485802338, null, "{ }", "79", "356", "77", "POINT (-92.5457836278918 43.374571032895325)", "356", "Lake Hendricks", "IA 01-WPS-00375-L_0", "303(d)", "5a", "Aquatic Life", "pH", "Partially Supporting", "2006", "Howard County S19T99NR14W 0.5 mi NE of Riceville.", "significantly more than 10% of the samples violated the pH criteria", "Lake", "3", "45", "Howard", "536796.7664", "4802511.8078" ]
+, [ "row-cefx_dr66_nzcz", "00000000-0000-0000-7DB9-DC56F11F32C0", 0, 1485802338, null, 1485802338, null, "{ }", "80", "356", "78", "POINT (-92.5457836278918 43.374571032895325)", "356", "Lake Hendricks", "IA 01-WPS-00375-L_0", "303(d)", "5a", "Primary Contact", "pH", "Partially Supporting", "2006", "Howard County S19T99NR14W 0.5 mi NE of Riceville.", "significantly more than 10% of the samples violated the pH criteria", "Lake", "3", "45", "Howard", "536796.7664", "4802511.8078" ]
+, [ "row-xaip.q7je-i8yk", "00000000-0000-0000-55C7-22F3C306CFD9", 0, 1485802338, null, 1485802338, null, "{ }", "81", "930", "79", "POINT (-92.53961067469301 41.29398973718823)", "930", "Lake Keomah", "IA 03-SSK-00120-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2008", "Mahaska County S13T75NR15W 4.5 mi E of Oskaloosa.", "Violations of the geometric mean bacteria criterion.", "Lake", "7", "62", "Mahaska", "538546.9468", "4571495.7494" ]
+, [ "row-d9nq-pexb~imuw", "00000000-0000-0000-CE3D-AFE32E2E269E", 0, 1485802338, null, 1485802338, null, "{ }", "82", "930", "80", "POINT (-92.53961067469301 41.29398973718823)", "930", "Lake Keomah", "IA 03-SSK-00120-L_0", "303(d)", "5a", "Fish Consumption", "Mercury in fish", "Partially Supporting", "2012", "Mahaska County S13T75NR15W 4.5 mi E of Oskaloosa.", "Fish consumption advisory for mercury", "Lake", "7", "62", "Mahaska", "538546.9468", "4571495.7494" ]
+, [ "row-rc7k_cmve_sap3", "00000000-0000-0000-9CF5-305969A86D29", 0, 1485802338, null, 1485802338, null, "{ }", "83", "930", "81", "POINT (-92.53961067469301 41.29398973718823)", "930", "Lake Keomah", "IA 03-SSK-00120-L_0", "303(d)", "5a", "Aquatic Life", "Low DO/Organic Enrichment", "Partially Supporting", "2014", "Mahaska County S13T75NR15W 4.5 mi E of Oskaloosa.", "Significantly greater than 10% of samples violating water quality standards for oxygen", "Lake", "7", "62", "Mahaska", "538546.9468", "4571495.7494" ]
+, [ "row-wdd7_mj6x_vxjz", "00000000-0000-0000-3707-3FCEA059E821", 0, 1485802338, null, 1485802338, null, "{ }", "84", "629", "82", "POINT (-91.56672814559666 41.79698841458975)", "629", "Lake Macbride", "IA 02-IOW-00390-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Not Supporting", "2010", "Johnson County S29T81NR6W 4 mi. W of Solon.", "aesthetically objectionable conditions (chlorophyll TSI approaching 65)", "Lake", "3", "52", "Johnson", "619078.1147", "4628229.2583" ]
+, [ "row-9k2y_gd3r_hbdy", "00000000-0000-0000-E1A7-4BCFE561EB52", 0, 1485802338, null, 1485802338, null, "{ }", "85", "629", "83", "POINT (-91.56672814559666 41.79698841458975)", "629", "Lake Macbride", "IA 02-IOW-00390-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2006", "Johnson County S29T81NR6W 4 mi. W of Solon.", "geometric mean > WQS", "Lake", "3", "52", "Johnson", "619078.1147", "4628229.2583" ]
+, [ "row-mq2e~nygv_f2ma", "00000000-0000-0000-AAE6-966AB295FF22", 0, 1485802338, null, 1485802338, null, "{ }", "86", "629", "84", "POINT (-91.56672814559666 41.79698841458975)", "629", "Lake Macbride", "IA 02-IOW-00390-L_0", "305(b)", "4a", "Aquatic Life", "Nutrients; Siltation", "Partially Supporting", "2006", "Johnson County S29T81NR6W 4 mi. W of Solon.", "Aesthetically objectionable conditions; Secchi Trophic state index =66 Chl-a TSI =60", "Lake", "3", "52", "Johnson", "619078.1147", "4628229.2583" ]
+, [ "row-4spz~x9tn_piha", "00000000-0000-0000-CEAE-ADDB964CBCB6", 0, 1485802338, null, 1485802338, null, "{ }", "87", "1711", "85", "POINT (-95.8600676485172 41.206588299737454)", "1711", "Lake Manawa", "IA 06-WEM-00235-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Not Supporting", "2004", "Pottawattamie County S13T74NR44W S edge Council Bluffs", "aesthetically objectionable conditions; Chl-a TSI =65", "Lake", "2", "78", "Pottawattamie", "260203.2111", "4565635.2946" ]
+, [ "row-jp8j~ydsn.jk3m", "00000000-0000-0000-58D9-B23D77D56232", 0, 1485802338, null, 1485802338, null, "{ }", "88", "1711", "86", "POINT (-95.8600676485172 41.206588299737454)", "1711", "Lake Manawa", "IA 06-WEM-00235-L_0", "303(d)", "5a", "Primary Contact", "Turbidity", "Not Supporting", "2004", "Pottawattamie County S13T74NR44W S edge Council Bluffs", "aesthetically objectionable conditions; Secchi trophic state index =72", "Lake", "2", "78", "Pottawattamie", "260203.2111", "4565635.2946" ]
+, [ "row-gqu4_a74b-vcrk", "00000000-0000-0000-2DD6-D271F7560CBD", 0, 1485802338, null, 1485802338, null, "{ }", "89", "158", "87", "POINT (-91.91005148721838 43.17527834546891)", "158", "Lake Meyer", "IA 01-TRK-02245-L_0", "305(b)", "4a", "Primary Contact", "Algae; Nutrients", "Partially Supporting", "2006", "Winneshiek County S34T97NR9W 3 mi SW of Calmar.", "Aesthetically objectionable conditions;", "Lake", "1", "96", "Winneshiek", "588587.3122", "4780856.0325" ]
+, [ "row-v4c9-whn3.5hhr", "00000000-0000-0000-1BF6-4600EA0181DF", 0, 1485802338, null, 1485802338, null, "{ }", "90", "1016", "88", "POINT (-92.84571242129046 41.11654872006637)", "1016", "Lake Miami", "IA 04-LDM-00270-L_0", "303(d)", "5a", "Fish Consumption", "Mercury in fish", "Partially Supporting", "2012", "Monroe County S20T73NR17W 5 mi. SE of Lovilia.", "Fish consumption advisory for mercury", "Lake", "2", "68", "Monroe", "512952.9398", "4551706.6752" ]
+, [ "row-ynip_fjkr.c2tf", "00000000-0000-0000-B035-6F1DF87679A4", 0, 1485802338, null, 1485802338, null, "{ }", "91", "1016", "89", "POINT (-92.84571242129046 41.11654872006637)", "1016", "Lake Miami", "IA 04-LDM-00270-L_0", "305(b)", "4a", "Aquatic Life", "Siltation", "Partially Supporting", "2004", "Monroe County S20T73NR17W 5 mi. SE of Lovilia.", "Trophic state indices for Secchi depth, chlorophyll a, and total phosphorus were 70, 72, and 72 respectively", "Lake", "2", "68", "Monroe", "512952.9398", "4551706.6752" ]
+, [ "row-6y7h~zdn4-3r2t", "00000000-0000-0000-E02E-C2785F715BFC", 0, 1485802338, null, 1485802338, null, "{ }", "92", "68", "90", "POINT (-90.67733019213367 41.52146502325899)", "68", "Lake Of The Hills", "IA 01-NEM-00160-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Partially Supporting", "2010", "Scott County S25T78NR2E 1/4 mi W of Davenport.", "Aesthetically objectionable conditions (chlorophyll TSI > 65).", "Lake", "2", "82", "Scott", "693798.9608", "4599251.9799" ]
+, [ "row-28uw-g8s8-7ig3", "00000000-0000-0000-2461-D77FBCF999E0", 0, 1485802338, null, 1485802338, null, "{ }", "93", "68", "91", "POINT (-90.67733019213367 41.52146502325899)", "68", "Lake Of The Hills", "IA 01-NEM-00160-L_0", "303(d)", "5a", "Primary Contact", "Turbidity", "Partially Supporting", "2014", "Scott County S25T78NR2E 1/4 mi W of Davenport.", "Aesthetically objectionable conditions (Secchi TSI = 66).", "Lake", "2", "82", "Scott", "693798.9608", "4599251.9799" ]
+, [ "row-fnfa-hern-ashm", "00000000-0000-0000-ABA7-3C67966186F8", 0, 1485802338, null, 1485802338, null, "{ }", "94", "1476", "92", "POINT (-94.69018766676173 40.71155434250384)", "1476", "Lake Of Three Fires", "IA 05-PLA-00335-L_0", "303(d)", "5a", "Aquatic Life", "Low DO/Organic Enrichment", "Partially Supporting", "2014", "Taylor County S12T68NR34W 2 mi NNE of Bedford.", "Significantly greater than 10% of the samples exceed the dissolved oxygen criteria.", "Lake", "3", "87", "Taylor", "357231.6134", "4508111.3787" ]
+, [ "row-ptfc.iuk7-e95h", "00000000-0000-0000-4F93-602AE0F6B61C", 0, 1485802338, null, 1485802338, null, "{ }", "95", "1532", "93", "POINT (-96.46901046371848 43.38330117684045)", "1532", "Lake Pahoja", "IA 06-BSR-00280-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Not Supporting", "2008", "Lyon County S23T99NR48W 5 mi SSW of Larchwood.", "aesthetically objectionable conditions (chlorophyll TSI = 68)", "Lake", "3", "60", "Lyon", "219000.7068", "4809227.8741" ]
+, [ "row-448b.62jh~6yyz", "00000000-0000-0000-46E9-E9CE193A082E", 0, 1485802338, null, 1485802338, null, "{ }", "96", "1532", "94", "POINT (-96.46901046371848 43.38330117684045)", "1532", "Lake Pahoja", "IA 06-BSR-00280-L_0", "303(d)", "5a", "Primary Contact", "pH", "Partially Supporting", "2012", "Lyon County S23T99NR48W 5 mi SSW of Larchwood.", "Significantly greater than 10% of samples exceed the Class A1 pH criteria.", "Lake", "3", "60", "Lyon", "219000.7068", "4809227.8741" ]
+, [ "row-jeeg.itsm.u949", "00000000-0000-0000-2613-95AA26D0BC00", 0, 1485802338, null, 1485802338, null, "{ }", "97", "1532", "95", "POINT (-96.46901046371848 43.38330117684045)", "1532", "Lake Pahoja", "IA 06-BSR-00280-L_0", "303(d)", "5a", "Aquatic Life", "pH", "Partially Supporting", "2012", "Lyon County S23T99NR48W 5 mi SSW of Larchwood.", "Significantly greater than 10% of samples exceed the Class B(LW) pH criteria.", "Lake", "3", "60", "Lyon", "219000.7068", "4809227.8741" ]
+, [ "row-fvuh-7mv5_9xmu", "00000000-0000-0000-0223-3F9BB7147B90", 0, 1485802338, null, 1485802338, null, "{ }", "98", "981", "96", "POINT (-94.24157170238595 43.123950633339014)", "981", "Lake Smith", "IA 04-EDM-00610-L_0", "305(b)", "4a", "Primary Contact", "Algae", "Partially Supporting", "2008", "Kossuth County S36T96NR29W 3 mi. N of Algona.", "Trophic state indices for Secchi depth, chlorophyll a, and total phosphorus were 63, 68, and 73 respectively", "Lake", "1", "55", "Kossuth", "399004.6634", "4775327.5267" ]
+, [ "row-qbhj~w38p.vupn", "00000000-0000-0000-4B59-728263002E34", 0, 1485802338, null, 1485802338, null, "{ }", "99", "1035", "97", "POINT (-92.58284135771119 40.81514702396395)", "1035", "Lake Wapello", "IA 04-LDM-00995-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Partially Supporting", "2012", "Davis County S34T70NR15 7 mi. W of Drakesville.", "Significantly greater than 10% of the samples exceeded the single-sample maximum criterion in 2010.", "Lake", "2", "26", "Davis", "535181.5613", "4518320.6712" ]
+, [ "row-xeyp-3aqe.frx2", "00000000-0000-0000-0409-5881F7182CDE", 0, 1485802338, null, 1485802338, null, "{ }", "100", "1035", "98", "POINT (-92.58284135771119 40.81514702396395)", "1035", "Lake Wapello", "IA 04-LDM-00995-L_0", "303(d)", "5a", "Fish Consumption", "Mercury in fish", "Partially Supporting", "2014", "Davis County S34T70NR15 7 mi. W of Drakesville.", "IDNR fish contaminant monitoring showed average Hg level of 1.212 ppm in 2013 largemouth bass tissue plugs but lower levels in 2014 follow-up monitoring.", "Lake", "2", "26", "Davis", "535181.5613", "4518320.6712" ]
+, [ "row-iv32_72xh.fdby", "00000000-0000-0000-ABC8-9D24111CD2A7", 0, 1485802338, null, 1485802338, null, "{ }", "101", "1758", "99", "POINT (-94.32237753224186 41.78521966793436)", "1758", "Lakin Slough", "IA 04-RAC-0280-L_0", "305(b)", "4c", "General Use", "Turbidity", "Not Supporting", "2010", "Guthrie County S34T81NR30W 2 mi ENE of Yale.", "Aesthetically objectionable/nuisance conditions; caused by overpopulation of carp.", "Wetland", "1", "39", "Guthrie", "390115.2241", "4626774.8984" ]
+, [ "row-n8mw.w636.w6zg", "00000000-0000-0000-C175-8262ED9C386D", 0, 1485802338, null, 1485802338, null, "{ }", "102", "1176", "100", "POINT (-94.90038390535621 42.73217837501151)", "1176", "Little Clear Lake", "IA 04-RAC-01620-L_0", "305(b)", "4c", "Aquatic Life", "Exotic species", "Partially Supporting", "2004", "Pocahontas County S6T91NR34W 11 mi W of Pocahontas.", "Purple loosestrife infestation.", "Wetland", "1", "76", "Pocahontas", "344429.479", "4732825.3962" ]
+, [ "row-q4ai-rpj6~whb4", "00000000-0000-0000-1F9A-C421243971FD", 0, 1485802338, null, 1485802338, null, "{ }", "103", "1358", "101", "POINT (-93.7807703886928 40.76471779470521)", "1358", "Little River Watershed Lake", "IA 05-GRA-00810-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2014", "Decatur County S19T69NR25W approx 2 mi NW of Leon.", "E.coli concentrations exceeded the state WQS", "Lake", "2", "27", "Decatur", "434102.7638", "4512932.2204" ]
+, [ "row-j43y-57y7~n84y", "00000000-0000-0000-54BA-4B98CF330B4E", 0, 1485802338, null, 1485802338, null, "{ }", "104", "1358", "102", "POINT (-93.7807703886928 40.76471779470521)", "1358", "Little River Watershed Lake", "IA 05-GRA-00810-L_0", "305(b)", "4a", "Primary Contact", "Turbidity; Phosphorus", "Partially Supporting", "2004", "Decatur County S19T69NR25W approx 2 mi NW of Leon.", "Levels of turbidity as measured by inorganic suspended solids exceed TSI impairment theshold for Class A1uses.", "Lake", "2", "27", "Decatur", "434102.7638", "4512932.2204" ]
+, [ "row-dxkk.c4jn-itnj", "00000000-0000-0000-1D3C-EEF6EF8DEB7F", 0, 1485802338, null, 1485802338, null, "{ }", "105", "1568", "103", "POINT (-95.80147921001547 42.44734785197222)", "1568", "Little Sioux Park Lake", "IA 06-LSR-00250-L_0", "303(d)", "5a", "Aquatic Life", "pH", "Partially Supporting", "2008", "Woodbury County S12T89NR42W 2 mi SSW of Correctionville.", "Significantly greater than 10% of the samples exceed the pH criterion.", "Lake", "2", "97", "Woodbury", "269611.9409", "4703249.6686" ]
+, [ "row-t2r2_dxy4~38xu", "00000000-0000-0000-460A-5EF82C5904EA", 0, 1485802338, null, 1485802338, null, "{ }", "106", "1568", "104", "POINT (-95.80147921001547 42.44734785197222)", "1568", "Little Sioux Park Lake", "IA 06-LSR-00250-L_0", "303(d)", "5a", "Primary Contact", "pH", "Partially Supporting", "2008", "Woodbury County S12T89NR42W 2 mi SSW of Correctionville.", "Significantly greater than 10% of the samples exceed the pH criterion.", "Lake", "2", "97", "Woodbury", "269611.9409", "4703249.6686" ]
+, [ "row-sq9t-tsm8_q5xk", "00000000-0000-0000-6F25-2AF00A124762", 0, 1485802338, null, 1485802338, null, "{ }", "107", "1659", "105", "POINT (-95.12479102739478 43.49743738823735)", "1659", "Little Spirit Lake", "IA 06-LSR-02870-L_0", "305(b)", "4a", "Primary Contact", "Algae; Turbidity", "Not Supporting", "2004", "Dickinson County S8T100NR36W 5 mi. NE of Montgomery.", "Aesthetically objectionable conditions; Chl-a TSI =66 Secchi = 70", "Lake", "1", "30", "Dickinson", "328213.3032", "4818249.8283" ]
+, [ "row-3idh.mkh8.rpt4", "00000000-0000-0000-48E7-0291F1BDAA7B", 0, 1485802338, null, 1485802338, null, "{ }", "108", "941", "106", "POINT (-93.63650320245881 42.269506786408876)", "941", "Little Wall Lake", "IA 03-SSK-00360-L_0", "305(b)", "4a", "Primary Contact", "Algae; Turbidity", "Not Supporting", "2004", "Hamilton County S10T86NR24W 1 mi. S of Jewell", "Aesthetically objectionable conditions", "Lake", "1", "40", "Hamilton", "447509.2299", "4679896.0741" ]
+, [ "row-86ez_jfyj~6xwz", "00000000-0000-0000-07FE-C6BB6A0ABFA8", 0, 1485802338, null, 1485802338, null, "{ }", "109", "1439", "107", "POINT (-94.7847906015967 41.55906639888154)", "1439", "Littlefield Lake", "IA 05-NSH-00675-L_0", "305(b)", "4a", "Primary Contact", "Algae; Turbidity", "Not Supporting", "2004", "Audubon County S17T78NR34W approx 4 mi SE of Exira.", "Aesthetically objectionable conditions; Chl-a TSI =69 Secchi = 69", "Lake", "1", "5", "Audubon", "351168.9329", "4602359.8182" ]
+, [ "row-arfd_kcjv.5k9t", "00000000-0000-0000-9DB6-A3CCB463E9FC", 0, 1485802338, null, 1485802338, null, "{ }", "110", "1281", "108", "POINT (-94.49443642702555 42.671725060357375)", "1281", "Lizard Lake", "IA 04-UDM-03110-L_0", "303(d)", "5a", "Aquatic Life", "Algae", "Not Supporting", "2010", "Pocahontas County S22T91NR34W 4 mi SW of Gilmore City.", "Algae levels (chlorophyll TSI = 84) adversely impact fish and plant communities.", "Wetland", "2", "76", "Pocahontas", "377543.3448", "4725444.0475" ]
+, [ "row-iszr-3aih_b3rn", "00000000-0000-0000-D977-8ADAD4DC99DC", 0, 1485802338, null, 1485802338, null, "{ }", "111", "1281", "109", "POINT (-94.49443642702555 42.671725060357375)", "1281", "Lizard Lake", "IA 04-UDM-03110-L_0", "303(d)", "5a", "Aquatic Life", "Turbidity", "Not Supporting", "2010", "Pocahontas County S22T91NR34W 4 mi SW of Gilmore City.", "Turbidity levels (Secchi TSI = 78) adversely impact fish and plant communities.", "Wetland", "2", "76", "Pocahontas", "377543.3448", "4725444.0475" ]
+, [ "row-erna~26af_ygh3", "00000000-0000-0000-F78B-59ED9EF092EC", 0, 1485802338, null, 1485802338, null, "{ }", "112", "1632", "110", "POINT (-94.90412341493241 43.17474941965232)", "1632", "Lost Island Lake", "IA 06-LSR-02390-L_0", "305(b)", "4a", "Primary Contact", "Turbidity", "Not Supporting", "2004", "Palo Alto County S31T97NR34W 3 mi N of Ruthven.", "Aesthetically objectionable conditions; Secchi Trophic state index =71, Chl-a TSI =60", "Lake", "1", "74", "Palo Alto", "345236.73", "4781980.639" ]
+, [ "row-ugvu~5k84_hupe", "00000000-0000-0000-EA71-09CB62BDE578", 0, 1485802338, null, 1485802338, null, "{ }", "113", "758", "111", "POINT (-93.07506610579043 42.36872755827871)", "758", "Lower Pine Lake", "IA 02-IOW-0330-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2006", "Hardin County S4T87NR19W 0.5 mi E of Eldora.", "geometric mean > WQS", "Lake", "2", "42", "Hardin", "493819.2227", "4690719.6719" ]
+, [ "row-ijv4.6yi7_w3h9", "00000000-0000-0000-E18A-E5999A039042", 0, 1485802338, null, 1485802338, null, "{ }", "114", "758", "112", "POINT (-93.07506610579043 42.36872755827871)", "758", "Lower Pine Lake", "IA 02-IOW-0330-L_0", "305(b)", "4a", "Aquatic Life; Primary Contact", "Organic Enrichment", "Partially Supporting", "2004", "Hardin County S4T87NR19W 0.5 mi E of Eldora.", "High levels of algal and non-algal turbidity", "Lake", "2", "42", "Hardin", "493819.2227", "4690719.6719" ]
+, [ "row-z59p~3n6q.888w", "00000000-0000-0000-977B-4CD050F6A386", 0, 1485802338, null, 1485802338, null, "{ }", "115", "867", "113", "POINT (-92.9641897276777 41.778790223244876)", "867", "Mariposa Lake", "IA 03-NSK-00350-L_0", "305(b)", "4a", "Aquatic Life; Primary Contact", "Algae; Turbidity", "Partially Supporting", "2004", "Jasper County S32T81NR18W 6 mi. NE of Newton.", "Both swimmable and fishable uses were assessed as Partially Supported for the 1992 report", "Lake", "1", "50", "Jasper", "502975.9709", "4625216.6512" ]
+, [ "row-af37_vrjw.54zv", "00000000-0000-0000-D503-A36788B1F74B", 0, 1485802338, null, 1485802338, null, "{ }", "116", "1470", "114", "POINT (-94.38531923345428 41.05343303514284)", "1470", "McKinley Lake", "IA 05-PLA-00285-L_0", "303(d)", "5a", "Fish Consumption", "PCBs in fish", "Partially Supporting", "2012", "Union County S11T72NR31W at W edge of Creston.", "Fish consumption advisory for PCBs", "Lake", "1", "88", "Union", "383585.0902", "4545613.063" ]
+, [ "row-8asw.f7tc-b86r", "00000000-0000-0000-4630-5E95D63687A8", 0, 1485802338, null, 1485802338, null, "{ }", "117", "1089", "115", "POINT (-94.43920267036847 41.38466767900388)", "1089", "Meadow Lake", "IA 04-LDM-02870-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Partially Supporting", "2004", "Adair County S17T76NR31W 5 mi N of Greenfield.", "Aesthetically objectionable conditions (chlorophyll TSI > 65).", "Lake", "1", "1", "Adair", "379665.6699", "4582459.5224" ]
+, [ "row-x29p.d49g~4ii6", "00000000-0000-0000-C767-11B8B45B9653", 0, 1485802338, null, 1485802338, null, "{ }", "118", "463", "116", "POINT (-92.29068333504912 42.461427149602436)", "463", "Meyers Lake", "IA 02-CED-00460-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Partially Supporting", "2008", "Black Hawk County S6T88NR12W at Waterloo.", "Aesthetically objectionable conditions (chlorophyll TSI > 65).", "Lake", "1", "7", "Black Hawk", "558317.7509", "4701253.725" ]
+, [ "row-tu28~k2v3.zbj5", "00000000-0000-0000-302D-66A64B494A20", 0, 1485802338, null, 1485802338, null, "{ }", "119", "1587", "117", "POINT (-95.48017747224642 42.35794925135156)", "1587", "Moorehead Park Pond", "IA 06-LSR-00805-L_0", "303(d)", "5a", "Aquatic Life", "pH", "Partially Supporting", "2008", "Ida County S10T87NR39W 0.5 mi N of Ida Grove.", "Significantly greater than 10% of the samples exceed the pH criterion.", "Lake", "1", "47", "Ida", "295746.7785", "4692499.6909" ]
+, [ "row-ni4a.mjh4-iywc", "00000000-0000-0000-CC70-B99D63737082", 0, 1485802338, null, 1485802338, null, "{ }", "120", "1404", "118", "POINT (-94.63430702530609 41.24222135455426)", "1404", "Mormon Trail Lake", "IA 05-NOD-00820-L_0", "303(d)", "5a", "Fish Consumption", "Mercury in fish", "Partially Supporting", "2008", "Adair County S17T76NR31W 1.5 mi SE of Bridgewater.", "Fish consumption advisory (1 meal/week) issued.", "Lake", "1", "1", "Adair", "363054.2264", "4566934.2688" ]
+, [ "row-b49u.vdi9_vzns", "00000000-0000-0000-B51C-8C64F23970DE", 0, 1485802338, null, 1485802338, null, "{ }", "121", "1361", "119", "POINT (-93.77009908960362 40.59835056191668)", "1361", "Nine Eagles Lake", "IA 05-GRA-01010-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2006", "Decatur County S18T67NR25W 3.5 mi. SE of Davis City.", "geometric mean > WQS", "Lake", "2", "27", "Decatur", "434841.6207", "4494456.6883" ]
+, [ "row-ygap~75pn~sm9p", "00000000-0000-0000-B352-A3F4622B037A", 0, 1485802338, null, 1485802338, null, "{ }", "122", "1361", "120", "POINT (-93.77009908960362 40.59835056191668)", "1361", "Nine Eagles Lake", "IA 05-GRA-01010-L_0", "303(d)", "5a", "Fish Consumption", "Mercury in fish", "Not Supporting", "2006", "Decatur County S18T67NR25W 3.5 mi. SE of Davis City.", "> IDNR/IDPH trigger level for 1 meal/week advisory; consumption advisory issued in 2006", "Lake", "2", "27", "Decatur", "434841.6207", "4494456.6883" ]
+, [ "row-ujzu_kbhj_2y3f", "00000000-0000-0000-5AD1-9855ED8450A9", 0, 1485802338, null, 1485802338, null, "{ }", "123", "1167", "121", "POINT (-94.62971413770464 42.48452701912097)", "1167", "North Twin Lake", "IA 04-RAC-01390-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Partially Supporting", "2012", "Calhoun County S1T88NR33W 4 mi N of Rockwell City.", "Significantly greater than 10% of the samples exceeded the single sample maximum in 2010.", "Lake", "2", "13", "Calhoun", "366058.0642", "4704861.7288" ]
+, [ "row-uga6~mxby_dxts", "00000000-0000-0000-DDEE-60D9FE27A5E1", 0, 1485802338, null, 1485802338, null, "{ }", "124", "1167", "122", "POINT (-94.62971413770464 42.48452701912097)", "1167", "North Twin Lake", "IA 04-RAC-01390-L_0", "305(b)", "4a", "Primary Contact", "Algae; Turbidity", "Partially Supporting", "2004", "Calhoun County S1T88NR33W 4 mi N of Rockwell City.", "Aesthetically objectionable conditions", "Lake", "2", "13", "Calhoun", "366058.0642", "4704861.7288" ]
+, [ "row-j435~3hmj~ir6y", "00000000-0000-0000-9776-4862A6581ECB", 0, 1485802338, null, 1485802338, null, "{ }", "125", "1396", "123", "POINT (-94.43644466071073 41.1975527026565)", "1396", "Orient Lake", "IA 05-NOD-00485-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Not Supporting", "2008", "Adair County S20T74NR31W approx 1 mi SW of Orient.", "Aesthetically objectionable conditions (chlorophyll TSI = 67).", "Lake", "4", "1", "Adair", "379552.5347", "4561682.2491" ]
+, [ "row-4fae-gumt~f58r", "00000000-0000-0000-DB03-B633DC8A4C91", 0, 1485802338, null, 1485802338, null, "{ }", "126", "1396", "124", "POINT (-94.43644466071073 41.1975527026565)", "1396", "Orient Lake", "IA 05-NOD-00485-L_0", "303(d)", "5a", "Primary Contact", "pH", "Not Supporting", "2008", "Adair County S20T74NR31W approx 1 mi SW of Orient.", "Significantly greater than 10% of the samples exceed the pH criterion.", "Lake", "4", "1", "Adair", "379552.5347", "4561682.2491" ]
+, [ "row-jjqm-xuqv~6b4m", "00000000-0000-0000-D862-A796F16FC217", 0, 1485802338, null, 1485802338, null, "{ }", "127", "1396", "125", "POINT (-94.43644466071073 41.1975527026565)", "1396", "Orient Lake", "IA 05-NOD-00485-L_0", "303(d)", "5a", "Aquatic Life", "pH", "Partially Supporting", "2008", "Adair County S20T74NR31W approx 1 mi SW of Orient.", "Significantly greater than 10% of the samples exceed the pH criterion.", "Lake", "4", "1", "Adair", "379552.5347", "4561682.2491" ]
+, [ "row-5psp.uiv9_jeiu", "00000000-0000-0000-E312-F7DD81EF231C", 0, 1485802338, null, 1485802338, null, "{ }", "128", "1396", "126", "POINT (-94.43644466071073 41.1975527026565)", "1396", "Orient Lake", "IA 05-NOD-00485-L_0", "305(b)", "4a", "Aquatic Life", "Nutrients", "Partially Supporting", "2002", "Adair County S20T74NR31W approx 1 mi SW of Orient.", "Siltation/nutrient impacts to aquatic life", "Lake", "4", "1", "Adair", "379552.5347", "4561682.2491" ]
+, [ "row-xtyv~qq4d~kzh5", "00000000-0000-0000-C04C-863DB776E6C6", 0, 1485802338, null, 1485802338, null, "{ }", "129", "720", "127", "POINT (-92.51955660074542 42.04433665017196)", "720", "Otter Creek Lake", "IA 02-IOW-02095-L_0", "305(b)", "4a", "Primary Contact", "Algae", "Not Supporting", "2008", "Tama County S31T84NR14W 5 mi NE of Toledo.", "Using the median values from surveys from 2002 through 2006 (approximately 20 samples), CarlsonΓÇÖs trophic state indices for Secchi depth, chlorophyll a, and total phosphorus were 67, 71, and 66 respectively", "Lake", "1", "86", "Tama", "539761.5961", "4654810.5373" ]
+, [ "row-868h_xmsv-zqt8", "00000000-0000-0000-BF13-F0F23D6B9BED", 0, 1485802338, null, 1485802338, null, "{ }", "130", "1014", "128", "POINT (-92.42780355412846 41.0106413561328)", "1014", "Ottumwa Lagoon", "IA 04-LDM-00215-L_0", "303(d)", "5b", "Aquatic Life", "Biological:  Unknown Toxicity", "Not Supporting", "2008", "Wapello County S25T72NR14W at Ottumwa.", "Fish kill caused by a spill of petroleum products.", "Lake", "2", "90", "Wapello", "548114.9694", "4540096.0126" ]
+, [ "row-havh-9e3q.i96b", "00000000-0000-0000-9A45-89AFFCEEB7EA", 0, 1485802338, null, 1485802338, null, "{ }", "131", "1014", "129", "POINT (-92.42780355412846 41.0106413561328)", "1014", "Ottumwa Lagoon", "IA 04-LDM-00215-L_0", "305(b)", "4a", "Primary Contact", "Algae; Turbidity; Chlordane", "Not Supporting", "2004", "Wapello County S25T72NR14W at Ottumwa.", "Aesthetically objectionable conditions", "Lake", "2", "90", "Wapello", "548114.9694", "4540096.0126" ]
+, [ "row-38n4_3maa~ymtt", "00000000-0000-0000-6A42-21A8A557C060", 0, 1485802338, null, 1485802338, null, "{ }", "132", "1180", "130", "POINT (-94.92104553857469 42.90605594086509)", "1180", "Pickerel Lake", "IA 04-RAC-01690-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Not Supporting", "2010", "Buena Vista County S1T93NR35W 4 mi NE of Marathon.", "Aesthetically objectionable conditions:  chlorophyll TSI is greater than 65.", "Wetland", "4", "11", "Buena Vista", "343178.209", "4752172.7263" ]
+, [ "row-ekhg_sye7-tt5w", "00000000-0000-0000-BF30-C27C4B3A0DBA", 0, 1485802338, null, 1485802338, null, "{ }", "133", "1180", "131", "POINT (-94.92104553857469 42.90605594086509)", "1180", "Pickerel Lake", "IA 04-RAC-01690-L_0", "303(d)", "5a", "Aquatic Life", "Algae", "Not Supporting", "2010", "Buena Vista County S1T93NR35W 4 mi NE of Marathon.", "Algae levels (chlorophyll TSI = 78) adversely impact fish and plant communities.", "Wetland", "4", "11", "Buena Vista", "343178.209", "4752172.7263" ]
+, [ "row-8cid.qygm~mxs3", "00000000-0000-0000-9C09-49B1FCBE5ECF", 0, 1485802338, null, 1485802338, null, "{ }", "134", "1180", "132", "POINT (-94.92104553857469 42.90605594086509)", "1180", "Pickerel Lake", "IA 04-RAC-01690-L_0", "303(d)", "5a", "Primary Contact", "Turbidity", "Not Supporting", "2010", "Buena Vista County S1T93NR35W 4 mi NE of Marathon.", "Aesthetically objectionable conditions (Secchi TSI > 65).", "Wetland", "4", "11", "Buena Vista", "343178.209", "4752172.7263" ]
+, [ "row-tksa_muc5~e3qj", "00000000-0000-0000-D4A7-03C11348E3FF", 0, 1485802338, null, 1485802338, null, "{ }", "135", "1180", "133", "POINT (-94.92104553857469 42.90605594086509)", "1180", "Pickerel Lake", "IA 04-RAC-01690-L_0", "303(d)", "5a", "Aquatic Life", "Turbidity", "Not Supporting", "2010", "Buena Vista County S1T93NR35W 4 mi NE of Marathon.", "Turbidity levels (Secchi TSI = 76) adversely impact fish and plant communities.", "Wetland", "4", "11", "Buena Vista", "343178.209", "4752172.7263" ]
+, [ "row-bwfu_d5ct.x73c", "00000000-0000-0000-72F4-07F866AF9D84", 0, 1485802338, null, 1485802338, null, "{ }", "136", "1416", "134", "POINT (-95.35791323713941 40.832611065646645)", "1416", "Pierce Creek Pond", "IA 05-NSH-00220-L_0", "305(b)", "4a", "Primary Contact", "Turbidity", "Not Supporting", "2004", "Page County S29T70NR39W 4 mi N of Shenandoah.", "Aesthetically objectionable conditions; Secchi Trophic state index =72, Chl-a TSI =62", "Lake", "1", "73", "Page", "301186.8025", "4522851.2388" ]
+, [ "row-mptk~gvpj_fcuv", "00000000-0000-0000-68EE-28508F46DBDC", 0, 1485802338, null, 1485802338, null, "{ }", "137", "459", "135", "POINT (-91.82402364732638 42.121389412177756)", "459", "Pleasant Creek Lake", "IA 02-CED-00310-L_0", "303(d)", "5a", "Aquatic Life", "Indicator Bacteria", "Fully Supporting", "2012", "Linn County S31T85NR8W 4 mi. NNW of Palo.", "Significantly greater than 10% of the samples exceeded the single sample maximum in 2010.", "Lake", "1", "57", "Linn", "597206.944", "4663923.2185" ]
+, [ "row-b2th.rdui~pwfx", "00000000-0000-0000-7024-F1651E8DA028", 0, 1485802338, null, 1485802338, null, "{ }", "138", "1462", "136", "POINT (-95.21974002988736 41.602974233798754)", "1462", "Prairie Rose Lake", "IA 05-NSH-01440-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Not Supporting", "2004", "Shelby County S36T79NR38W 6 mi SE of Harlan.", "Aesthetically objectionable conditions (chlorophyll-a TSI = 68; Secchi TSI= 66)", "Lake", "3", "83", "Shelby", "315022.5612", "4608076.177" ]
+, [ "row-5jjx-zbqi-84fz", "00000000-0000-0000-7835-26FEACECC010", 0, 1485802338, null, 1485802338, null, "{ }", "139", "1462", "137", "POINT (-95.21974002988736 41.602974233798754)", "1462", "Prairie Rose Lake", "IA 05-NSH-01440-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Partially Supporting", "2012", "Shelby County S36T79NR38W 6 mi SE of Harlan.", "Significantly greater than 10% of beach samples exceeded Iowa's Class A1 single sample maximum criterion in 2009 & 2010.", "Lake", "3", "83", "Shelby", "315022.5612", "4608076.177" ]
+, [ "row-jsns-civd_yy7y", "00000000-0000-0000-EAE5-2AA8BDE3DF18", 0, 1485802338, null, 1485802338, null, "{ }", "140", "1462", "138", "POINT (-95.21974002988736 41.602974233798754)", "1462", "Prairie Rose Lake", "IA 05-NSH-01440-L_0", "303(d)", "5a", "Primary Contact", "Turbidity", "Not Supporting", "2004", "Shelby County S36T79NR38W 6 mi SE of Harlan.", "Aesthetically objectionable conditions (Secchi TSI = 66) and high levels of inorganic suspended solids.", "Lake", "3", "83", "Shelby", "315022.5612", "4608076.177" ]
+, [ "row-mp9c-k78j~r2k7", "00000000-0000-0000-671A-BBE5D63680DE", 0, 1485802338, null, 1485802338, null, "{ }", "141", "1731", "139", "POINT (-96.31750059996986 42.15127532701638)", "1731", "Rabbit Island Lake", "IA 06-WEM-00452-L_0", "305(b)", "4c", "Aquatic Life", "Flow Alteration", "Not Supporting", "2004", "Monona County S28T85NR47W 10 mi. WNW of Whiting.", "Impacts of hydrological modification of the Missouri River and resultant problems with water level fluctuation in the river's floodplain wetlands", "Wetland", "1", "67", "Monona", "225888.7431", "4671901.0918" ]
+, [ "row-fdgb~4rt8~d643", "00000000-0000-0000-2F27-B67016562B4B", 0, 1485802338, null, 1485802338, null, "{ }", "142", "1309", "140", "POINT (-93.03460042261217 40.87506980757355)", "1309", "Rathbun Reservoir", "IA 05-CHA-0020-L_1", "303(d)", "5a", "Primary Contact", "Turbidity", "Not Supporting", "2012", "Appanoose County approx 6 miles N of Centerville.", "Aesthetically objectionable conditions (Secchi TSI > 65).", "Reservoir", "1", "4", "Appanoose", "497084.5639", "4524889.3523" ]
+, [ "row-59a6~7c6r.btaq", "00000000-0000-0000-FEF1-78D5A8FF8BAA", 0, 1485802338, null, 1485802338, null, "{ }", "143", "2027", "141", "POINT (-93.04666032949362 40.83855425477133)", "2027", "Rathbun Reservoir", "IA 05-CHA-0020-L_2", "303(d)", "5a", "Primary Contact", "Turbidity", "Not Supporting", "2006", "from main lake basin uplake to inflow of South Fork Chariton River in S36 T70N R20W Wayne Co.", "aesthetically objectionable conditions; Secchi trophic state index >70", "Reservoir", "2", "4", "Appanoose", "496066.2351", "4520836.3519" ]
+, [ "row-yaz7.229a.j76i", "00000000-0000-0000-626C-C55147EE88F4", 0, 1485802338, null, 1485802338, null, "{ }", "144", "2027", "142", "POINT (-93.04666032949362 40.83855425477133)", "2027", "Rathbun Reservoir", "IA 05-CHA-0020-L_2", "303(d)", "5a", "Aquatic Life", "Turbidity", "Not Supporting", "2006", "from main lake basin uplake to inflow of South Fork Chariton River in S36 T70N R20W Wayne Co.", "Turbidity levels (Secchi TSI > 65) adversely impact fish and plant communities.", "Reservoir", "2", "4", "Appanoose", "496066.2351", "4520836.3519" ]
+, [ "row-cc4a_cq3a-pcrx", "00000000-0000-0000-B1BE-1C05FFC1FD2B", 0, 1485802338, null, 1485802338, null, "{ }", "145", "2028", "143", "POINT (-93.07099319499748 40.88480980048761)", "2028", "Rathbun Reservoir", "IA 05-CHA-0020-L_3", "303(d)", "5a", "Primary Contact", "Turbidity", "Not Supporting", "2006", "from main lake basin (state highway 142) uplake to inflow of the Chariton River at the Wayne/Lucas county line.", "aesthetically objectionable conditions; Secchi trophic state index >70", "Reservoir", "2", "4", "Appanoose", "494018.9808", "4525972.4106" ]
+, [ "row-d2v6~krk6_qvbi", "00000000-0000-0000-6A93-971627AAE551", 0, 1485802338, null, 1485802338, null, "{ }", "146", "2028", "144", "POINT (-93.07099319499748 40.88480980048761)", "2028", "Rathbun Reservoir", "IA 05-CHA-0020-L_3", "303(d)", "5a", "Aquatic Life", "Turbidity", "Partially Supporting", "2006", "from main lake basin (state highway 142) uplake to inflow of the Chariton River at the Wayne/Lucas county line.", "Turbidity levels (Secchi TSI > 65) adversely impact fish and plant communities.", "Reservoir", "2", "4", "Appanoose", "494018.9808", "4525972.4106" ]
+, [ "row-kwcp_gefx_q6tv", "00000000-0000-0000-BA71-C539613E8199", 0, 1485802338, null, 1485802338, null, "{ }", "147", "2030", "145", "POINT (-92.90558820994603 40.85733390049184)", "2030", "Rathbun Reservoir", "IA 05-CHA-0020-L_4", "303(d)", "5a", "Primary Contact", "Turbidity", "Partially Supporting", "2010", "from main lake basin uplake to inflow of Honey Creek in NW1/4 S8 T70N R18W Appanoose Co.", "Aesthetically objectionable conditions (Secchi TSI > 65).", "Reservoir", "1", "4", "Appanoose", "507957.2728", "4522924.2569" ]
+, [ "row-94hz-7i6c~arsx", "00000000-0000-0000-AFDD-74CD9DD6A9A9", 0, 1485802338, null, 1485802338, null, "{ }", "148", "1073", "146", "POINT (-93.27240754579523 40.99792513093077)", "1073", "Red Haw Lake", "IA 04-LDM-02296-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2008", "Lucas County S28T71NR21W 2 mi SE of Chariton.", "Violations of the geometric mean criterion.", "Lake", "2", "59", "Lucas", "477089.3777", "4538562.4616" ]
+, [ "row-8983_tjax-gxyn", "00000000-0000-0000-AD3F-AC77896052CB", 0, 1485802338, null, 1485802338, null, "{ }", "149", "1073", "147", "POINT (-93.27240754579523 40.99792513093077)", "1073", "Red Haw Lake", "IA 04-LDM-02296-L_0", "303(d)", "5a", "Fish Consumption", "Mercury in fish", "Partially Supporting", "2010", "Lucas County S28T71NR21W 2 mi SE of Chariton.", "Fish consumption advisory for mercury (1 meal/week) issued in 2009.", "Lake", "2", "59", "Lucas", "477089.3777", "4538562.4616" ]
+, [ "row-ussj_tzju~a4zd", "00000000-0000-0000-BA93-DB70425422F2", 0, 1485802338, null, 1485802338, null, "{ }", "150", "1017", "148", "POINT (-92.99998406876671 41.380807308250375)", "1017", "Red Rock Reservoir", "IA 04-LDM-0030-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2014", "Marion County S19T76NR18W near Pella.", "Violations to the geometric mean and single-sample maximum criteria for indicator bacteria", "Reservoir", "2", "63", "Marion", "500001.3321", "4581031.6875" ]
+, [ "row-zmxp_t5rk-3tt9", "00000000-0000-0000-ADAA-13FAF39A8F57", 0, 1485802338, null, 1485802338, null, "{ }", "151", "1017", "149", "POINT (-92.99998406876671 41.380807308250375)", "1017", "Red Rock Reservoir", "IA 04-LDM-0030-L_0", "303(d)", "5a", "Primary Contact", "Turbidity", "Not Supporting", "2010", "Marion County S19T76NR18W near Pella.", "Aesthetically objectionable conditions; Secchi trophic state index greater than 65.", "Reservoir", "2", "63", "Marion", "500001.3321", "4581031.6875" ]
+, [ "row-p3fa~f2mr~dv4m", "00000000-0000-0000-1FE4-E1C61BE58880", 0, 1485802338, null, 1485802338, null, "{ }", "152", "1019", "150", "POINT (-93.04990270426501 41.42532464592003)", "1019", "Roberts Creek Lake", "IA 04-LDM-00380-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Partially Supporting", "2008", "Marion County S4T76NR19W 6 mi NE of Knoxville.", "Aesthetically objectionable conditions (chlorophyll TSI = 66).", "Lake", "2", "63", "Marion", "495830.201", "4585975.0828" ]
+, [ "row-s8cg.av2z~k742", "00000000-0000-0000-C676-395C56ED0BFA", 0, 1485802338, null, 1485802338, null, "{ }", "197", "6311", "195", "POINT (-93.77131691162693 41.02283371335634)", "6311", "Grade Lake", "IA 04-LDM-02700-L_0", "303(d)", "5a", "Fish Consumption", "Mercury in fish", "Partially Supporting", "2010", "Osceola (T72N R25W Sec19)", "Fish consumption advisory issued for mercury", "Lake", "1", "20", "Clarke", "435153.1834", "4541578.326" ]
+, [ "row-ursw~xngg~tven", "00000000-0000-0000-4F4E-2587ABC9B0F5", 0, 1485802338, null, 1485802338, null, "{ }", "153", "1019", "151", "POINT (-93.04990270426501 41.42532464592003)", "1019", "Roberts Creek Lake", "IA 04-LDM-00380-L_0", "303(d)", "5a", "Primary Contact", "Turbidity", "Partially Supporting", "2004", "Marion County S4T76NR19W 6 mi NE of Knoxville.", "Aesthetically objectionable conditions (Secchi TSI > 65).", "Lake", "2", "63", "Marion", "495830.201", "4585975.0828" ]
+, [ "row-rbxa.wyv2-4k2f", "00000000-0000-0000-D018-0AEC19963DF5", 0, 1485802338, null, 1485802338, null, "{ }", "154", "865", "152", "POINT (-92.85352796614241 41.740427963028445)", "865", "Rock Creek Lake", "IA 03-NSK-00340-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2006", "Jasper County S17T80NR17W 4 mi. ENE of Kellogg.", "geometric mean > WQS", "Lake", "2", "50", "Jasper", "512179.6405", "4620967.2573" ]
+, [ "row-xyev-ebxm.jbec", "00000000-0000-0000-4A1F-52002FF266F7", 0, 1485802338, null, 1485802338, null, "{ }", "155", "865", "153", "POINT (-92.85352796614241 41.740427963028445)", "865", "Rock Creek Lake", "IA 03-NSK-00340-L_0", "305(b)", "4a", "Aquatic Life; Primary Contact", "Nutrients; Siltation", "Partially Supporting", "2004", "Jasper County S17T80NR17W 4 mi. ENE of Kellogg.", "Both swimmable and fishable uses were assessed as Partially Supported for the 1994 report", "Lake", "2", "50", "Jasper", "512179.6405", "4620967.2573" ]
+, [ "row-8iuk_kkhc~j9mp", "00000000-0000-0000-303A-5C93E71AAA1B", 0, 1485802338, null, 1485802338, null, "{ }", "156", "1764", "154", "POINT (-96.03778176870436 41.732867556067724)", "1764", "Round Lake", "IA 06-WEM-00380-L_0", "305(b)", "4c", "Aquatic Life", "Flow Alteration", "Not Supporting", "2004", "Harrison County S13T80NR45W 2 mi. NNW of Mondamin.", "Flow alterations and channel degradation of the Missouri River", "Wetland", "1", "43", "Harrison", "247355", "4624578" ]
+, [ "row-h2kf-nd9h-f7s2", "00000000-0000-0000-2DEA-64AF13C08838", 0, 1485802338, null, 1485802338, null, "{ }", "157", "1213", "155", "POINT (-93.6890205913596 41.717033668452224)", "1213", "Saylorville Reservoir", "IA 04-UDM-0020-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2006", "Polk County Saylorville Dam to Polk-Dallas county line.", "geometric mean > WQS", "Reservoir", "1", "77", "Polk", "442684.6852", "4618588.9133" ]
+, [ "row-majb.vrr9_7eqj", "00000000-0000-0000-4FE9-FBB45B7E101D", 0, 1485802338, null, 1485802338, null, "{ }", "158", "1", "156", "POINT (-90.3083890923094 41.759282382699155)", "1", "Shrickers Slough", "IA 01-MAQ-0005-L_0", "303(d)", "5a", "Aquatic Life", "Algae", "Not Supporting", "2004", "approximately 2 miles SW of Camanche in Sections 5 6 and 7 of T80N R6E Clinton Co.", "Algae levels (chlorophyll TSI > 65) adversely impact fish and plant communities.", "Wetland", "2", "23", "Clinton", "723760.3951", "4626551.9646" ]
+, [ "row-56tn.bxjf_422w", "00000000-0000-0000-A1BB-23786B979ACC", 0, 1485802338, null, 1485802338, null, "{ }", "159", "1", "157", "POINT (-90.3083890923094 41.759282382699155)", "1", "Shrickers Slough", "IA 01-MAQ-0005-L_0", "303(d)", "5a", "Aquatic Life", "Turbidity", "Not Supporting", "2004", "approximately 2 miles SW of Camanche in Sections 5 6 and 7 of T80N R6E Clinton Co.", "Turbidity levels (Secchi TSI > 65) adversely impact fish and plant communities.", "Wetland", "2", "23", "Clinton", "723760.3951", "4626551.9646" ]
+, [ "row-bimq_5avd_jzwx", "00000000-0000-0000-C058-A941AF521A4E", 0, 1485802338, null, 1485802338, null, "{ }", "160", "1229", "158", "POINT (-94.88508865395983 43.0322368571783)", "1229", "Silver Lake", "IA 04-UDM-01020-L_0", "305(b)", "4a", "Primary Contact", "Algae; Turbidity", "Not Supporting", "2004", "Palo Alto County S20T95NR34W 2 mi W of Ayrshire.", "Aesthetically objectionable conditions; Chl-a TSI =73  Secchi = 83", "Lake", "1", "74", "Palo Alto", "346427.9317", "4766118.9757" ]
+, [ "row-buhe_qign~sbwi", "00000000-0000-0000-CC29-E68D3E15F450", 0, 1485802338, null, 1485802338, null, "{ }", "161", "1669", "159", "POINT (-95.33577598296286 43.446853903884346)", "1669", "Silver Lake", "IA 06-LSR-03105-L_0", "305(b)", "4a", "Primary Contact", "Turbidity", "Partially Supporting", "2004", "Dickinson County S28T100NR38W near Lake Park.", "Aesthetically objectionable conditions; Secchi Trophic state index =80, Chl-a TSI =58", "Lake", "1", "30", "Dickinson", "310997.2894", "4813089.1829" ]
+, [ "row-rybg_8pj3-q3y9", "00000000-0000-0000-CC89-26C34B228A84", 0, 1485802338, null, 1485802338, null, "{ }", "162", "796", "160", "POINT (-93.41737054413677 43.48144417185653)", "796", "Silver Lake", "IA 02-SHL-00295-L_0", "305(b)", "4a", "Primary Contact", "Algae; Turbidity", "Not Supporting", "2004", "Worth County S14T100NR22W 8 mi. N of Joice.", "Aesthetically objectionable conditions", "Lake", "1", "98", "Worth", "466247.611", "4814365.205" ]
+, [ "row-3mfg.dcwc.vat2", "00000000-0000-0000-F5F2-8AEC072DA12A", 0, 1485802338, null, 1485802338, null, "{ }", "163", "17", "161", "POINT (-91.32303640193258 42.42489316137153)", "17", "Silver Lake", "IA 01-MAQ-00680-L_0", "305(b)", "4a", "Aquatic Life; Primary Contact", "Algae; Ammonia; Nutrients; Organic Enrichment; Low DO; pH; Siltation; Turbidity", "Partially Supporting", "2004", "Delaware County S16T88NR4W SE edge of Delhi.", ">10% of samples violate WQ criteria; Aesthetically objectionable conditions; Secchi depth TSI>80.", "Lake", "2", "28", "Delaware", "637956.2052", "4698315.5721" ]
+, [ "row-p9z3~ge8i~cdp2", "00000000-0000-0000-CF3C-36E8B2B4C35E", 0, 1485802338, null, 1485802338, null, "{ }", "164", "1168", "162", "POINT (-94.64762364134766 42.46435522308497)", "1168", "South Twin Lake", "IA 04-RAC-01395-L_0", "303(d)", "5a", "Aquatic Life", "Algae", "Not Supporting", "2010", "Calhoun County S1T88NR33W 3 mi N of Rockwell City.", "Algae levels (chlorophyll TSI = 74) adversely impact fish and plant communities.", "Wetland", "2", "13", "Calhoun", "364542.5858", "4702650.2491" ]
+, [ "row-8vif~5nm6-3fj3", "00000000-0000-0000-1081-78C9A1087E60", 0, 1485802338, null, 1485802338, null, "{ }", "165", "1168", "163", "POINT (-94.64762364134766 42.46435522308497)", "1168", "South Twin Lake", "IA 04-RAC-01395-L_0", "303(d)", "5a", "Aquatic Life", "Turbidity", "Not Supporting", "2010", "Calhoun County S1T88NR33W 3 mi N of Rockwell City.", "Turbidity levels (Secchi TSI = 75) adversely impact fish and plant communities.", "Wetland", "2", "13", "Calhoun", "364542.5858", "4702650.2491" ]
+, [ "row-gx8k-bc67.sbs5", "00000000-0000-0000-3CAF-C6C3954F0D9D", 0, 1485802338, null, 1485802338, null, "{ }", "166", "1152", "164", "POINT (-94.28859364790088 42.06049168183649)", "1152", "Spring Lake", "IA 04-RAC-00805-L_0", "305(b)", "4a", "Primary Contact", "Turbidity", "Not Supporting", "2004", "Greene County S25T84NR30W 3 mi NW of Grand Junction.", "Aesthetically objectionable conditions; Secchi Trophic state index =69, Chl-a TSI =53", "Lake", "1", "37", "Greene", "393381.9338", "4657295.8358" ]
+, [ "row-673p-yf9s_zpxr", "00000000-0000-0000-023F-727DE5DA0C4F", 0, 1485802338, null, 1485802338, null, "{ }", "167", "1196", "165", "POINT (-94.46680078772089 41.777637903503674)", "1196", "Springbrook Lake", "IA 04-RAC-02220-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2012", "Guthrie County S33T81NR31W 6 mi NNE of Guthrie Center.", "Geometric mean violation in 2010.", "Lake", "1", "39", "Guthrie", "378099.5296", "4626127.7909" ]
+, [ "row-gduj-zdih_kn7h", "00000000-0000-0000-1AAA-1F71B4349AE7", 0, 1485802338, null, 1485802338, null, "{ }", "168", "1143", "166", "POINT (-95.18590361479323 42.61690048830334)", "1143", "Storm Lake", "IA 04-RAC-00530-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2010", "Buena Vista County S14T90NR37W at Storm Lake.", "Geometric mean of E. coli is greater than the Class A1 criterion.", "Lake", "2", "11", "Buena Vista", "320724.0059", "4720589.7866" ]
+, [ "row-3kt7_waez.ykwf", "00000000-0000-0000-81D2-EC8DA5213F55", 0, 1485802338, null, 1485802338, null, "{ }", "169", "1143", "167", "POINT (-95.18590361479323 42.61690048830334)", "1143", "Storm Lake", "IA 04-RAC-00530-L_0", "305(b)", "4a", "Primary Contact", "Turbidity", "Not Supporting", "2004", "Buena Vista County S14T90NR37W at Storm Lake.", "Aesthetically objectionable conditions; Secchi Trophic state index =79, Chl-a TSI =58", "Lake", "2", "11", "Buena Vista", "320724.0059", "4720589.7866" ]
+, [ "row-n2qb~tabt_dp5j", "00000000-0000-0000-7A52-2B9094AA7E57", 0, 1485802338, null, 1485802338, null, "{ }", "170", "1199", "168", "POINT (-94.84384926322586 42.039034780573246)", "1199", "Swan Lake", "IA 04-RAC-02370-L_0", "305(b)", "4a", "Primary Contact", "Algae; Turbidity", "Not Supporting", "2004", "Carroll County S31T84NR34W 3 mi. SE of Carroll.", "Aesthetically objectionable conditions", "Lake", "1", "14", "Carroll", "347387.3834", "4655754.9084" ]
+, [ "row-rt7d.je7m-ndci", "00000000-0000-0000-6CE6-9C2AF015E01A", 0, 1485802338, null, 1485802338, null, "{ }", "171", "1369", "169", "POINT (-94.06585087142348 41.021310123279875)", "1369", "Thayer Lake", "IA 05-GRA-01410-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Not Supporting", "2008", "Union County S22T72NR28W 1 mi SW of Thayer.", "Aesthetically objectionable conditions (chlorophyll TSI = 67).", "Lake", "2", "88", "Union", "410388.4606", "4541669.788" ]
+, [ "row-ix42_yhji~vypw", "00000000-0000-0000-8E97-1A3970442E74", 0, 1485802338, null, 1485802338, null, "{ }", "172", "1369", "170", "POINT (-94.06585087142348 41.021310123279875)", "1369", "Thayer Lake", "IA 05-GRA-01410-L_0", "303(d)", "5a", "Primary Contact", "Turbidity", "Partially Supporting", "2004", "Union County S22T72NR28W 1 mi SW of Thayer.", "aesthetically objectionable conditions; Secchi trophic state index =69", "Lake", "2", "88", "Union", "410388.4606", "4541669.788" ]
+, [ "row-b636_evzz.irfi", "00000000-0000-0000-BD0F-A66248E566F3", 0, 1485802338, null, 1485802338, null, "{ }", "173", "1636", "171", "POINT (-94.94940597950263 43.18707029865387)", "1636", "Trumbull Lake", "IA 06-LSR-02450-L_0", "305(b)", "4a", "Primary Contact", "Algae; Turbidity", "Not Supporting", "2004", "Clay County S27T97NR35W 5 mi NE of Dickens.", "Aesthetically objectionable conditions; Chl-a TSI =80 Secchi = 87", "Lake", "1", "21", "Clay", "341588.0338", "4783433.6664" ]
+, [ "row-t9vv.u8bq~w9rn", "00000000-0000-0000-3944-D026C5ADAFDB", 0, 1485802338, null, 1485802338, null, "{ }", "174", "975", "172", "POINT (-94.591256988987 43.49555100828216)", "975", "Tuttle Lake (a.k.a. Okamanpeedan Lake)", "IA 04-EDM-00290-L_0", "305(b)", "4a", "Primary Contact", "Algae; Turbidity", "Not Supporting", "2004", "Emmett County S14T100NR32W 2 mi. N of Dolliver.", "Aesthetically objectionable conditions", "Lake", "1", "32", "Emmet", "371345.5559", "4817077.12" ]
+, [ "row-9m7f~hrtg.32v6", "00000000-0000-0000-3A46-4234F353F56D", 0, 1485802338, null, 1485802338, null, "{ }", "175", "724", "173", "POINT (-92.72455301008715 42.12944291087963)", "724", "Union Grove Lake", "IA 02-IOW-02195-L_0", "305(b)", "4a", "Aquatic Life; Primary Contact", "Algae; Indicator Bacteria; pH; Turbidity", "Partially Supporting", "2004", "Tama County S33T85NR16W 2.5 mi NW of Garwin.", "Aesthetically objectionable conditions; > 10% of samples violate WQ criteria", "Lake", "1", "86", "Tama", "522765.5832", "4664184.9939" ]
+, [ "row-bh78~22xs-unyx", "00000000-0000-0000-F41B-BD5607C15D91", 0, 1485802338, null, 1485802338, null, "{ }", "176", "1772", "174", "POINT (-96.15912559412654 41.90695437526709)", "1772", "Upper Blencoe Bend", "IA 06-WEM-00422-L_0", "305(b)", "4c", "Aquatic Life", "Flow Alteration", "Not Supporting", "2004", "Monona County S7T82NR46W 4 mi. SW of Blencoe.", "Flow alterations and channel degradation of the Missouri River", "Wetland", "1", "67", "Monona", "237973.4137", "4644273.0291" ]
+, [ "row-7tnv.9gvr.sfym", "00000000-0000-0000-7CA1-8D4B32EDE960", 0, 1485802338, null, 1485802338, null, "{ }", "177", "760", "175", "POINT (-93.06363003181974 42.377344177394846)", "760", "Upper Pine Lake", "IA 02-IOW-0335-L_0", "305(b)", "4a", "Aquatic Life", "Siltation", "Partially Supporting", "2004", "Hardin County S4T87NR19W 0.5 mi E of Eldora.", "Aesthetically objectionable conditions", "Lake", "1", "42", "Hardin", "494761.5599", "4691675.6597" ]
+, [ "row-kkaz_7ekt~dudt", "00000000-0000-0000-BD06-65E51D6F2CCD", 0, 1485802338, null, 1485802338, null, "{ }", "178", "844", "176", "POINT (-93.49101298898732 43.11995089065256)", "844", "Ventura Marsh", "IA 02-WIN-00465-L_0", "305(b)", "4a", "Aquatic Life", "Algae; Turbidity", "Not Supporting", "2004", "Cerro Gordo County S19T96NR22W at Ventura.", "Aesthetically objectionable conditions", "Wetland", "1", "17", "Cerro Gordo", "460056.2478", "4774252.2693" ]
+, [ "row-7zm6~qdei.n7um", "00000000-0000-0000-2CA5-39E911545C25", 0, 1485802338, null, 1485802338, null, "{ }", "179", "1407", "177", "POINT (-95.03243162827295 40.9759022007129)", "1407", "Viking Lake", "IA 05-NOD-00930-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2006", "Montgomery County S6T71NR36W 4 mi. E of Stanton.", "geometric mean > WQS", "Lake", "1", "69", "Montgomery", "329002.0554", "4538071.2136" ]
+, [ "row-uyqx-853f.p7pm", "00000000-0000-0000-727F-CE2711EBD9EC", 0, 1485802338, null, 1485802338, null, "{ }", "180", "1630", "178", "POINT (-94.89498586575093 43.102978931487854)", "1630", "Virgin Lake", "IA 06-LSR-02330-L_0", "303(d)", "5a", "Aquatic Life", "Algae", "Not Supporting", "2010", "Palo Alto County S30T96NR34W 2 mi S of Ruthven.", "Algae levels (chlorophyll TSI = 83) adversely impact fish and plant communities.", "Wetland", "2", "74", "Palo Alto", "345799.1123", "4773993.3101" ]
+, [ "row-j7nu.fsc3_acsc", "00000000-0000-0000-E9D1-D64A7551E0A6", 0, 1485802338, null, 1485802338, null, "{ }", "181", "1630", "179", "POINT (-94.89498586575093 43.102978931487854)", "1630", "Virgin Lake", "IA 06-LSR-02330-L_0", "303(d)", "5a", "Aquatic Life", "Turbidity", "Not Supporting", "2010", "Palo Alto County S30T96NR34W 2 mi S of Ruthven.", "Turbidity levels (Secchi TSI = 80) adversely impact fish and plant communities.", "Wetland", "2", "74", "Palo Alto", "345799.1123", "4773993.3101" ]
+, [ "row-7rep.7ne8-73v6", "00000000-0000-0000-637A-CE95A955F5B2", 0, 1485802338, null, 1485802338, null, "{ }", "182", "1082", "180", "POINT (-93.80449310299677 41.0359328531253)", "1082", "West Lake (Osceola)", "IA 04-LDM-02690-L_0", "303(d)", "5a", "Aquatic Life", "Low DO/Organic Enrichment", "Partially Supporting", "2008", "Clarke County S13T72NR26W approx 2 mi W of Osceola.", "Significantly greater than 10% of the samples exceed the dissolved oxygen criteria.", "Lake", "1", "20", "Clarke", "432377.3451", "4543057.6595" ]
+, [ "row-tpz9~zqtt-cf7p", "00000000-0000-0000-7F86-7C6DA28294C8", 0, 1485802338, null, 1485802338, null, "{ }", "183", "2066", "181", "POINT (-95.17005866550167 43.35702514916532)", "2066", "West Okoboji Lake", "IA 06-LSR-02840-L_2", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2006", "southwestern bay of West Okoboji Lake  in Sections 25 26 35 36 T99N R37W Dickinson Co.", "geometric mean > WQS", "Lake", "1", "30", "Dickinson", "324147.164", "4802749.9517" ]
+, [ "row-2ps3-iyky.asby", "00000000-0000-0000-406F-FACB55997082", 0, 1485802338, null, 1485802338, null, "{ }", "184", "1754", "182", "POINT (-94.66972442434408 43.35847701611507)", "1754", "West Swan Lake", "IA 04-UDM-03983-L_0", "303(d)", "5a", "Aquatic Life", "Algae", "Not Supporting", "2012", "Emmet County S31T99NR32W 3 mi. SE of Gruver.", "High levels of chlorophyll contribute to turbidity that prevents grown of submersed aquatic vegetation.", "Wetland", "2", "32", "Emmet", "364696.2447", "4801978.0801" ]
+, [ "row-qz4w-c38g~nwzk", "00000000-0000-0000-68D1-223CE2F5DA8A", 0, 1485802338, null, 1485802338, null, "{ }", "185", "1754", "183", "POINT (-94.66972442434408 43.35847701611507)", "1754", "West Swan Lake", "IA 04-UDM-03983-L_0", "303(d)", "5a", "Aquatic Life", "Turbidity", "Not Supporting", "2012", "Emmet County S31T99NR32W 3 mi. SE of Gruver.", "High levels of suspended solids leads to turbidity that inhibits growth of submersed aquatic vegetation.", "Wetland", "2", "32", "Emmet", "364696.2447", "4801978.0801" ]
+, [ "row-kkb8~5bya.mxa6", "00000000-0000-0000-414F-198954EEECDA", 0, 1485802338, null, 1485802338, null, "{ }", "186", "778", "184", "POINT (-93.73317986259353 42.93683507388493)", "778", "West Twin Lake", "IA 02-IOW-04045-L_0", "303(d)", "5a", "Aquatic Life", "Algae", "Not Supporting", "2012", "Hancock County S30T94NR24 4 mi E of Kanawha.", "Algae levels (chlorophyll TSI > 65) adversely impact fish and plant communities.", "Wetland", "1", "41", "Hancock", "440178.4189", "4754061.2113" ]
+, [ "row-vmfh_b5mj-g4bj", "00000000-0000-0000-9944-650D3FA952F8", 0, 1485802338, null, 1485802338, null, "{ }", "187", "929", "185", "POINT (-92.47657063919539 41.27352621918441)", "929", "White Oak Conservation Area Lake", "IA 03-SSK-00118-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Partially Supporting", "2004", "Mahaska County S28T75NR14W 4 mi SSW of Rose Hill.", "Aesthetically objectionable conditions (chlorophyll TSI > 65).", "Lake", "1", "62", "Mahaska", "543838.8019", "4569253.8854" ]
+, [ "row-vcvm~38wc-a4rp", "00000000-0000-0000-17BD-5FDD991122C6", 0, 1485802338, null, 1485802338, null, "{ }", "188", "1058", "186", "POINT (-93.21369791189755 41.09287829978514)", "1058", "Williamson Pond", "IA 04-LDM-01995-L_0", "305(b)", "4a", "Primary Contact", "Turbidity", "Not Supporting", "2004", "Lucas County S27T73NR21W 2 mi. E of Williamson.", "Aesthetically objectionable conditions", "Lake", "1", "59", "Lucas", "482052.9251", "4549089.5162" ]
+, [ "row-mgzj~fj2b~fx9v", "00000000-0000-0000-4C2F-76B3A07DFCA0", 0, 1485802338, null, 1485802338, null, "{ }", "189", "1477", "187", "POINT (-94.54262732214441 40.836561487272)", "1477", "Wilson Park Lake", "IA 05-PLA-00380-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Partially Supporting", "2014", "Taylor County S28T70NR32W 3 mi SSE of Lenox.", "Aesthetically objectionable conditions (chlorophyll TSI > 65).", "Lake", "3", "87", "Taylor", "369940.4262", "4521759.1357" ]
+, [ "row-y6f8_5btb-yuvt", "00000000-0000-0000-A50D-6ECB43F0E181", 0, 1485802338, null, 1485802338, null, "{ }", "190", "1477", "188", "POINT (-94.54262732214441 40.836561487272)", "1477", "Wilson Park Lake", "IA 05-PLA-00380-L_0", "303(d)", "5a", "Primary Contact", "pH", "Partially Supporting", "2006", "Taylor County S28T70NR32W 3 mi SSE of Lenox.", "signification violations to the state's water quality criterion for pH", "Lake", "3", "87", "Taylor", "369940.4262", "4521759.1357" ]
+, [ "row-gsyy_yckr_s73c", "00000000-0000-0000-9695-1595179AA4C4", 0, 1485802338, null, 1485802338, null, "{ }", "191", "1477", "189", "POINT (-94.54262732214441 40.836561487272)", "1477", "Wilson Park Lake", "IA 05-PLA-00380-L_0", "303(d)", "5a", "Aquatic Life", "pH", "Partially Supporting", "2014", "Taylor County S28T70NR32W 3 mi SSE of Lenox.", "signification violations to the state's water quality criterion for pH", "Lake", "3", "87", "Taylor", "369940.4262", "4521759.1357" ]
+, [ "row-2wwi.dh46.kwb5", "00000000-0000-0000-E527-EEC044966ED4", 0, 1485802338, null, 1485802338, null, "{ }", "192", "1482", "190", "POINT (-94.82623996785416 40.7292775657906)", "1482", "Windmill Lake", "IA 05-PLA-00430-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Partially Supporting", "2004", "Taylor County S36T69NR35W 4 mi E of New Market.", "aesthetically objectionable conditions; trophic state index for chl-a and Secchi = 70", "Lake", "2", "87", "Taylor", "345779.7767", "4510308.9846" ]
+, [ "row-stgb-vwta~9dai", "00000000-0000-0000-84B1-5013FBC16B3B", 0, 1485802338, null, 1485802338, null, "{ }", "193", "1482", "191", "POINT (-94.82623996785416 40.7292775657906)", "1482", "Windmill Lake", "IA 05-PLA-00430-L_0", "303(d)", "5a", "Primary Contact", "Turbidity", "Partially Supporting", "2006", "Taylor County S36T69NR35W 4 mi E of New Market.", "aesthetically objectionable conditions; Secchi trophic state index =67 Chl-a TSI =64", "Lake", "2", "87", "Taylor", "345779.7767", "4510308.9846" ]
+, [ "row-y489~23if_tf84", "00000000-0000-0000-AC6B-DC9F2F06037F", 0, 1485802338, null, 1485802338, null, "{ }", "194", "1918", "192", "POINT (-93.44217851195735 41.70686917058518)", "1918", "Lake Patoka", "IA 03-SSK-0056-L_0", "303(d)", "5a", "General Use", "Biological: Chlorine", "Partially Supporting", "2006", "Polk Co. T80N R22W Section 29 SE East of Bondurant on Hwy 65", "Fish kill in 2005.", "Lake", "1", "77", "Polk", "463212.2", "4617325.5244" ]
+, [ "row-xmdh.45x9~mk5k", "00000000-0000-0000-79E9-D46183D2324A", 0, 1485802338, null, 1485802338, null, "{ }", "195", "1988", "193", "POINT (-93.54944160438771 41.4436490418201)", "1988", "North Banner Lake", "IA 04-LDM-02726-L_0", "303(d)", "5a", "Fish Consumption", "Mercury in fish", "Partially Supporting", "2008", "Warren County S30T77NR23W 5 mi N of Indianola.", "Fish consumption advisory issued at this lake.", "Lake", "1", "91", "Warren", "454102.263", "4588153.8799" ]
+, [ "row-yx57-j2im~4ytv", "00000000-0000-0000-83D8-C053A6691AAE", 0, 1485802338, null, 1485802338, null, "{ }", "196", "2064", "194", "POINT (-94.49827130090037 40.62767003390783)", "2064", "Sands Timber Lake (aka, Blockton Reservoir)", "IA 05-PLA-0015-L_0", "303(d)", "5a", "Aquatic Life", "Turbidity", "Partially Supporting", "2006", "S2 T67N R32W Taylor Co.", "turbidity-related impacts on sport fishery related to siltation and/or common carp", "Lake", "1", "87", "Taylor", "373284.4555", "4498505.1796" ]
+, [ "row-wsuf~epfx~g7bc", "00000000-0000-0000-5B60-79C2FE93B7B7", 0, 1485802338, null, 1485802338, null, "{ }", "198", "0", "196", "POINT (-91.53599987634904 42.601257259155204)", "20", "Backbone Lake", "IA 01-MAQ-0090-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Not Supporting", "2004", "Backbone Lake Dam to S Fk Maquoketa R. (S16 T90N R6W Delaware Co.)", "geometric means > WQS\r\ngeometric means > WQS", "Reservoir", "1", "28", "Delaware", "620098.0671", "4717575.3488" ]
+, [ "row-h79z~eye9.nrif", "00000000-0000-0000-50A9-1718B51D9248", 0, 1485802338, null, 1485802338, null, "{ }", "199", "0", "197", "POINT (-91.43781310359365 40.71321331527564)", "0", "Pollmiller Park Lake", "IA 03-SKM-00178-L_0", "303(d)", "5a", "Fish Consumption", "Mercury in fish", "Partially Supporting", "2014", "Lee County S9T68NR5W 0.5 mi. E of West Point.", "Levels of mercury in snapping turtle tissue in 2010 & 2012 equaled or exceeded the threshold for a 1 meal/week consumption advisory.", "Lake", "1", "56", "Lee", "631952.5977", "4508095.3217" ]
+, [ "row-3ape-c275.3pdw", "00000000-0000-0000-4C82-51D814BD8F52", 0, 1485802338, null, 1485802338, null, "{ }", "200", "0", "198", "POINT (-94.22954234663582 41.089736097330146)", "0", "Threemile Lake", "IA 05-GRA-0145-L_0", "303(d)", "5a", "Aquatic Life", "Low DO/Organic Enrichment", "Partially Supporting", "2014", "Union County S32 T73N R29W approximately 3 miles N or Afton.", "Significantly greater that 10% of the samples violating the criterion for dissolved oxygen", "Lake", "1", "88", "Union", "396732.8845", "4549447.0022" ]
+, [ "row-k2is-bnws.86h9", "00000000-0000-0000-698F-7B6886079D74", 0, 1485802338, null, 1485802338, null, "{ }", "201", "0", "199", "POINT (-95.16339227169604 43.37624352334058)", "0", "West Okoboji Lake", "IA 06-LSR-02840-L_1", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Partially Supporting", "2014", "portion of West Okoboji Lake south of Manhattan Beach on the western shore and Omaha Beach on the eastern shore; approximate center of basin is in SW 1/4 S24T99NR37W Dickinson Co.", "violations to the single-maximum criterion E.coli bacteria in 2011.", "Lake", "1", "30", "Dickinson", "324742.7624", "4804870.3132" ]
+, [ "row-kxzs.b665_73ka", "00000000-0000-0000-BB4B-85946FC81346", 0, 1485802338, null, 1485802338, null, "{ }", "202", "0", "200", "POINT (-95.13488520639201 43.47442839908456)", "1656", "Marble Lake", "IA 06-LSR-02855-L_0", "303(d)", "5a", "Aquatic Life", "Algae", "Partially Supporting", "2014", "Dickinson County S17T100NR36W 3.5 mi. NE of Montgomery.", "Algae levels (chlorophyll TSI = 68) adversely impact fish and plant communities.", "Wetland", "1", "30", "Dickinson", "327331.6245", "4815715.2965" ]
+, [ "row-7tur.3n2u~2ae5", "00000000-0000-0000-49E5-DC24E2645CA4", 0, 1485802338, null, 1485802338, null, "{ }", "203", "0", "201", "POINT (-94.92255385463658 43.0825345157403)", "0", "Elk Lake", "IA 06-LSR-02325-L_0", "303(d)", "5a", "Aquatic Life", "Algae", "Not Supporting", "2014", "Clay County S36T96NR35W 6 mi SE of Dickens.", "Algae levels (chlorophyll TSI = 78) adversely impact fish and plant communities.", "Wetland", "2", "21", "Clay", "343503.6953", "4771773.9552" ]
+, [ "row-xdjy~z95u_4dua", "00000000-0000-0000-8BFE-78B8D85A9195", 0, 1485802338, null, 1485802338, null, "{ }", "204", "0", "202", "POINT (-94.71258927883913 43.30487164982582)", "0", "High Lake", "IA 04-UDM-03990-L_0", "303(d)", "5a", "Aquatic Life", "Algae", "Not Supporting", "2014", "Emmet County S14T98NR33W 4 mi. ESE of Wallingford.", "Algae levels (chlorophyll TSI = 78) adversely impact fish and plant communities.", "Wetland", "2", "32", "Emmet", "361100.5451", "4796095.2008" ]
+, [ "row-k588.ex9c_r7pq", "00000000-0000-0000-D720-B5A03D91BC88", 0, 1485802338, null, 1485802338, null, "{ }", "205", "0", "203", "POINT (-93.69387226124883 42.83926103042278)", "0", "Morse Lake", "IA 02-IOW-00890-L_0", "303(d)", "5a", "Aquatic Life", "Algae", "Not Supporting", "2014", "Wright County S28T93NR24W 3.5 mi W of Belmond.", "Algae levels (chlorophyll TSI = 75) adversely impact fish and plant communities.", "Wetland", "1", "99", "Wright", "443296.3071", "4743198.7239" ]
+, [ "row-g8y6_ign5_v44w", "00000000-0000-0000-AD4D-EEB47E170AFF", 0, 1485802338, null, 1485802338, null, "{ }", "206", "0", "204", "POINT (-93.49745588796362 43.389613156056846)", "0", "Rice Lake", "IA 02-WIN-00210-L_0", "303(d)", "5a", "Primary Contact", "Algae", "Not Supporting", "2014", "Winnebago County S13T99NR23W at SE edge of Lake Mills.", "aesthetically objectionable conditions (chlorophyll TSI = 79)", "Wetland", "2", "98", "Worth", "459710.2914", "4804202.305" ]
+, [ "row-f5g7.ii5t_e4em", "00000000-0000-0000-5F84-FD0A7764798B", 0, 1485802338, null, 1485802338, null, "{ }", "207", "0", "205", "POINT (-95.15003414065129 42.878800853275024)", "0", "Gustafson Lake", "IA 06-LSR-02220-L_0", "303(d)", "5a", "Primary Contact", "Indicator Bacteria", "Partially Supporting", "2014", "Buena Vista County S18T93NR36W 1 mi S of Sioux Rapids.", "Violations to the state's water quality criteria for E.coli (percentage of single-sample maximum violations)", "Lake", "1", "11", "Buena Vista", "324407.093", "4749598.3238" ]
+, [ "row-ukic.rq95-9miu", "00000000-0000-0000-1CEF-F079FCCE7EC8", 0, 1485802338, null, 1485802338, null, "{ }", "208", "0", "206", "POINT (-94.92255385463658 43.0825345157403)", "0", "Elk Lake", "IA 06-LSR-02325-L_0", "303(d)", "5a", "Aquatic Life", "Turbidity", "Not Supporting", "2014", "Clay County S36T96NR35W 6 mi SE of Dickens.", "High levels of suspended solids leads to turbidity that inhibits growth of submersed aquatic vegetation.", "Wetland", "2", "21", "Clay", "343503.6953", "4771773.9552" ]
+, [ "row-duy9-maqu~ziyu", "00000000-0000-0000-EF88-DA1ECD0ED268", 0, 1485802338, null, 1485802338, null, "{ }", "209", "0", "207", "POINT (-94.71258927883913 43.30487164982582)", "0", "High Lake", "IA 04-UDM-03990-L_0", "303(d)", "5a", "Aquatic Life", "Turbidity", "Not Supporting", "2014", "Emmet County S14T98NR33W 4 mi. ESE of Wallingford.", "High levels of suspended solids in water column lead to turbidity at suppresses growth of submersed aquatic vegetation.", "Wetland", "2", "32", "Emmet", "361100.5451", "4796095.2008" ]
+, [ "row-rij6_a5db.ayze", "00000000-0000-0000-9A89-C14355B2974C", 0, 1485802338, null, 1485802338, null, "{ }", "210", "0", "208", "POINT (-93.49745588796362 43.389613156056846)", "0", "Rice Lake", "IA 02-WIN-00210-L_0", "303(d)", "5a", "Aquatic Life", "Turbidity", "Partially Supporting", "2014", "Winnebago County S13T99NR23W at SE edge of Lake Mills.", "aesthetically objectionable conditions (chlorophyll TSI = 79)", "Wetland", "2", "98", "Worth", "459710.2914", "4804202.305" ]
+, [ "row-dnnk~6ayb~nszi", "00000000-0000-0000-562F-903FB3097923", 0, 1485802338, null, 1485802338, null, "{ }", "211", "0", "209", "POINT (-95.01871030841457 42.29733922150391)", "1134", "Black Hawk Lake", "IA 04-RAC-00475-L_0", "305(b)", "4a", "Primary Contact", "Algae", "Not Supporting", "2004", "Sac County S35T87NR36W at Lake View.", "Aesthetically objectionable conditions; Trophic state indicies >70", "Lake", "2", "81", "Sac", "333592.4732", "4684763.6024" ]
+, [ "row-fszy.bxiu_5kur", "00000000-0000-0000-CF35-6E7A37CE3B1B", 0, 1485802338, null, 1485802338, null, "{ }", "212", "0", "210", "POINT (-94.69018766676173 40.71155434250384)", "1476", "Lake Of Three Fires", "IA 05-PLA-00335-L_0", "305(b)", "4a", "Primary Contact", "Indicator Bacteria", "Partially Supporting", "2006", "Taylor County S12T68NR34W 2 mi NNE of Bedford.", "Geometric mean > WQS", "Lake", "3", "87", "Taylor", "357231.6134", "4508111.3787" ]
+, [ "row-kez5~p37w.3ecq", "00000000-0000-0000-0F05-C582CA504500", 0, 1485802338, null, 1485802338, null, "{ }", "213", "0", "211", "POINT (-95.01871030841457 42.29733922150391)", "1134", "Black Hawk Lake", "IA 04-RAC-00475-L_0", "305(b)", "4a", "Aquatic Life", "Turbidity", "Not Supporting", "2004", "Sac County S35T87NR36W at Lake View.", "Aesthetically objectionable conditions; Trophic state indicies >70", "Lake", "2", "81", "Sac", "333592.4732", "4684763.6024" ]
+, [ "row-mpwy~fy2t~e5zv", "00000000-0000-0000-F4AE-1103764E0BC3", 0, 1485802338, null, 1485802338, null, "{ }", "214", "0", "212", "POINT (-94.69018766676173 40.71155434250384)", "1476", "Lake Of Three Fires", "IA 05-PLA-00335-L_0", "305(b)", "4a", "Primary Contact", "Nutrients; Siltation", "Partially Supporting", "2004", "Taylor County S12T68NR34W 2 mi NNE of Bedford.", "Trophic state indices for total phosphorus, chlorophyll-a, and secchi depth of 73, 64, and 69, respectively", "Lake", "3", "87", "Taylor", "357231.6134", "4508111.3787" ]
+, [ "row-8iaj.y69e-ysbk", "00000000-0000-0000-3AF0-565E9514BEEB", 0, 1485802338, null, 1485802338, null, "{ }", "215", "0", "213", "POINT (-93.79272680522108 42.437207599238945)", "1255", "Briggs Woods Lake", "IA 04-UDM-01880-L_0", "305(b)", "4a", "Primary Contact", "Algae", "Partially Supporting", "2010", "Hamilton County S17T88NR25W near Webster City.", "Aesthetically objectionable conditions; (chlorophyll TSI = 66)", "Lake", "4", "40", "Hamilton", "434799.3813", "4698625.109" ]
+, [ "row-uivg-2u7f.p2ge", "00000000-0000-0000-282D-0F78E847E349", 0, 1485802338, null, 1485802338, null, "{ }", "216", "0", "214", "POINT (-93.79272680522108 42.437207599238945)", "1255", "Briggs Woods Lake", "IA 04-UDM-01880-L_0", "305(b)", "4a", "Aquatic Life", "Low DO/Organic Enrichment", "Partially Supporting", "2006", "Hamilton County S17T88NR25W near Webster City.", "Fish kill in 2004, attributed to low DO and excessive macrophytes", "Lake", "4", "40", "Hamilton", "434799.3813", "4698625.109" ]
+, [ "row-u3vy_jqmt.8cga", "00000000-0000-0000-A58B-B01B2FABA9FD", 0, 1485802338, null, 1485802338, null, "{ }", "217", "0", "215", "POINT (-92.53961067469301 41.29398973718823)", "930", "Lake Keomah", "IA 03-SSK-00120-L_0", "305(b)", "4a", "Primary Contact", "Algae", "Not Supporting", "2004", "Mahaska County S13T75NR15W 4.5 mi E of Oskaloosa.", "Using the median values from surveys from 2002 through 2006 (approximately 23 samples), CarlsonΓÇÖs (1977) trophic state indices for Secchi depth, chlorophyll a, and total phosphorus were 61, 68, and 70 respectively", "Lake", "7", "62", "Mahaska", "538546.9468", "4571495.7494" ]
+, [ "row-s45n~m8tm_z6c4", "00000000-0000-0000-545C-1D18C9111F90", 0, 1485802338, null, 1485802338, null, "{ }", "218", "0", "216", "POINT (-92.53961067469301 41.29398973718823)", "930", "Lake Keomah", "IA 03-SSK-00120-L_0", "305(b)", "4a", "Primary Contact", "pH", "Not Supporting", "2004", "Mahaska County S13T75NR15W 4.5 mi E of Oskaloosa.", "15 samples collected during the 2000-2004 monitoring period, 7 samples (47%) violated the Class B(LW) criteria for pH of 9.0 pH units", "Lake", "7", "62", "Mahaska", "538546.9468", "4571495.7494" ]
+, [ "row-db6z.44md~gmqk", "00000000-0000-0000-0D21-2C6C9FE892B1", 0, 1485802338, null, 1485802338, null, "{ }", "219", "0", "217", "POINT (-92.53961067469301 41.29398973718823)", "930", "Lake Keomah", "IA 03-SSK-00120-L_0", "305(b)", "4a", "Aquatic Life", "pH", "Partially Supporting", "2004", "Mahaska County S13T75NR15W 4.5 mi E of Oskaloosa.", "15 samples collected during the 2000-2004 monitoring period, 7 samples (47%) violated the Class B(LW) criteria for pH of 9.0 pH units", "Lake", "7", "62", "Mahaska", "538546.9468", "4571495.7494" ]
+, [ "row-w8y2.dnj6_u4mp", "00000000-0000-0000-1C13-57087F9E6B7B", 0, 1485802338, null, 1485802338, null, "{ }", "220", "0", "218", "POINT (-92.53961067469301 41.29398973718823)", "930", "Lake Keomah", "IA 03-SSK-00120-L_0", "305(b)", "4a", "Primary Contact", "Siltation", "Not Supporting", "2004", "Mahaska County S13T75NR15W 4.5 mi E of Oskaloosa.", "A TMDL for siltation at Lake Keomah was prepared by IDNR and approved by EPA in 2002.", "Lake", "7", "62", "Mahaska", "538546.9468", "4571495.7494" ]
+, [ "row-qdhd.4hj4~5t4g", "00000000-0000-0000-BBFE-2D0BF3345402", 0, 1485802338, null, 1485802338, null, "{ }", "221", "0", "219", "POINT (-95.11935621023865 43.34942143568893)", "0", "Lower Gar Lake", "IA 06-LSR-02805-L", "305(b)", "4a", "Primary Contact", "Turbidity", "Partially Supporting", "2004", "Dickinson County, S32,T99N,R36W, 2 mi. NE of Milford.", "Aesthetically objectionable conditions", "Lake", "1", "30", "Dickinson", "328234.5452", "4801799.8441" ]
+, [ "row-vmsj~3ik4~nwma", "00000000-0000-0000-56C8-DEFA92038155", 0, 1485802338, null, 1485802338, null, "{ }", "222", "17", "220", "POINT (-91.32303640193258 42.42489316137153)", "17", "Silver Lake", "IA 01-MAQ-00680-L_0", "305(b)", "4a", "Aquatic Life; Primary Contact", "Algae; Ammonia; Nutrients; Organic Enrichment; Low DO; pH; Siltation; Turbidity", "Partially Supporting", "2004", "Delaware County S16T88NR4W SE edge of Delhi.", ">10% of samples violate WQ criteria; Aesthetically objectionable conditions; Secchi depth TSI>80.", "Lake", "2", "28", "Delaware", "637956.2052", "4698315.5721" ]
+, [ "row-wyxv-fmxt.2bp8", "00000000-0000-0000-C836-F4881DEA3413", 0, 1485802338, null, 1485802338, null, "{ }", "223", "0", "221", "POINT (-94.74774808005881 41.05186323577773)", "0", "Lake Icaria", "IA 05-NOD-00550-L", "305(b)", "4a", "Primary Contact", "Turbidity", "Partially Supporting", "2014", "Adams County, S10,T72N,R34W, 4 mi N of Corning.", "Using the median values from surveys from 2000 through 2002 (approximately 9samples), Carlson's trophic state indices for total phosphorus, chlorophyll-a, and secchi depth are 63, 58, and 64, respectively", "Lake", "1", "2", "Adams", "353123.8127", "4545985.8468" ]
+, [ "row-v8a3~2be3.mzf2", "00000000-0000-0000-0E2F-3D1AA57B2BC9", 0, 1485802338, null, 1485802338, null, "{ }", "224", "0", "222", "POINT (-93.33508507808206 40.754129220266954)", "0", "Corydon Reservoir", "IA 05-CHA-00620-L", "305(b)", "4a", "Drinking Water", "Atrazine", "Not Supporting", "2004", "Wayne County, S24,T69N,R22W, at Corydon.", "Average levels of atrazine that exceed state water quality standards and the U.S. EPA MCL.", "Lake", "1", "93", "Wayne", "471714.3457", "4511517.6527" ]
+, [ "row-zqv3.qndk-wn9m", "00000000-0000-0000-2F89-D41FD86E43E9", 0, 1485802338, null, 1485802338, null, "{ }", "35", "0", "223", "POINT (-92.45611855931382 42.54380724094465)", "468", "Cedar River", "IA 02-CED-0050-L_0", "305(b)", "4a", "Primary Contact", "Indicator Bacteria", "Partially Supporting", "2004", "from dam of Cedar Falls Impoundment (NW 1/4, S12, T89N, R14W, Black Hawk Co.) to upper end of impoundment (W line, S2, T89N, R14W, Black Hawk Co.)", "Fecal coliform bacteria that exceeded the U.S.  EPA-recommended single-sample maximum value of 400 orgs/100 ml", "Reservoir", "1", "7", "Black Hawk", "544657.485", "4710300.709" ]
+ ]
+}
