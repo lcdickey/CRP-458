@@ -1,18 +1,19 @@
 <meta name="robots" content="noindex">
 <html>
 <head>
-	<meta name="description" content="CRP 458 Assignment 14">
+	<meta name="description" content="CRP 458 Mini Project">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Assignment 13</title>
+	<title>Mini Project</title>
 	
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" /> <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
-    
+		
+  
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" /> <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+ <script src="https://cdn.jsdelivr.net/leaflet.esri/1.0.3/esri-leaflet.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/leaflet.esri/1.0.3/esri-leaflet.js"></script>
-
-<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
-
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>	  
+	<script src="https://indicator.extension.iastate.edu/classes/leaflet-ajax-gh-pages/dist/leaflet.ajax.min.js"></script>
+  
 
   
 <style id="jsbin-css">
@@ -71,14 +72,16 @@
   <div id="container">
   <div id = "header">
 <body style="font-family:verdana;">
-  <h3>Yesterday's Weather<br></h3>
-<i> Low: <span id="pop"></span><br><br>
-  High: <span id="high"> </span></i></h3>
+  <h3>Mini Project:</h3>
+  <b>  Phosphorous Contributions of Individual Catchment Basins in the Easter Lake Watershed</b><br>
   </div>
-    
-<div id="map"></div>
-
-<div id = "footer"><i>Loulou Dickey, ABE</i></div>
+<div id='map'></div>
+<div id = "footer">Yesterday's Temps:<br></h3>
+<i> Low: <span id="pop"></span><br>
+  High: <span id="high"> </span></i><br>
+    <br>As an engineering student, I am required to complete a senior design project before graduation. My project is rehabilitating a storm water detention basin in Des Moines, IA.<br><br>
+   The basin is located in the Easter Lake watershed, which is a sub-basin of the Yeader Creek watershed. One of the goals of my project is to address water quality treatment options within the basin, since Easter Lake is undergoing a large restoration project. <a href="https://easterlake.org/">Click here for more info about the Easter Lake project.</a><br><br>
+    This map was made to visualize phosphorous contributions by individual sub-basins in the watershed. Data was obtained from John DeGroote, at University of Northern Iowa. The data was produced using a model called WinSLAMM.</div>
     </div>
   
  
@@ -89,8 +92,9 @@
 <script id="jsbin-javascript">
 console.clear();
 
-var map = L.map("map").setView([41.66, -93.62],8);
- 
+var map = L.map('map').setView([41.54,-93.609],12.5,);
+
+
    Date.prototype.yyyymmdd = function() {
    var yyyy = this.getFullYear().toString();
    var mm = (this.getMonth()+1).toString();  
@@ -107,30 +111,138 @@ var map = L.map("map").setView([41.66, -93.62],8);
   };
     
 d = new Date();
+var markers = new L.FeatureGroup();
 
-	var mbAttr = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+	
+
+var mbAttr = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
 			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
 			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
 		mbUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
 
-var streets  = L.tileLayer(mbUrl, {id: 'mapbox.streets',   attribution: mbAttr}).addTo(map);
- 
-var markers = new L.FeatureGroup();
+var grayscale   = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr});
 
-var baseLayers = {
+var streets  = L.tileLayer(mbUrl, {id: 'mapbox.streets',   attribution: mbAttr}).addTo(map);
+
+
+url1="https://lcdickey.github.io/CRP-458/Data/SLU.zip.geojson"
+
+var jsonLayer = new L.GeoJSON.AJAX(url1, {
+	style: style,
+	onEachFeature: function (feature, layer) {
+      htmlText = "<strong>" + feature.properties.File_Name+ "</strong><br> Area: <b>"  + feature.properties.Catchment_ + " acres" +  "</b><br> Biological Condition: <b>"  + feature.properties.Biological + "</b>" + "</b><br>Particulate Yield: <b>" + feature.properties.NC_Particu + " lbs/yr" + "</b><br> Phosphorous Yield: <b>"  + feature.properties.Total_Phos + " lbs/yr"+ "</b>";
+        layer.bindPopup(htmlText);
+		layer.bindTooltip(feature.properties.NAME);
+    }
+}).addTo(map);
+
+
+function getColor(d) {
+  return d <= '5' ? '#feedde' :
+    d <= '10' ? "#fdbe85" :
+    d <= '25' ? "#fd8d3c" :
+    d <= '50' ? "#e6550d" :
+   
+    "#a63603";
+}
+
+
+function style(feature) {
+    return {
+        fillColor: getColor(feature.properties.Total_Phos),
+        weight: 1,
+        opacity: 0.75,
+        color: 'white',
+        dashArray: '3',
+        fillOpacity: 0.6
+    };
+}
+
+var url2="https://lcdickey.github.io/CRP-458/Data/yeader.zip.geojson"
+
+
+
+
+var legend = L.control({
+  position: 'bottomleft'
+});
+
+legend.onAdd = function(map) {
+  
+
+  var div = L.DomUtil.create('div', 'info legend'),
+    Phos_Yi= [5, 10, 25, 50, 1000],
+    labels = ['0 - 5','5.1 - 10', '10.1 - 25','25.1 - 50','Greater than 50'];
+
+
+   div.innerHTML += "<strong>Phosphorous Yield (lbs/yr)</strong> <br>";
+
+  for (var i = 0; i < Phos_Yi.length; i++) {
+    div.innerHTML +=
+      '<i style="background:' + getColor(Phos_Yi[i] ) + ' "></i> ' +
+      labels[i]+'<br>';
+  }
+
+  return div;
+};
+legend.addTo(map);
+
+
+
+
+var mybasin= L.geoJSON({
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -93.64409208297728,
+              41.53672356950201
+            ],
+            [
+              -93.64359855651855,
+              41.53672356950201
+            ],
+            [
+              -93.64359855651855,
+              41.53736603550382
+            ],
+            [
+              -93.64409208297728,
+              41.53736603550382
+            ],
+            [
+              -93.64409208297728,
+              41.53672356950201
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+});
+
+var yeadercreek = new L.GeoJSON.AJAX(url2, {
+	//style: mystyle,
+	
+});
+
+	var baseLayers = {
 		"Streets": streets,
+    "Grayscale": grayscale,
    	};
 
-var place1 = L.marker([42.0308, -93.6319]).bindPopup('Ames'),
-    place2 = L.marker([41.6005, -93.6091]).bindPopup('Des Moines');
-
-var places = L.layerGroup([place1, place2]);
-
-	var overlays = {
-		"Cities": places,
+var overlays = {
+		"Yeader Creek Watershed": yeadercreek,
+    "Senior Design Project": mybasin,
 	};
 
-L.control.layers(baseLayers, overlays).addTo(map);
+
 
 
 map.on('click', function(e) {
@@ -162,6 +274,13 @@ map.on('click', function(e) {
 
     });
 });    
+
+
+	L.control.layers(baseLayers, overlays).addTo(map);
+
+
+
+
 </script>
 </body>
 </html>
