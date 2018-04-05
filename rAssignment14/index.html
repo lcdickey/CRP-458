@@ -1,0 +1,168 @@
+<meta name="robots" content="noindex">
+<html>
+<head>
+	<meta name="description" content="CRP 458 Assignment 14">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Assignment 14</title>
+	
+	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+
+
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+	
+	<script src="https://indicator.extension.iastate.edu/classes/leaflet-ajax-gh-pages/dist/leaflet.ajax.min.js"></script>
+
+
+  
+<style id="jsbin-css">
+#map {  position:center;
+     width: 1000px;
+     height: 400px;
+}
+#container{
+	background-color: #dce6f7;
+	width: 1000px;
+  height: auto;
+	margin-right: auto;
+	margin-left: auto;
+  border-style: dashed;
+  border-width: 0.5px;
+  color: #484f5b;
+}
+#header, #footer {
+	clear: both;
+	padding: 10px;
+	background-color: #dce6f7;
+	color: #484f5b;
+	text-align: center;
+}
+</style>
+</head>
+  <body style="font-family:verdana;">
+  			  <div id="container">
+      <div id = "header">
+    <h2>Assignment 14: Earthquake Map</h2>
+   </div>
+      <div id="map"></div>
+      
+
+			
+<strong>Weekly Total: </strong><span id = "totalNumber"></span><br>
+<input type="button" name="button" id="clearLayers" value="Clear">
+<br>
+<br>
+<div id="map"></div>
+  <script id="jsbin-javascript">
+	
+			
+		
+</script>
+<script id="jsbin-javascript">
+var OSM =
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+  maxZoom: 18
+});
+
+
+//basemaps
+var Esri_WorldTerrain = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}', {
+	attribution: 'Tiles &copy; Esri &mdash; Source: USGS, Esri, TANA, DeLorme, and NPS',
+	maxZoom: 13
+});
+
+
+var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+});
+
+
+// Overlay Layer- thanks to another student for finding this!
+var Stamen_TonerLines = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lines/{z}/{x}/{y}.{ext}', {
+	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+	subdomains: 'abcd',
+	minZoom: 0,
+	maxZoom: 20,
+	ext: 'png'
+});
+
+// My layers
+var SF= L.marker([37.7749,-122.4194]).bindPopup("San Francisco"),
+		DC= L.marker([38.9072,-77.0369]).bindPopup("Washington, DC"),
+		Lndn = L.marker([51.5074,0.1278]).bindPopup("London"),
+    Brln = L.marker([52.52,13.405]).bindPopup("Berlin");
+var myPoints = L.layerGroup([SF, DC, Lndn, Brln]);
+
+var map = L.map('map', {
+  center: new L.LatLng(31.9686,-99.9018),
+  zoom: 2,
+  layers: [Esri_WorldImagery, Stamen_TonerLines]
+});
+
+earthquakes = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson';
+//default rendering options
+var geojsonMarkerOptions = {
+  color: "#000",
+  weight: 0, //set this to one to add a black outline to each marker
+  opacity: 1,
+  fillOpacity: 0.3
+};
+
+//set color of circle
+function getColor(d) {
+  return d > 5 ? '#FF0000' : //red
+    d > 3 ? 'orange' :
+    d > 1 ? 'yellow' :
+    '#FFFFFF'; //white
+}
+var geojsonLayer = new L.GeoJSON.AJAX(earthquakes, {
+  pointToLayer: function(feature, latlng) {
+    return new L.CircleMarker(latlng, geojsonMarkerOptions);
+  },
+  style: function(feature) {
+    //console.log(feature.properties.mag);//note this is how you access contents of each quake within L.geoJson
+    return {
+      radius: feature.properties.mag * 2,
+      fillColor: getColor(feature.properties.mag)
+    };
+  },
+  onEachFeature: function(feature, layer) {
+    layer.bindPopup("Mag: " + feature.properties.mag + "<br> Place: " + feature.properties.place);
+  }
+}).addTo(map);
+
+// Get weekly total
+$.ajax({
+  url: earthquakes,
+  dataType: 'json',
+}).done(function(data) {
+  totalNumber = data.features.length;
+  $("#totalNumber").html(totalNumber);
+});
+$('#clearLayers').click(function() {
+  map.removeLayer(geojsonLayer);
+});
+
+
+
+
+// Layer Control
+var baseMaps = {
+  "Open Street Map": OSM,
+  "ESRI World Imagery": Esri_WorldImagery,
+  "ESRI  World Terrain": Esri_WorldTerrain,
+	 
+};
+var overlayMaps = {
+  "Places": myPoints,
+  "Earthquakes": geojsonLayer,
+};
+L.control.layers(baseMaps, overlayMaps).addTo(map);
+
+
+</script>
+</body>
+</html>
