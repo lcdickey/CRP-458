@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2018 by lcdickey (http://jsbin.com/hikavig/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+	
+<head>
+  <title>Assignment 16</title>
+	<meta name="description" content="Assignment 16" />
+
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.css" />
+
+    <link rel="stylesheet" href="https://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.Default.css" />
+
+    <script src="https://leaflet.github.io/Leaflet.markercluster/dist/leaflet.markercluster-src.js"></script>
+
+   
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  
+	
+		
+  <script	 src="https://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js">
+    </script>	
+	
+		
+
+<style id="jsbin-css">
+#map {
+     position: relative;
+     width: 800px;
+     height: 600px;
+     border-color: #08519c;
+     border-width: 1px;
+}
+
+#container{
+	background-color: #c6dbef;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+  border-color:#08519c;
+  border-style: dashed;
+  border-width: 0.5px;}
+
+#header, #footer {
+	clear: both;
+	padding: 6px;
+	background-color: #c6dbef;
+	color: #08519c;
+	
+}
+</style>
+</head>
+    
+<body>
+<div id="container">
+  <div id = "header">
+<body style="font-family:verdana;">
+  <h3>Assignment 16: Heat and Cluster Maps<br>
+  </h3>
+  </div>
+<div id='map'></div>
+<div id = "footer">
+  <i>Loulou Dickey, ABE</i></div>
+    </div>
+<br>
+	
+
+<script>
+var myArray = [];
+var max = 100;
+var min = 1;
+var map;
+
+
+var myMarkers = [
+ ['Cafe Gitane',40.7231, -73.9948],
+['While We Were Young',40.7344, -74.0027],
+['Rubys Cafe',40.772913, -73.996237],
+['Blake Lane', 40.7753, -73.9563],
+['Blank Slate', 40.7453, -73.9844],
+['Little Collins', 40.7599, -73.9696],
+['Jane Restaurant', 40.7274, -74.0002],
+['Banter', 4.7279, -74.0010],
+['The Commons Chelsea', 40.7409, -73.9982],
+['Joseph Leonard', 40.7336, -74.0017],
+['Iris Cafe', 40.6932, -73.9988],
+['Rucola', 40.6856, -73.9859],
+['Five Leaves', 40.7237, -73.9516],
+['Egg Shop', 40.7204, -73.9953],
+['The Fat Radish', 40.7153, -73.9919],
+['Bluestone Lane', 40.75533, -73.970594],
+['Navy Restaurant', 40.7268, -74.0019],
+['Two Hands Cafe', 40.7197, -73.9960],
+['Cafe Henrie', 40.7191, -73.9922],
+['Jacks Wife Freda', 40.7221, -73.9976],
+['Le Pain Quotidien', 40.772954, -73.974],
+['The Butchers Daughter', 40.72043, -73.99489]
+  ];
+
+
+
+
+// add an OpenStreetMap tile layer
+var OSM =
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+  maxZoom: 18
+});
+
+
+
+map = L.map('map', {
+  center: new L.LatLng(40.7128,-74.0060),
+  zoom: 7,
+  layers: [OSM]
+});
+		
+
+
+	var markers = L.markerClusterGroup();
+	var singleMarkers = L.layerGroup([]);
+
+		for (var i = 0; i < myMarkers.length; i++) {
+		  var a = myMarkers[i];
+		  var title = a[0];
+		  var marker = L.marker(new L.LatLng(a[1], a[2]), {
+		    title: title
+		  });
+		  marker.bindPopup(title);
+		  markers.addLayer(marker);
+		  singleMarkers.addLayer(marker);
+		}
+
+	map.addLayer(singleMarkers);
+
+for (i = 0; i < 500; i++) { 
+	x = -74.0 + (Math.random() / 1);
+	y = 40.7128 + (Math.random() / 1);
+	z = Math.floor(Math.random() * (max - min + 1)) + min;
+	myArray.push([y, x, z]);
+    
+}
+console.log(myArray);
+
+
+var heatMap2 = L.heatLayer(myArray, {
+	minOpacity: 0.1, 
+	maxZoom: 19, 
+	max: 1.0,
+	radius: 18, 
+	blur: 15,
+	gradient: {
+			0.1: 'rgba(255, 0, 0, 0.10)',
+			0.2: 'rgba(255, 0, 0, 0.20)',
+			0.3: 'rgba(255, 0, 0, 0.30)',
+			0.4: 'rgba(255, 0, 0, 0.40)',
+			0.5: 'rgba(255, 0, 0, 0.50)',
+			0.6: 'rgba(255, 0, 0, 0.60)',
+			0.7: 'rgba(255, 0, 0, 0.70)',
+			0.8: 'rgba(255, 0, 0, 0.80)',
+			0.9: 'rgba(255, 0, 0, 0.90)',
+			1.0: 'rgba(255, 255, 0, 0.9)' //yellow
+	} //color gradient config, e.g. {0.4: 'blue', 0.65: 'lime', 1: 'red'}	
+});
+
+var heatMap1 = L.heatLayer(myArray, {
+	minOpacity: 0.1, //the minimum opacity the heat will start at
+	maxZoom: 19, //zoom level where the points reach maximum intensity (as intensity scales with zoom), equals maxZoom of the map by default
+	max: 1.0, //maximum point intensity, 1.0 by default
+	radius: 25, //radius of each "point" of the heatmap, 25 by default
+	blur: 15, //amount of blur, 15 by default
+	gradient: {
+			0.2: 'yellow', 
+			0.65: 'lime', 
+			1: 'red'
+	} //color gradient config, e.g. {0.4: 'blue', 0.65: 'lime', 1: 'red'}	
+});
+//.addTo(map);
+
+
+
+		var baseMaps = {
+		  "OSM": OSM,
+      
+		};
+
+		var overlayMaps = {
+		  "Markers": singleMarkers,
+		  "Cluster Map": markers,
+      "Heat Map 1": heatMap1,
+      "Heat Map 2": heatMap2
+		};
+
+
+		L.control.layers(baseMaps, overlayMaps).addTo(map);
+</script>
+
+
+</body>
+	
+
+  </html>
+  
