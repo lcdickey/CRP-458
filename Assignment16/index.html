@@ -1,15 +1,8 @@
 <!DOCTYPE html>
-<html>
-<!--
-Created using JS Bin
-http://jsbin.com
 
-Copyright (c) 2018 by lcdickey (http://jsbin.com/hikavig/1/edit)
 
-Released under the MIT license: http://jsbin.mit-license.org
--->
 <meta name="robots" content="noindex">
-	
+<html>
 <head>
   <title>Assignment 16</title>
 	<meta name="description" content="Assignment 16" />
@@ -74,9 +67,8 @@ Released under the MIT license: http://jsbin.mit-license.org
   <i>Loulou Dickey, ABE</i></div>
     </div>
 <br>
-	
 
-<script>
+<script id="jsbin-javascript">
 var myArray = [];
 var max = 100;
 var min = 1;
@@ -197,18 +189,21 @@ var heatMap1 = L.heatLayer(myArray, {
 
 		var overlayMaps = {
 		  "Markers": singleMarkers,
-		  "Cluster Map": markers,
-      "Heat Map 1": heatMap1,
-      "Heat Map 2": heatMap2
+		  "Cluster": markers,
+      "Heat Map1": heatMap1,
+      "Heat Map2": heatMap2
 		};
 
 
 		L.control.layers(baseMaps, overlayMaps).addTo(map);
+
+
+
+
 </script>
-
-
 </body>
 	
 
   </html>
+  
   
