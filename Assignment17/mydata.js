@@ -1,0 +1,25 @@
+var myMarkers = [
+[40.7231, -73.9948, "Cafe Gitane"],
+[40.7344, -74.0027, "While We Were Young"],
+[40.772913, -73.996237, "Rubys Cafe"],
+[40.7753, -73.9563, "Blake Lane"],
+[40.7453, -73.9844, "Blank Slate"],
+[40.7599, -73.9696, "Little Collins"],
+[40.7274, -74.0002, "Jane Restaurant"],
+[40.7279, -74.0010, "Banter"],
+[40.7409, -73.9982, "The Commons Chelsea"],
+[40.7336, -74.0017, "Joseph Leonard"],
+[40.6932, -73.9988, "Iris Cafe"],
+[40.6856, -73.9859, "Rucola"],
+[40.7237, -73.9516, "Five Leaves"],
+[40.7204, -73.9953, "Egg Shop"],
+[40.7153, -73.9919, "The Fat Radish"],
+[40.75533, -73.970594, "Bluestone Lane"],
+[40.7268, -74.0019, "Navy Restaurant"],
+[40.7197, -73.9960, "Two Hands Cafe"],
+[40.7191, -73.9922, "Cafe Henrie"],
+[40.7221, -73.9976, "Jacks Wife Freda"],
+[40.772954, -73.974, "Le Pain Quotidien"],
+[40.72043, -73.99489, "The Butchers Daughter"]
+  ];
+
