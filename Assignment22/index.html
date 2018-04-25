@@ -1,12 +1,18 @@
-
 <!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2018 by lcdickey (http://jsbin.com/qudexi/2/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
 <html>
 <head>
 <meta name="description" content="LA 458/558 26b Turf.JS Examples 2018">
 	
   <meta charset="utf-8">
-
-<meta name="robots" content="noindex">
   <meta name="viewport" content="width=device-width">
   <title>LA 458/558 Turf JS Examples</title>
 		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" />
@@ -29,8 +35,8 @@
 </head>
 <body style="font-family:verdana;">	 
 		<div id="mapid" style="width: 600px; height: 400px;"></div>	 
-  <p><b> 1.<hr></b>
-  <b> Simplify:</b><br> Simplifies the geometry of a GeoJSON file. This could be used to smooth the edges of a converted shapefile that would be best displayed with smoothed edges. For example, contour lines generated in ArcGIS are often too jagged and look strange when displayed on a map, this tool could be useful to make a nice looking map.</p><br>
+  <b> 1.<hr></b>
+  <b> Simplify:</b><br> Simplifies the geometry of a GeoJSON file. This could be used to smooth the edges of a converted shapefile that would be best displayed with smoothed edges. For example, contour lines generated in ArcGIS are often too jagged and look strange when displayed on a map, this tool could be useful to make a nice looking map.<br><br>
   
   <b> Feature Collection:</b><br> Takes a collection of features and turns them into an array of elements. This could be useful if multiple features can be displayed as the same layer. </br><br>
 
@@ -46,7 +52,7 @@
 <b>b.</b> Next, I changed the coordinates of the line feature. This caused the line length to change as well.</br><br>
 <b>b.</b>Finally, I changed the location of the marker, which changed the geodesic distance from the white circle.</br><br>
 
-<script>
+<script id="jsbin-javascript">
 console.clear();
 //note that http://icons.webtoolhub.com/icon-p4s2023-set.aspx  used for the green icon source.
 
@@ -296,8 +302,7 @@ L.geoJSON(myPointCollection, {
 			}
 	
 }).addTo(map);
+
 </script>
-
-
 </body>
 </html>
