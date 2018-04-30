@@ -173,21 +173,15 @@ form{
    <i>  The phosphorus index data was produced by John DeGroote and edited by Loulou Dickey. All other data was created by Loulou Dickey.</i>
       </div>
   </div>
-	
+	</div>
 <script>
 console.clear();
 
+//basemaps
 var OSM =
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
   maxZoom: 18
-});
-
-
-//basemaps
-var Esri_WorldTerrain = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}', {
-	attribution: 'Tiles &copy; Esri &mdash; Source: USGS, Esri, TANA, DeLorme, and NPS',
-	maxZoom: 13
 });
 
 
@@ -238,9 +232,6 @@ function style(feature) {
     };
 }
 
-//Drainage area layer 
-var url2="https://lcdickey.github.io/CRP-458/Data/basinshed.zip.geojson"
-
 
 
 //Basin parcel
@@ -284,6 +275,8 @@ var mybasin= L.geoJSON({
 
 });
 
+//Drainage area layer 
+var url2="https://lcdickey.github.io/CRP-458/Data/basinshed.zip.geojson"
 
 
 //Add drainage area and sewer network
@@ -307,11 +300,11 @@ var basinnetwork = new L.GeoJSON.AJAX(url3, {
 //layer controls
 	var baseLayers = {
 		"Open Street Map": OSM,
-    "Aerial": Esri_WorldImagery,
+    "Aerial": Esri_WorldImagery
    	};
 
 var overlays = {
-	"Detention Basin Location": mybasin,
+"Detention Basin Location": mybasin,
   "Basin Sewer Network": basinnetwork,
   "Basin Drainage Area": basinshed,
   "Phosphorus/Sediment Contribution by Sub-Catchment": jsonLayer
@@ -323,7 +316,8 @@ var overlays = {
 
 
 
-	L.control.layers(baseLayers, overlays).addTo(map);
+L.control.layers(baseLayers, overlays).addTo(map);
+	
 </script>
 
 </body>
