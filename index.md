@@ -1,7 +1,7 @@
 # Welcome to my CRP 458 Gallery Page!
-## 
-<p> <i>Loulou Dickey</i> </p>
-<hr>
+
+
+
 <body>
   <a href="https://lcdickey.github.io/CRP-458/Assignment1/index.html">Assignment 1 </a>
   <br>
