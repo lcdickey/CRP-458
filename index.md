@@ -52,5 +52,4 @@
     <br>
     <li><a href = "https://lcdickey.github.io/CRP-458/Assignment25/index.html"> Assignment 25 </a></li>
     <br>
-    <li><a href = "https://lcdickey.github.io/CRP-458/FinalProject/index.html"> Final Project </a><br><br></li>
-  </body>
+    <li><a href = "https://lcdickey.github.io/CRP-458/FinalProject/index.html"> Final Project </a><br><br></li></body>
