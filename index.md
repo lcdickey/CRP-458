@@ -51,5 +51,5 @@
     <br>
     <a href = "https://lcdickey.github.io/CRP-458/Assignment25/index.html"> Assignment 25 </a>
     <br>
-    <a href = "https://lcdickey.github.io/CRP-458/FinalProject/index.html"> Final Project </a>
+    <a href = "https://lcdickey.github.io/CRP-458/FinalProject/index.html"> Final Project </a><br><br>
   </body>
