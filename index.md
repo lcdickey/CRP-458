@@ -31,11 +31,10 @@
     <br>
     <a href= "https://lcdickey.github.io/CRP-458/rAssignment14/index.html"> Assignment 14 </a>
   <br>
-  <a href = "https://lcdickey.github.io/CRP-458/Assignment15/index.html"> Assignment 15 </a>
-   
-    <br>
-    <a href = "https://lcdickey.github.io/CRP-458/Assignment14/index.html?"> Mini Project </a>
-    <br>
+  <a href = "https://lcdickey.github.io/CRP-458/Assignment15/index.html"> Assignment 15 </a> 
+   <br>
+   <a href = "https://lcdickey.github.io/CRP-458/Assignment14/index.html?"> Mini Project </a>
+   <br>
   <a href = "https://lcdickey.github.io/CRP-458/Assignment16/index.html?"> Assignment 16 </a>
   <br>
     <a href = "https://lcdickey.github.io/CRP-458/Assignment17/index.html?"> Assignment 17 </a>
