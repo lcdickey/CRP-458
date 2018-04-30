@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Event": "1 year",
+        "Runoff Volume": "805,742",
+        "Runoff Flowrate": "18,626"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.645,
+          41.53616140651529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Event": "25 year",
+        "Runoff Volume": "2,155,766",
+        "Runoff Flowrate": "48,249"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.635,
+          41.53616140651529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Event": "100 year",
+        "Runoff Volume": "3,005,777",
+        "Runoff Flowrate": "66,081"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.625,
+          41.53616140651529
+        ]
+      }
+    }
+  ]
+}
