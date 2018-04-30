@@ -5,8 +5,8 @@
       "type": "Feature",
       "properties": {
         "Event": "1 year",
-        "Runoff Volume": "805,742",
-        "Runoff Flowrate": "18,626"
+        "RunoffVolume": "805,742",
+        "RunoffFlowrate": "18,626"
       },
       "geometry": {
         "type": "Point",
@@ -20,8 +20,8 @@
       "type": "Feature",
       "properties": {
         "Event": "25 year",
-        "Runoff Volume": "2,155,766",
-        "Runoff Flowrate": "48,249"
+        "RunoffVolume": "2,155,766",
+        "RunoffFlowrate": "48,249"
       },
       "geometry": {
         "type": "Point",
@@ -35,8 +35,8 @@
       "type": "Feature",
       "properties": {
         "Event": "100 year",
-        "Runoff Volume": "3,005,777",
-        "Runoff Flowrate": "66,081"
+        "RunoffVolume": "3,005,777",
+        "RunoffFlowrate": "66,081"
       },
       "geometry": {
         "type": "Point",
